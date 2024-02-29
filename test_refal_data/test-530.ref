@@ -1,0 +1,109 @@
+$EXTERN ExtBBB ;
+
+
+
+AB {
+  (e.4 ) D ((e.7 DBC ) 10 'b' ) 'd' s.9 3 e.7 7 'd' () 7  = 
+    BC ACB ;
+  (e.4 ) 'cdc' 2 'd' 7 
+    ,: 
+     { 
+  (() DB (e.7 9 ) ) e.3 
+    ,'c' : 6 e.3  = 
+    'cc' ('b' BAAC 'cb' ) 'c' ;
+  e.4 'a' BDCC CCB (() DB (e.7 9 ) ) e.3  = 
+    (<Mu 5 > ) e.4 ;
+     };
+  (e.4 ) 'c' t.5 'bc' 8 2 'dc' 2 'd' 7 
+    ,'b' (8 <Ev-met 5 > ) BCB AA <Ev-met 'bb'
+e.4 <Lenw 'b' <AB 6 'd' A e.4 > e.4 A <Mu e.4 'd' CA B > > AC > e.4 : 
+     { 
+  3 'b' e.2 'a' AC 
+    ,8 <Mu > ('a' BAD <Ev-met t.5 D e.4 'c' > DC DBC ) : 'c'
+CC CC 
+    ,(D e.2 e.2 ) 0 : BBA 
+    ,: t.12 5 5 (e.2 10 2 )  = 
+    ;
+  3 'c' (s.11 'a' ) (BB ) 'b' e.2 'a' AC 
+    ,CB : 1 
+    ,<Mu 4 e.4 >
+: 
+    ,e.4 : 'd' 
+    ,5 : 'c' CC (e.2 ) t.4 CCC  = 
+    2 DDBB BAC s.11 ;
+  3 e.5 (5 ) 'd' (s.11 'a' ) (BB ) 'b' e.2 'a' AC 
+    ,: 'c' 
+
+   ,: 
+    ,e.4 7 : 9 
+    ,<ExtBBB e.5 e.5 'd' > : DDBA  = 
+    ;
+     };
+}
+
+$ENTRY BD {
+  ('a' ) e.2 'c' CC CCCC  = 
+    ;
+  ('a' ) (1 ) (9 BD e.10 A 'c' ) 'd' e.2 'c' BD 'a' e.10 
+    ,(BB e.10 AC )
+BBC 'd' (2 BC 'b' C ) CB 'a' B <Type 6 CCB > : 
+     { 
+  t.4 t.3 5 
+    ,e.10 (e.2 CCC 'b' ) e.2 () A : e.12 C t.6 e.10 t.2 
+ 
+  ,t.3 : 
+     { 
+  'b' (CD 1 B ) 7 e.6 () BBBB 
+    ,'c' <DDB 5 DDCD CD > 'a' : 'b' 
+    ,'c'
+BCA : 
+    ,: 'c' 
+    ,CBBD 7 : 'c'  = 
+    ;
+     };
+  t.4 7 'd' (10 5 ) 7 ('a' () ) 7 5 
+    ,7 : 5 1 3 0 
+    ,: (e.8 )
+ = 
+    BBA ;
+     };
+  ('a' ) (1 ) CCDC 
+    ,('c' D ) <Ord CCBC 'b' > <AB 'd' > : 
+     { 
+  BBAB CB BB s.11 e.4 4 8 
+    ,e.4 : e.2 
+    ,: 6 
+    ,(D 'c' 5 ) CB <Prout e.4 C >
+'d' 6 : 
+    ,s.11 <BD 'd' > : BBB e.11  = 
+    ;
+  BBAB CB s.7 CBC 'b' e.10 'b' ('c' 6 3 CCB e.8 ) () 4 8 
+    ,<Lenw > : e.10 DDB CD s.12 
+
+   ,10 B : e.2 
+    ,9 :  = 
+    ;
+     };
+}
+
+DDB {
+  () () 'a' 
+    ,: 
+     { 
+  (4 DBB 'b' (BA ) ) 1 t.5 'c' 9 BBA (BBCB 7 DAB 'c' ) 
+    ,'d' : 
+    ,t.5 :
+'a'  = 
+    BCC ;
+  (4 DBB 'b' (BA ) ) 1 t.5 BBA (BBCB 7 DAB 'c' )  = 
+    ;
+  (4 DBB 'b' (BA ) ) 1 t.5 t.13 e.6 10 BBA (BBCB 7 DAB 'c' ) 
+    ,: D BDB 
+    ,:
+() 
+    ,1 : ('a' e.3 'c' 8 ) ((e.11 t.6 ) ) e.10 
+    ,: CCC e.7 'b'
+CC e.9  = 
+    e.9 ;
+     };
+}

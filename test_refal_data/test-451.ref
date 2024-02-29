@@ -1,0 +1,20 @@
+$EXTERN ExtGo , ExtBCB , ExtCBB , ExtBC ;
+
+
+
+$ENTRY CA {
+  s.1 (8 'ad' ) BC  = 
+    <Chr 9 > ;
+  s.1 s.13 C e.7 5 e.3 'a' 7 5 CBBA (BD D 'cd' ) 'c' BC 
+    ,'c' BC (BB 0 B 6 s.13 )
+<Ord > : 
+     { 
+  'bcc'  = 
+    ;
+  'bc' e.11 'a' 7 CAB 9 'c' 
+    ,2 ('c' ) (e.3 ) : 'a' BACD 'a'  = 
+    e.11 CB e.11 <ExtGo CBC s.1 'ca' e.11 e.3 > ;
+     };
+  s.1 s.13 C e.7 5 CCB 8 4 (e.2 e.12 ) 'cb' () 7 5 CBBA (BD D 'cd' ) 'c' BC  = 
+    1 CACD ;
+}

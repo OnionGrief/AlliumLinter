@@ -1,0 +1,63 @@
+package logger
+
+import (
+	"fmt"
+	"refalLint/src/lexer"
+)
+
+type logType uint
+type LogLevel uint
+
+const (
+	formatName logType = iota
+	extern
+
+	Warning LogLevel = iota
+)
+
+type Log struct {
+	str    string
+	lgType logType
+	level  LogLevel
+}
+
+func (l Log) String() string {
+	return l.str
+}
+
+func FormatNameLogCamel(tkn lexer.Token) Log {
+	return Log{
+		str:    fmt.Sprintf("%s must be camelCase pos(%d:%d-%d%d)", tkn.Value, tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
+		lgType: formatName,
+		level:  Warning,
+	}
+}
+
+func FormatNameLogShake(tkn lexer.Token) Log {
+	return Log{
+		str:    fmt.Sprintf("%s must be snake_case pos(%d:%d-%d:%d)", tkn.Value, tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
+		lgType: formatName,
+		level:  Warning,
+	}
+}
+func ExternLog(str string) Log {
+	return Log{
+		str:    str,
+		lgType: extern,
+		level:  Warning,
+	}
+}
+func UnreachableLog(tkn lexer.Token) Log {
+	return Log{
+		str:    fmt.Sprintf("Недостижимая функция %s (%d:%d-%d:%d)", tkn.Value, tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
+		lgType: extern,
+		level:  Warning,
+	}
+}
+func CodeInComment(tkn lexer.Token) Log {
+	return Log{
+		str:    fmt.Sprintf("Код в комментарии %s (%d:%d-%d:%d)", tkn.Value, tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
+		lgType: extern,
+		level:  Warning,
+	}
+}

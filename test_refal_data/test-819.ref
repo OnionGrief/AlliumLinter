@@ -1,0 +1,69 @@
+$EXTERN ExtGo , ExtBAC , ExtBDA , ExtCABBB , ExtCCDA ;
+
+
+
+$ENTRY DBA {
+  (e.12 2 ) 2 ACD 4 
+    ,CD ABCB (e.12 e.12 ) e.12 <ExtBDA 'd' 7 ADBC AAAC > : 
+     { 
+  s.4 'd' AC 10 CDCD e.4 5 
+    ,CDBB 'cc' 6 e.4 : 'a' 
+    ,<ExtBAC > : 'a'
+BCB  = 
+    ;
+     };
+  'b' 5 BC CBBB ACD 4 
+    ,: 
+     { 
+  CACB (DC 'c' ('c' CAA 8 e.7 ) ) 'd'  = 
+    () e.7 ;
+     };
+}
+
+BBB {
+  
+    ,<ExtBDA 'c' CBAB > 4 () <DBA ABC 'b' > : 
+     { 
+  AA BBA t.10 
+    ,'b' DB : e.7 2 ('b' ACB BDB e.2 ) (ABA BB DBD ) t.5 
+    ,'db'
+: () 9 (e.6 )  = 
+    'cc' ;
+  AA t.6 'b' D (8 ) 'a' t.10 
+    ,: 4 'c' 3 
+    ,ABD A : 
+    ,CBDB :
+
+    ,5 BCDC :  = 
+    t.6 t.6 'ca' ;
+  AA t.6 'b' D (8 ) (CDBA CCC ) 1 'b' 0 A 'ba' t.10 
+    ,: t.5 e.2 'bb'
+
+    ,'a' : e.5 0 t.12 ((1 DCA 'b' 1 2 ) ) 
+    ,: e.1 'd' e.12 e.13 BDD 
+
+   ,e.2 : e.7  = 
+    'd' 0 ;
+     };
+  6 (6 CA 'bc' t.9 A ) B () BCB 2 'c'  = 
+    t.9 ;
+  AC (3 ) e.11 e.3 3 6 'c' 
+    ,<Print (e.11 'aa' 3 10 'c' ) e.3 'd' > e.3 7 :
+
+     { 
+  (9 6 0 ) ACBC ('d' 5 (BBA e.1 ) 'b' ) e.13 e.8 BD 
+    ,BCA :  = 
+    DBDC 5 'c' BBAB ;
+  (9 6 0 ) ACBC e.5 BD 
+    ,'c' e.3 : 
+    ,CCB 'c' (CB C ) 1 : 
+    ,DADA <Mu 10 'a'
+e.5 5 2 > 3 : 'ca' DCC  = 
+    'd' ;
+     };
+  CC 'd' 3 6 'c'  = 
+    5 3 B ;
+  CC 6 (C e.11 e.1 ) e.7 (B 'c' 2 (e.13 3 e.8 ) BB 4 A 4 ) s.9 ('d' s.1 'cc'
+3 ) e.3 1 'd' 3 6 'c'  = 
+    (DB e.1 ) ABA 4 <ExtBAC 2 2 > ;
+}

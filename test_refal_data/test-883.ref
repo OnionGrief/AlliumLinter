@@ -1,0 +1,36 @@
+$EXTERN ExtADAB , ExtCCAC ;
+
+
+
+$ENTRY BAA {
+  
+    ,: 
+     { 
+  t.12 9 
+    ,() : 
+    ,t.12 : 0  = 
+    t.12 4 6 5 <Type > ;
+  AA t.3 C CC 9 
+    ,t.3 'c' : 
+    ,<Prout 3 > 'a' : DC e.2  = 
+    ;
+     };
+  () 6 'a' 
+    ,8 (7 ) : 
+     { 
+  ((s.9 ) ) 'd' ('c' CBC e.1 'b' ) 'b' 3  = 
+    ;
+     };
+}
+
+$ENTRY BB {
+  t.9 (() ) BCBA 'c'  = 
+    8 8 (CC 4 BCAB BCD ) ;
+  t.4 9  = 
+    BCB <Ev-met > ;
+  1 7 e.2 'b' e.2 'a' e.9 'a' 9  = 
+    2 ;
+  A (CAD e.11 ((e.12 4 e.9 e.7 ) (7 ) e.11 5 ) ) 'c' B ADC e.4 'a' e.9 'a'
+9  = 
+    DB B AACC ;
+}

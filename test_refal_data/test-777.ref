@@ -1,0 +1,57 @@
+$EXTERN ExtBBCCC , ExtB , ExtCCCDA , ExtCDB , ExtCCC ;
+
+
+
+CC {
+  AD CC 3 CB 
+    ,'ac' : 
+     { 
+  'b' () (t.9 ) 
+    ,t.9 : 
+    ,t.9 'c' : 'a' 5 'c' e.13 'c'
+
+    ,: 
+     { 
+  C DA ADC 
+    ,'b' (5 ) : 0 DBDA e.7 e.8 BB 
+    ,: e.3  = 
+    t.9 CC ;
+  C DA (1 ) 'c' D t.4 ADC 
+    ,(AC ) : BDC (9 ) 'c' 0 
+    ,: AC BDB 'c' CAB 
+
+   ,'d' <Ev-met 8 () > : 7 4 
+    ,'b' : 5  = 
+    ;
+     };
+     };
+}
+
+$ENTRY CABAB {
+  'c' B e.5 'c' 
+    ,(e.5 'd' <Print > ) 'bb' BADD AA : 
+     { 
+  e.4 (7 ) ABD 
+    ,'b' : ACB 
+    ,'d' : 'b' 
+    ,e.5 (BD <Mu CB 9 'a'
+10 > ) 'a' (BDD 'd' <ExtCCCDA 3 > <CC 'c' > ) : e.9 4  = 
+    ;
+     };
+  'c' ((1 ) s.13 ) e.9 BCCD BCCC CAB CCB e.2 
+    ,: 
+     { 
+  (7 ) t.13 t.8 'c' 5 s.7 
+    ,(<Print 'b' > ) BB e.2 : 1 
+    ,('b'
+) (10 ) 2 1 1 (t.8 e.9 e.2 ) () : e.6 DCD e.13  = 
+    <Print ACC 'cb' s.13 'c' > BA s.13 (BBC 8 C ) ;
+  (7 ) t.13 t.8 ABC s.7 
+    ,<ExtCCCDA (ADC s.7 0 ) > 7 9 : ('d' ) e.12 
+    ,:
+10 ADDB 'a' 1 8 
+    ,AADC : (BC e.12 'b' ) 0 DBA e.1 
+    ,(BB ABC ) : CB 'b' CC  = 
+    BCC 'c' 5 AB 'd' ;
+     };
+}

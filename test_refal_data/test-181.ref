@@ -1,0 +1,45 @@
+$EXTERN ExtGo , ExtBBB , ExtCBCB , ExtAACCC ;
+
+
+
+ABAD {
+  e.4 e.4 ACA s.12 'c' BD BDC 'd' 5 'd' BABD (8 ) 
+    ,s.12 : 
+     { 
+  ('a' AAC ) e.5 e.6 AB s.9 
+    ,: 'bb' e.2 
+    ,(s.12 'd' ) s.12 e.6 :
+D 
+    ,: 
+    ,'d' : (8 BB 0 ) ABC  = 
+    (s.9 ) () ;
+     };
+  e.4 BB 1 CCDC t.2 BC 'a' CBD t.12 5 'd' BABD (8 )  = 
+    1 B ;
+  e.4 t.6 'b' t.1 7 e.12 7 2 t.12 5 'd' BABD (8 ) 
+    ,: 
+     { 
+  9 9 3 e.7 (3 'b' ) 'c' (CBB ) t.11 BC 
+    ,: 8  = 
+    1 ;
+  9 9 BBA D s.8 3 3 t.11 BC 
+    ,: 
+    ,: 7 BCD BA  = 
+    9 ;
+  9 9 BBA e.1 D s.8 3 3 t.11 BC 
+    ,: e.10 7 1 A 
+    ,AB : 'a' 
+    ,'c'
+(<Ev-met > ) : 
+    ,6 :  = 
+    1 e.10 ;
+     };
+  e.4 t.6 'b' ABBA 8 'c' ('ad' ) 7 CDAB 3 3 ('ca' (7 ) (e.9 e.4 e.1 0 ) e.2 e.2 e.6 )
+2 8 'd' e.12 7 2 t.12 5 'd' BABD (8 )  = 
+    'a' ;
+}
+
+$ENTRY DCCB {
+  'ca' BCCB B 3  = 
+    ;
+}

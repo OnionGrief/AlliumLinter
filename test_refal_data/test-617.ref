@@ -1,0 +1,103 @@
+$EXTERN ExtGo , ExtCBCD , ExtAA , ExtDC , ExtCAAC , ExtADCB , ExtBAD ;
+
+
+
+BB {
+  'c' t.7 CC s.13  = 
+    <C B > s.13 ;
+  (6 ) DDB s.13 
+    ,'c' <Type ('a' <ExtCAAC s.13 <BB > > <ExtAA s.13 0 D > ) <Type 8 >
+BCB C > A ((() BDCC 4 'd' B ) 'd' ) : 
+     { 
+  2 BBB ('d' ) 1  = 
+    () ('c' 4 ) ;
+  2 BBB ('d' ) 6 8 
+    ,BBC : 9 'a' 
+    ,(<Upper 0 > 6 ) s.13 : e.7 
+  
+ ,'dd' 4 : e.6 e.7 9 (4 BDC e.9 10 BBCB ) 
+    ,<Print 10 > : 8 'c' 6 e.13 
+ 
+  ,'c' : e.12 BDB 'a' 
+    ,'d' <CD e.13 (e.6 s.13 CCCC ) 1 e.6 > : 
+     { 
+  'dd' (1 CD 9 ) 5 BB 
+    ,7 :  = 
+    D ;
+  'dd' (1 CD 9 ) 5 'bcb' BB 
+    ,<ExtCAAC CDBC > : (e.4 ) e.9 
+    ,: 
+ 
+  ,:  = 
+    ;
+  'dd' (1 CD 9 ) 5 (BCC t.8 (9 ) t.11 'd' ) t.3 1 CBB BB 
+    ,: A 
+    ,<BB >
+: AAAD CD 
+    ,: 
+    ,: 8 B  = 
+    ;
+     };
+     };
+  (6 ) CC DBBC (5 CBC (BCB 6 ACD 3 e.1 ) ) BBC s.12 10 (2 ) s.13  = 
+    'a' s.12 ;
+}
+
+C {
+  ABB t.12 (BBAA 'b' BCD ) () BBA 6 'cc' e.11 8 CD 'c'  = 
+    'bb' 6 C 7 ('bc' ) (<ExtDC <Lenw 'c' 0 > (e.11 'c' B ) (CC e.11 ) 'b' >
+5 6 ) ;
+  ABB t.12 (BBAA 'b' BCD ) () () ACA 'a' 6 
+    ,9 : 
+     { 
+  (CBD t.1 'b' ) ((8 t.8 CC ) s.12 ) BC s.10 8 'c' 7 
+    ,: 
+    ,: DB 
+
+   ,10 CBCD : e.5  = 
+    () 9 e.5 ;
+     };
+}
+
+$ENTRY CD {
+  DCB 'd' e.8 CC 8 6 
+    ,e.8 DCAD (3 <Ev-met DCC (4 'c' ) <Chr > > ) 1 : 
+     { 
+  9 s.9 (A ) 
+    ,4 :  = 
+    ;
+     };
+  DCB DC 2 () s.11 6 
+    ,'bb' s.11 'a' BC s.11 9 (s.11 B (CCDA ) 3 s.11 <Ev-met <Chr s.11 9 'b'
+> > CBD 'c' <Upper s.11 > ) <ExtBAD ('b' 5 s.11 C (ADAB ) <Lenw BCDA > AD ) BBAB s.11 DB 'ab'
+('c' (1 s.11 s.11 10 'b' ) ) > : 
+     { 
+  () CD 5 7 e.9 'b' 
+    ,: ABC 2 s.13 
+    ,: CACC 6 
+    ,: 
+     { 
+  s.8 B DDC  = 
+    ;
+     };
+     };
+  DCB DC 2 () C DB DB e.3 5 s.11 6 
+    ,'d' : 
+     { 
+  1 (e.5 'b' CBC ) 'ca' ('ca' 2 1 ) 7 DAD () 7 
+    ,<Ord e.3 'b' 1 6 >
+BAAB 'db' : (6 BADC 0 4 ) (1 8 'ca' ) AAB 
+    ,: 'b' 
+    ,7 : 
+   
+,10 'a' : 
+     { 
+  (BCB s.4 ) 'c' 
+    ,'b' <Ev-met > : CCDC 
+    ,:  = 
+    ;
+  (BCB s.4 ) BBD 5 DC (3 (e.4 CCA ) s.3 4 ) 'c'  = 
+    ;
+     };
+     };
+}

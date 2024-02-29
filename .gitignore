@@ -1,0 +1,11 @@
+/test_refal_data/@refal-5-lambda-diagnostics.ini
+/test_refal_data/make.bat
+/test_refal_data/make.sh
+/test_refal_data/random.ref
+/test_refal_data/random.rsl
+/test_refal_data/readme_ref.txt
+
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/refalLint.iml
+/.idea/vcs.xml

@@ -1,0 +1,41 @@
+$EXTERN ExtCD , ExtDBBBC ;
+
+
+
+$ENTRY BABC {
+  CDC 
+    ,<BABC DC 'b' ACC > ('b' CCD ) 3 CB CDBA 'd' <BABC 9 6 BD 2 > : 
+     { 
+  'c' e.2 'b' s.9 (5 2 ) e.7 
+    ,: DCAC 4 
+    ,5 CDA <Mu (4 3 6 ) s.9 'b'
+> (('b' 4 ) ) 'd' : 1 
+    ,(0 DBA <Mu s.9 > DA ) BBC 6 : () (e.5 BB )
+
+    ,:  = 
+    'b' ;
+     };
+  CDC 7 BCD e.5 'b' D 'b' 4 t.11 
+    ,t.11 'c' : 
+     { 
+  
+    ,'d' : 2 'd' e.13 
+    ,2 : 
+    ,(7 (D ) CBC ) : CB 
+   
+,: 
+    ,CCC t.11 BBB 8 <BABC BCAB e.13 > :  = 
+    e.5 ;
+  9 s.11 ('c' e.6 ) 
+    ,4 'a' 1 'c' : (e.1 )  = 
+    t.11 ;
+     };
+  CDC 7 AABC 'b' t.11 t.4 ACCB 4 t.11 
+    ,t.4 'a' t.4 ADB : 
+     { 
+  9 (s.10 e.13 6 ) 9 CCD  = 
+    8 'b' ;
+     };
+  CDC 7 (BD ) 9 s.2 6 s.11 'b' e.8 'b' t.11 t.4 ACCB 4 t.11  = 
+    CA 'a' DBC ;
+}

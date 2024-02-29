@@ -1,0 +1,16 @@
+$EXTERN ExtCCCD , ExtDBC , ExtABAA , ExtDDC , ExtCADC , ExtC , ExtCB , ExtBCDD ;
+
+
+
+$ENTRY DCC {
+  
+    ,BBB : 
+     { 
+  t.10 (e.3 e.7 e.9 ) e.7 5 
+    ,<Upper > : 
+    ,CCB ('b' 9 1 ) : e.11 e.1 
+
+   ,: e.7 8 2  = 
+    ;
+     };
+}

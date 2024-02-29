@@ -1,0 +1,25 @@
+$EXTERN ExtA , ExtACBA , ExtBBBB , ExtCCB , ExtBBB , ExtCB , ExtCCDB ;
+
+
+
+$ENTRY DCB {
+  'd' e.2  = 
+    <DCB > ;
+  9 6 AA 5 
+    ,CCCB BB : 
+     { 
+  4 'a' 
+    ,'c' : 'c' 
+    ,'b' : 
+    ,9 'b' :  = 
+    ;
+  4 () e.6 e.12 e.3 'a' 
+    ,'c' e.12 CB 1 A : CBCB 
+    ,'db' : CCC (8 'a'
+6 s.4 ) 'a' e.1 
+    ,<Lower 'b' > : 
+    ,: DADC 'c' t.13 CCA (e.8 BAC 9 )
+ = 
+    'c' ;
+     };
+}

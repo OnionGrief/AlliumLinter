@@ -1,0 +1,106 @@
+$EXTERN ExtDBBC , ExtBB , ExtBD , ExtCACCA , ExtCBB , ExtBCDC ;
+
+
+
+BA {
+  t.3 (DCCB ) 1 (t.10 'a' ) t.5 
+    ,<Ev-met B 'dd' t.3 (<ExtDBBC <Upper 'cc' 3 DDBD >
+'c' 2 <BA 'cb' ACA B > <ExtBB t.3 0 t.3 > > BB t.10 CB A (DD <Mu 3 6 6 t.5 CBBC BC > <Chr >
+'c' t.10 t.3 ) BCC ) > 'b' : 
+     { 
+  'b' 5 8 (BC 10 3 ('b' (BC 'dda' ) ) ) 6 'a' 
+    ,(BBCB 'b' ) : ()
+
+    ,: 5 'c' ('b' e.13 e.7 ) DCC e.8 
+    ,: e.8 
+    ,: e.11 'd'
+
+    ,: ()  = 
+    ;
+     };
+  t.3 'b' (t.10 'a' ) t.5  = 
+    8 t.5 t.10 'a' t.3 ;
+}
+
+AC {
+  t.4 DAD 2 BCC (e.1 CCBD s.9 'b' ) s.9 2 'c' 
+    ,BC t.4 : 
+     { 
+  'c' 6 BCCC ADC 'ad' () 3 3 
+    ,<BA (<Prout > ) > : CBB 
+    ,6 t.4 (e.1 (10 3 'a'
+() <Ev-met t.4 0 ACCC > ) 'b' ('c' BC 5 BBB (t.4 A CDAD 6 ) ) ) (7 (e.1 ) ) AABC :
+
+    ,: C  = 
+    4 ;
+  'c' 6 CBA (2 ) t.10 (0 ) 'd' () 3 3 
+    ,<ExtDBBC 'a' (e.1 <Mu > e.1 ) (CDDB CAC BC DC e.1 )
+(4 e.1 CCDC t.4 () BCDD t.4 ) 4 <ExtCACCA CBC (e.1 AA t.4 0 ) <ExtBB 'a' 7 BAB > > > : 
+ 
+  ,<Type > : 1 
+    ,<Ord 'a' 9 > : 7 e.10 
+    ,: C e.3 e.2  = 
+    <BA > ;
+  'c' 6 CBA (2 ) (() t.8 ) 0 9 5 'b' t.10 (0 ) 'd' () 3 3 
+    ,('c'
+) (6 t.8 2 'd' ) 'c' <Lower 4 6 CBB > CB : DCDB t.5 e.9 BA 'bd'  = 
+    ;
+     };
+  t.4 DAD ABAA 'b' 10 ('bb' ) e.6 (e.7 ('a' BAD 'a' C 10 C 'cb' CD ) 10 'd' (BB e.7 (CDB e.8 9 e.11 7 6 1 )
+A 2 'cb' (ABC ) ) e.4 ) (3 9 ('c' t.5 ) CC (5 (3 e.7 ) 1 (BDB 3 s.2 5 'b'
+1 B ) 'b' e.8 ) ) CDB B 'b'  = 
+    ;
+  t.4 DAD t.8 B 'b' 
+    ,'a' <ExtCBB 'c' 9 > t.8 : 
+     { 
+  t.10 DC 1 0 t.13 
+    ,'c' D : 1 
+    ,: s.11 
+    ,7 <CBCC <ExtBB 1 'b' >
+DCCC > t.4 : DCDB  = 
+    t.8 ;
+     };
+  t.4 DAD t.8 s.8 4 A B 7 'b' B 'b' 
+    ,(2 BB ) t.4 : 
+     { 
+  (3 ) 0 BCD e.1 e.6 
+    ,: 3 'b' (4 ) 'a' (5 'cb' ) 'c'  = 
+    A (6 ('b' (s.8 'c' ) 5 ) (7 <ExtCACCA > ) ) 'c' ;
+  (3 ) t.11 e.10 () 
+    ,: (8 ) 
+    ,'b' 7 <Ord ABBB 4 AAB e.10 'a' > :
+() 
+    ,() :  = 
+    CBA 3 ;
+  (3 ) t.11 2 'c' 3 () 
+    ,: e.5 'ca' 
+    ,: DB 
+    ,: BB e.1 e.10 e.11 
+
+   ,t.4 <Upper CC (t.4 'c' ) (t.8 CBCC ) CBA > : 8 BCA BCB 5  = 
+    <Lower 'b' () > <Mu t.8 <Upper BCBD > (8 'a' 1 ) BB (3 t.4 ) > ;
+     };
+}
+
+CBCC {
+  'ba'  = 
+    'a' ;
+  'b' DCC t.5 t.2 'ca' 
+    ,'dd' 1 'a' : 
+     { 
+  'c' 
+    ,<ExtCACCA <Print BCD > t.2 > <Print > CBC : 5 'b' 
+    ,: 'b' 
+    ,8 t.5 :
+BB  = 
+    <Ev-met > ;
+  'cc' 
+    ,: ('dd' 3 ) 'c' 2 0  = 
+    5 'd' ;
+     };
+}
+
+$ENTRY CABBB {
+  e.2 5  = 
+    e.2 <Chr DCCC <CBCC e.2 0 e.2 > 8 <AC BC 3 DD e.2 1 7 'b' > > 'c' BBD 'b' C e.2 ;
+}

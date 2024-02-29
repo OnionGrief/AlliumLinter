@@ -1,0 +1,66 @@
+$EXTERN ExtDB , ExtA , ExtCCABB , ExtBDB , ExtBCCB ;
+
+
+
+$ENTRY Go {
+  A 'd' BBDB 
+    ,'c' 3 : 
+     { 
+  BDBD 'a' (t.6 (8 7 ) ) 
+    ,('b' ) <Go t.6 > (t.6 5 ) : 9 'b' 
+
+   ,: 
+    ,t.6 : e.5 BAC e.12 e.1 BC  = 
+    6 t.6 BCCC ;
+  BDBD 'a' (t.6 (8 7 ) ) s.4 'd' t.1 e.7  = 
+    'd' BB t.6 ;
+     };
+  4 'd' BBDB  = 
+    ;
+  4 D 'c' (5 'b' BBAD 'a' AB 10 CA ) ('ccb' 9 7 8 BC 2 'b' ) 'd' BBDB 
+    ,BA :
+
+     { 
+  () () 7 9 'aa' 
+    ,4 : e.7 
+    ,e.7 : s.9 (9 s.9 4 'a' ) 
+
+   ,: (DA e.4 ) 
+    ,6 s.9 : 'b' e.5  = 
+    ;
+  () 'bb' ('cb' DBBB ('c' ('a' ) 0 'b' ) 0 ) BCD ((e.8 CCC (BCB C DA 4 D 10 )
+1 ) ) (2 s.7 'aa' ) s.10 s.8 'a' 
+    ,s.7 e.8 : C AC ABB BBC 1 (e.5 )
+
+    ,<Ev-met s.7 5 'd' > e.8 s.8 : 1 (7 7 ) 
+    ,(10 DB s.10 ) :  = 
+    4 5 8 CBA ;
+  () 'bb' DCD s.9 2 (2 s.7 'aa' ) s.10 s.8 'a' 
+    ,: 1 
+    ,()
+: 6 (BC A 2 B 2 ) 
+    ,: CC BCC  = 
+    5 'c' <Chr s.7 DB s.7 7 () s.7 > ;
+     };
+}
+
+$ENTRY BD {
+  CCD 'd' BBCB 
+    ,'c' : 
+     { 
+  CB BBC e.11 
+    ,'c' : 
+    ,: 'a' e.5 
+    ,<Ev-met 0 3 e.11 DCB > : BABC C t.12 DBB ()
+(('a' 7 ) 1 2 ) 
+    ,: 1  = 
+    ;
+     };
+  'c' (() ) 10 e.10 'd' BBCB 
+    ,<ExtA e.10 > : 
+     { 
+  B 'c' e.3 8 e.4 'c' 
+    ,4 9 e.10 <Print <Print > () > : 'b'  = 
+    'a' ;
+     };
+}

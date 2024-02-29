@@ -1,0 +1,69 @@
+$EXTERN ExtGo , ExtCC , ExtCDA ;
+
+
+
+$ENTRY AD {
+  s.5 s.3 
+    ,: 
+     { 
+  'b' B DDB BAA 'b' 1 8 C 2 () 
+    ,s.5 (CBB ) (<Upper s.3 CBB > 3 () s.3 ) 6 :
+e.10 CB e.11 
+    ,1 : (10 A (BC DC ) ) 'c' CCC 
+    ,s.3 : 
+     { 
+  () s.8 0 ('d' ((C t.10 ) s.11 ) ) 
+    ,9 'c' : 'd' 
+    ,s.3 <Ev-met 1 >
+s.11 : s.7 'c' 
+    ,<Mu > : 
+    ,: CCC  = 
+    s.3 BC s.5 ;
+  () s.8 'b' t.10 DB 0 ('d' ((C t.10 ) s.11 ) ) 
+    ,<Chr 'b' 5 > :
+t.11 e.12 
+    ,: 
+    ,: 
+    ,6 : 'a'  = 
+    B ;
+     };
+  'b' B DDB BAA t.1 'd' ABB CB 'ba' () 
+    ,BCAC 1 : 
+    ,: e.6 1 'c' 
+
+   ,6 s.3 s.3 : e.2 DDCC 'd' 
+    ,() (e.2 ) : ('c' )  = 
+    ;
+     };
+  10 e.8 'b' () s.3 
+    ,7 (7 ) DC 1 AA (s.3 BDAC e.8 s.3 ) : 
+     { 
+  (t.9 t.11 'b' (BBDC 'c' t.13 t.1 ) ) 'cb' e.2 (e.2 () ) 
+    ,:
+s.1 
+    ,AD : 
+     { 
+  e.1 AC ('b' CCB 'b' ) 4 1 
+    ,: (e.11 'd' ) (e.13 )  = 
+    ;
+     };
+  (t.9 t.11 'b' (BBDC 'c' t.13 t.1 ) ) 'cb' AD 6 e.5 0 e.11 10 
+    ,<Print 'b'
+> (e.8 e.8 ) : 
+    ,8 A <ExtGo <Mu > > : 10 () e.9 
+    ,<Ev-met > : (4 )
+ = 
+    <Mu > ;
+     };
+  10 e.8 'cddc' ACBC () s.3 
+    ,8 <ExtGo e.8 (s.3 'b' ) 'c' > ('cb'
+B ) : 
+     { 
+  (BC BCC 9 e.2 ) 
+    ,(D CB ) : e.5 CB  = 
+    e.8 ;
+  () ('a' ) 9 B 
+    ,:  = 
+    ;
+     };
+}

@@ -1,0 +1,25 @@
+$EXTERN ExtBCC ;
+
+
+
+$ENTRY BCAC {
+  BB 7 'c'  = 
+    ;
+  6 8 5 BCB t.6 'd' 
+    ,7 t.6 <Print 2 <Chr 'a' 4 t.6 6 > DDCC > : 
+     { 
+  e.13 (5 ) 
+    ,'c' : 'c' 
+    ,BADC 3 7 <Print > : 
+    ,<ExtBCC BCBD > e.13 :
+
+     { 
+  1 'bc' AD 
+    ,B 7 : 
+    ,'c' (CBC CCB ) <Ev-met > : 7 e.5 
+    ,: 'c'
+ = 
+    4 t.6 ;
+     };
+     };
+}

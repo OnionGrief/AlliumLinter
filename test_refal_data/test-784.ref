@@ -1,0 +1,60 @@
+$EXTERN ExtBCAA , ExtBAAA , ExtB , ExtBDA , ExtC , ExtBBD ;
+
+
+
+BBB {
+  C 'b' s.4 ()  = 
+    (AC ) ;
+  C (() ) e.11 e.13 8 CCC s.4 () 
+    ,BBB : 
+     { 
+  (t.1 AD 5 ) 3 9 e.4 DDC (2 9 t.11 ) 
+    ,6 : BBCC e.10 t.3 'a' 
+    ,: 
+
+   ,3 ACD : 
+     { 
+  5 1 'b' 1 
+    ,:  = 
+    ;
+     };
+  (t.1 AD 5 ) 3 9 'b'  = 
+    BBA e.13 (e.11 4 ) ;
+  (t.1 AD 5 ) 3 9 'b' () ('d' s.6 ) t.11 t.10 10 ('d' ) 
+    ,<Upper > :
+e.5 e.1 (AB ) 
+    ,9 8 (3 7 ) : 2 
+    ,BA <Print 'c' 2 e.11 t.10 > : (e.12 )
+(6 ) 
+    ,('b' ) : s.11 8 
+    ,4 : (e.7 'a' BBBD CDD 1 ) 'b' DDD 9 'd'
+ = 
+    <Lower 'd' <Ev-met AD DCC BB <ExtBCAA 'b' 10 > > > ;
+     };
+  C 8 (t.5 (6 'c' ) ) 'c' s.3 DBCC 2 'b' CD 'b' 8 CCC s.4 () 
+    ,: 
+     { 
+  e.3 
+    ,DC : 'b' 
+    ,: ((e.6 'a' ) 6 'a' 9 ) 
+    ,: e.11 s.6 
+
+   ,: 1 CC  = 
+    <Ev-met 'c' <Mu e.6 5 'a' ACC > > ('a' ) ;
+     };
+}
+
+$ENTRY DDCC {
+  DA CC C 'c' (e.2 4 BB 'b' )  = 
+    e.2 2 ;
+  DA CC AB 7 'c' 
+    ,1 CCDB 'a' <Mu 'b' (BC <Lower CCDC 'd' ACC > CBD ) 'd' (D 'bc'
+('d' ) ) 9 > : 
+     { 
+  A 'c' 
+    ,'a' : 7 ABC ('a' ) e.4 6  = 
+    <Upper > ;
+     };
+  DA CC AB 'c' 6 'dcb' 0 C 5 'dbb' 7 'c'  = 
+    2 CCB (<Prout () > ) ;
+}

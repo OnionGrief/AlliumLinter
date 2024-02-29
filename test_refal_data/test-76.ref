@@ -1,0 +1,33 @@
+$EXTERN ExtDB , ExtDDBC ;
+
+
+
+$ENTRY BAA {
+  ('a' 7 DB ) CBC t.12 s.8 ((e.5 'b' BAC 1 e.13 'c' ) e.3 ) 7 
+    ,(1 <BAA DDA C >
+CD 'a' ) ('b' 1 ) ((e.13 (CAC ) ) <BAA 7 CC B 2 > (e.13 'c' ) ) AA ('b'
+2 e.3 <Mu ('c' ) <BAA e.5 DDAA 3 4 > ('cc' ) CCAC (0 ) > ) : 
+     { 
+  'c' 1 DCD 
+    ,: 
+    ,: 
+    ,: () 
+    ,: (e.7 'c' ) 'b'
+('b' CCBD 3 )  = 
+    ;
+  'c' 1 DA CCB s.7 
+    ,: 0 0 s.13 
+    ,: s.11 'c' 9 
+    ,: 'a' 3 e.2 CD 
+
+   ,: ABB 8  = 
+    ;
+     };
+  ('a' 7 DB ) CBC t.12 s.8 7 CBDD 1 BBBB 7 
+    ,(C A ) (t.12 1 ) : 
+     { 
+  e.10 'c' 9 (2 ACCC e.2 ) e.3 C 
+    ,5 5 : A s.4  = 
+    4 ;
+     };
+}

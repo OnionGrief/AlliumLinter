@@ -1,0 +1,97 @@
+$EXTERN ExtCCC , ExtDB , ExtCDCAB ;
+
+
+
+$ENTRY BA {
+  t.6 'd' 
+    ,CCA <ExtCDCAB 'c' > 'a' : 
+     { 
+  'b' 1 CC 10 ((8 ) ) 2 e.3 
+    ,: DCA 
+    ,: () CCC DDC e.4  = 
+    <BA 'b' <Prout 7 3 > > ;
+     };
+  t.6 'd' 7 e.8 4 e.10 'c' 2 
+    ,'a' 5 7 D <Mu BC > DB 'aa' ('d' BAC 0 5 'b'
+C 5 ) : 
+     { 
+  () 8 2 
+    ,<ExtCCC ('db' ) > : DC 5 
+    ,(2 ) : e.2 4  = 
+    ;
+  () CD t.7 (t.3 7 ) () 8 2  = 
+    (t.7 CB t.3 'a' ) 8 'c' 2 ;
+     };
+}
+
+$ENTRY BBCC {
+  s.12 ('d' e.6 e.13 'b' (DBBC BA BB 8 'a' e.3 AC 3 ) 4 9 e.4 B 'c' ) 'd' e.12 ('b'
+(1 BA t.8 'aa' CBB e.5 ) ) e.3 3 
+    ,: 
+     { 
+  (s.12 t.13 ) t.1 t.1 e.3 'c' (CD e.4 )  = 
+    'b' t.1 <Ev-met <Ord 3 4 2 > > DDD ;
+  (s.12 t.13 ) t.1 e.1 (8 s.1 ) 'c' () BBC 
+    ,t.1 'b' : BC (e.4 e.4 e.4 )
+DCB 'c' (e.9 3 )  = 
+    <ExtCCC 'd' > ;
+  (s.12 t.13 ) t.1 9 7 BCC e.5 (8 s.1 ) 'c' () BBC 
+    ,(<ExtCDCAB <Prout 'bc' > >
+) <Ord 'a' <Lenw ADCA > > BC : 6 e.1 'c' 
+    ,() CB BA 6 : BD C e.4 'dc' 
+
+   ,('a' t.1 ) <ExtCCC > 'b' DBCB : 
+    ,5 : 
+    ,9 (A ) 4 : e.6  = 
+    7 2 (<Ev-met e.6 > 'db' ) BCBD <Mu () > ;
+     };
+  s.12 CA 5 t.6 BDBB 'b' 5 3 
+    ,s.12 s.12 <Print 4 s.12 6 'bc' > : 
+     { 
+  t.1 (4 'b' ) s.13 BCDC e.5 AC 'bc' 
+    ,'c' : 'c' 
+    ,:  = 
+    <Chr > ;
+     };
+  s.12 CA 5 t.6 ('c' (DA ) e.2 ) D e.7 3 
+    ,'a' t.6 DBBB : 
+     { 
+  s.2 
+    ,3 () : e.11 ('a' ) 
+    ,: e.7  = 
+    ;
+  'b' 7 e.3 s.2 
+    ,: ('c' (A 'a' ) 8 ) AD CDD 6 'b' 
+    ,<Type 'a'
+> (5 t.6 'a' ) <Chr 4 > : CCC  = 
+    BCB ;
+     };
+  s.12 CA 5 t.6 ('c' (DA ) e.2 ) D s.2 (e.3 ) (e.3 BAC DC 'c' ) CACC 'c' e.3 (BDC CCB )
+3 
+    ,CBB : 
+     { 
+  9  = 
+    <Mu <Prout > <Mu > > t.6 ;
+  0 e.6 AB 'b' s.1 
+    ,() (<Mu > <Chr 6 > ) <Mu s.12 'c' > : 'c'  = 
+    'b' ;
+     };
+  s.12 CA 5 t.6 ('c' (DA ) e.2 ) D s.2 ('a' ) e.12 'c' A 4 (BDC CCB ) 3 
+  
+ ,: 
+     { 
+  'c' 3 
+    ,<Ev-met BB CC > 5 ('d' 7 ) : e.6 B 
+    ,'c' (AD 9 ) e.12 :
+
+    ,'c' 5 : 'a' 
+    ,: 
+    ,s.12 <Mu 'd' > : 
+     { 
+  'c' 
+    ,'d' : ABB 
+    ,s.12 e.2 <Chr <Lower 6 > > : 'c'  = 
+    C ;
+     };
+     };
+}

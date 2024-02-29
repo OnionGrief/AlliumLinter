@@ -1,0 +1,96 @@
+$EXTERN ExtDBC , ExtBBCCD , ExtDC , ExtADDAD , ExtAACC , ExtDD , ExtBA ;
+
+
+
+BBA {
+  t.10 t.3 s.12 BBA s.2 
+    ,t.3 <Ev-met CCB > 5 () : 
+     { 
+  (2 ) 
+    ,<ExtBA > : 6 CAC ACCD 4 
+    ,: e.13 e.12 
+    ,BAD <ExtADDAD > : e.11 e.2 2  = 
+    'a' ;
+  (2 ) BB s.9 
+    ,(t.10 s.9 4 ) (DCAB ) 'c' : CAAB 
+    ,('a' 9 8 <BC <Type >
+> ) : 9 DDC CDCB 
+    ,<BBA <Print 2 BC s.9 > 'a' > DC 2 : BAAC C 
+    ,<ExtADDAD BC > : DC BBC BC  = 
+    'a' ;
+     };
+  t.10 t.3 s.13 e.8 BBC () BBB s.12 BBA s.2  = 
+    8 ;
+}
+
+CD {
+  ('a' ((s.1 ) 'b' ) s.12 ) t.13 e.10 5 e.12 CB 1 (0 s.10 s.4 )  = 
+    2 ;
+  ('a' ((s.1 ) 'b' ) s.12 ) t.13 s.10 e.3 e.12 (('c' (CC s.9 s.1 6 1 e.8 )
+s.1 'd' ) ) ACB 'c' (t.8 5 3 (('b' (8 ) e.10 ) ('a' (CCAA ) 10 ) C CBCB A )
+'b' ) ('a' (e.3 ) 5 DB ) (DA 9 s.9 e.3 'c' ) 6 (0 s.10 s.4 ) 
+   
+,'a' : 
+     { 
+  AD 
+    ,2 : 'c' () 
+    ,: 
+    ,: e.10 
+    ,'a' : 4 
+ 
+  ,D : 2 (('c' AAB 'b' ) 7 A ) (5 'a' 6 BDB 'dd' ) B BDB  = 
+    <BC BCDC > ;
+     };
+}
+
+$ENTRY BC {
+  'b' CB (BDDB DC e.5 ) 5 6 7 
+    ,'a' e.5 <ExtDD <ExtDBC 4 > > : 
+     { 
+  4 1 
+    ,e.5 e.5 : e.10 CB 5 8 
+    ,: t.9 DBB CCB 
+    ,(e.10 ) : e.8  = 
+    DA ;
+     };
+  'b' CB (BDDB DC e.5 ) 5 'b' () BDD  = 
+    <ExtBA AACC BCAC B e.5 e.5 'c' <Lower <Prout <Mu 'c' 1 e.5 e.5 > > (('a' 6 e.5 6 'd' 0 )
+DB 'c' B <Ord 6 'bdc' > 1 (B 'a' 3 8 BA e.5 ) 'b' B ) > > ;
+  'b' CB (BDDB DC e.5 ) 5 3 DA 5 () BDD 
+    ,AD 5 'b' : 
+     { 
+  'b' 
+    ,'b' <Ev-met 'd' e.5 <ExtAACC 'a' > > ('d' BA e.5 'c' DDDC ) : 2 ((e.2 e.12 8 )
+) D 
+    ,'c' : 
+    ,e.5 e.12 'c' 7 : 'b' ('c' e.11 BB ) BD D  = 
+    e.2 <Ev-met CC 'c' 2 > ;
+     };
+  'b' CB (BDDB DC e.5 ) 5 3 t.13 6 3 (BDCD 5 t.5 CAB ) 'b' ('c' 4 ) 5 () BDD  = 
+    'd' t.5 CC C CA 7 'c' ;
+  'b' CB (BDDB DC e.5 ) 5 3 t.13 6 3 (BDCD 5 t.5 CAB ) 'a' (BBC 'b' ) 4 () 'd' ('c'
+4 ) 5 () BDD 
+    ,B CB 3 : 
+     { 
+  ('b' ) 8 6 e.6 t.4 'b' 7 
+    ,: 
+    ,ABB : (e.12 ) s.8 9 'a' (t.2 BBD )
+s.8 
+    ,4 : e.6 DBA 8  = 
+    ;
+  ('b' ) 'c' () 4 t.4 'b' 7 
+    ,<Lower > e.5 : 9 CAB e.12 'b' 7 
+  
+ ,'b' : e.9 (8 8 ) ABC (e.4 ) 
+    ,CAB : e.13 7 DB 'b' (A ) 
+    ,:
+ = 
+    ;
+  ('b' ) 'c' t.7 () 0 () 4 t.4 'b' 7 
+    ,<ExtADDAD <BBA > > : 
+    ,'bb'
+: 3 e.3 
+    ,CD e.3 CCDA 3 : e.12 4 'c'  = 
+    ;
+     };
+}

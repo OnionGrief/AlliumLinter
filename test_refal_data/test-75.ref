@@ -1,0 +1,28 @@
+$EXTERN ExtAACBB , ExtCBC ;
+
+
+
+BC {
+  e.1 e.5 ('cd' ) 'c' CDB (1 'b' e.11 B e.2 ) 'd' C  = 
+    ;
+  e.1 e.5 ('cd' ) DCDD e.10 9 'd'  = 
+    'd' (<Mu 3 > 'c' ('c' ) <Type > BA e.5 5 e.5 ) 'c' () 'bc' (6 6 e.10 <Ev-met >
+) ;
+}
+
+$ENTRY BDAD {
+  CAA 'b' 
+    ,: 
+     { 
+  s.12 (e.3 ) BC 'b' 
+    ,: e.10 (e.5 e.6 ) C 
+    ,: ()  = 
+    (() <Prout e.3 s.12 'a' > ('c' ) ) 3 <ExtAACBB 2 <BDAD ABA 'cc' > > ;
+  s.12 CDA t.11 e.5 t.1 'b' 
+    ,'c' 1 CCA : (('c' ) ) 
+    ,8 : 
+
+   ,t.11 4 : e.8 AB  = 
+    <Type t.11 > ;
+     };
+}

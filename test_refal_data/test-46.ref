@@ -1,0 +1,33 @@
+$EXTERN ExtGo , ExtCB , ExtBDAC , ExtD , ExtDDCD , ExtABD , ExtAB , ExtCDC ;
+
+
+
+$ENTRY DBBA {
+  t.5 ('b' DAB ) BD s.9 
+    ,t.5 'd' : 
+     { 
+  DBAB BBC 
+    ,5 ((t.5 DB ) CA 'ca' B 'b' ) t.5 :  = 
+    t.5 ;
+  DBAB t.9 'c' e.10 'c' DA t.9 () BBC 
+    ,CBCB BCBD ACC : 10 
+    ,: 
+    ,: ()
+ = 
+    'b' ;
+  DBAB t.9 'b' t.6 DA t.9 () BBC 
+    ,(10 ) : e.3 
+    ,: (BB s.10 ) (e.12 )
+CAB 
+    ,(0 ) 6 : e.2  = 
+    1 'b' <Print C > ;
+     };
+  t.5 ('b' DAB ) 'c' (1 ) 7 'd' e.2 CDAC BD s.9 
+    ,: 
+     { 
+  t.5 CD 
+    ,: (e.2 5 ) 10 
+    ,CDA : DCDC e.11  = 
+    <Mu (BDB 7 ) <ExtABD > > ;
+     };
+}

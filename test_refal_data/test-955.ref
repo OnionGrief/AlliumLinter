@@ -1,0 +1,52 @@
+$EXTERN ExtBAAC , ExtBA , ExtDCC ;
+
+
+
+$ENTRY BA {
+  e.4 
+    ,CCCA 4 <ExtBA > : 
+     { 
+  'a' 
+    ,e.4 3 : e.1 ((e.8 CBAC 'b' CC ) CD ) DD  = 
+    (() 5 <CCACB 2 BCB 6 > ) 9 ;
+  ('c' ) 'b' (e.1 'd' ) BD s.7 
+    ,7 e.4 : 'd' 
+    ,<Chr e.1 BC <Ev-met CD DB >
+> : e.13 e.10  = 
+    ;
+     };
+  DBB t.10 4 e.4 
+    ,((t.10 ) (8 C 'd' ) CBC e.4 ('b' ) ) 3 8 : 
+     { 
+  t.13 t.9 'dbc' 
+    ,e.4 : 'c' 
+    ,10 'd' : AC e.9 0 (CB ) 
+ 
+  ,:  = 
+    6 ;
+  t.13 t.9 'db' e.13 0 2 e.10 AC (C (0 ) ) 'c' 
+    ,<ExtBAAC 9 > : (7 ) 
+ 
+  ,'c' : 'c' 4 2 CB  = 
+    'c' CAC () <ExtBAAC > ;
+     };
+  DBB t.10 4 BAD e.4 'b' (10 C (BDAB 5 ) ) 2 'a' 
+    ,'b' 2 BA 6 3 () t.10 : 
+     { 
+  9 
+    ,'b' : 'b' BAD 
+    ,8 : 'bad' 
+    ,'ac' : CCD 
+   
+,(e.4 ) 'c' <Print BAAA DDC t.10 > : BBA 1 9 6  = 
+    <Prout 'a' > 8 (8 e.4 8 ) 'b' ;
+  9 ('b' 1 ) ('b' ) 3 5 'c' (5 ) (1 ) (C 4 ) BCC 
+    ,:  = 
+    e.4 (AAD ) <CCACB e.4 9 7 e.4 > ;
+     };
+}
+
+$ENTRY CCACB {
+  4  = 
+    'a' ;
+}

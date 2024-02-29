@@ -1,0 +1,62 @@
+$EXTERN ExtDDBB , ExtCCA , ExtDBD ;
+
+
+
+CC {
+  A (C ) () DCC 
+    ,<Chr 'c' BCCC (<Ev-met (9 8 CBA 6 CC CD ) <Ord > DCD 5 7 <Mu 9 'd' > >
+1 DAB 0 <Lenw A ('c' BD 'b' ) 10 > ) 'd' <Ord 'c' 3 > > : 
+     { 
+  'b' 
+    ,: 
+    ,: 
+    ,: BADD 7  = 
+    ;
+  'b' 9 'bb' 
+    ,: DCD 
+    ,: 
+    ,: 'aa' 2 
+    ,: B e.10  = 
+    ;
+     };
+}
+
+$ENTRY B {
+  CB CCAB 9 1 7 ((s.11 ) ) 
+    ,s.11 <Ev-met 9 BBDB <CC 'd' > > 'b' <Ev-met 'c' <Chr 1 'bb'
+s.11 5 'c' BB > (CA C 'd' CC 'ad' s.11 ) <Prout 9 s.11 > s.11 AB > B s.11 s.11 (9 4 <Ev-met 8 B >
+) : 
+     { 
+  1 
+    ,: 4 
+    ,: 5 (e.10 ) 
+    ,: e.10 ('c' ) 
+    ,:  = 
+    ;
+  3 ('a' s.13 ) (((t.6 ) (0 s.4 ) 'b' ) 'cd' ) 9 (e.7 'd' (8 )
+) CB 1 (() )  = 
+    ;
+  3 ('a' s.13 ) (((t.6 ) (0 s.4 ) 'b' ) 'cd' ) s.13 2 CB 1 (() ) 
+
+   ,: 
+    ,: 3 4 (BBA 3 BBC 4 (e.9 5 e.11 ) ) 
+    ,: e.3 4 e.3 
+  
+ ,: 'b' e.9 e.2  = 
+    ;
+     };
+}
+
+$ENTRY CA {
+  t.13 'a' e.4 'c' e.11 9 
+    ,() <Lower > : 
+     { 
+  s.10 BBAC AD e.11 'c' e.11 (1 ) 'a' 
+    ,e.4 4 : 'b' CBB 9 
+    ,e.4 e.4 CCB :
+1 BBAC  = 
+    t.13 ('b' ) ;
+     };
+  t.13 'a' ('a' ) (0 'a' ) 4 9  = 
+    t.13 ;
+}

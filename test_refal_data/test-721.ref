@@ -1,0 +1,8 @@
+$EXTERN ExtGo , ExtA , ExtB ;
+
+
+
+$ENTRY CCC {
+  BB 'a'  = 
+    ;
+}

@@ -1,0 +1,71 @@
+$EXTERN ExtDCB , ExtABACA , ExtADBC , ExtABBCC ;
+
+
+
+$ENTRY BCD {
+  6 BC DBC 5 8 9 'c' CB 
+    ,'c' AAC C : 
+     { 
+  (2 ) 1 
+    ,: BBC 
+    ,<Lower 'b' > : 
+    ,: e.5 CBC 
+    ,:  = 
+    ;
+     };
+  6 DBCC (BAC 'd' ) 
+    ,D : 
+     { 
+  s.9 e.2 (e.4 2 'b' ) () 4 () 
+    ,C <ExtDCB e.2 > : 4 
+    ,<Lenw 'c'
+> : ADC 
+    ,e.2 : 
+    ,((B ) ) : 
+    ,'d' :  = 
+    () <ExtADBC CDC 'c' > 5 ;
+  s.9 s.10 4 () 
+    ,: s.12 
+    ,BA : ('d' ) 
+    ,s.12 : e.5 (A e.7 t.12 2 )
+t.11  = 
+    t.12 7 ;
+  s.9 CCD 3 e.12 e.8 'b' DD 4 () 
+    ,s.9 : 'c' 
+    ,9 6 :  = 
+    e.8 CCBA 'c' ;
+     };
+  6 4 'cb' 6 10 s.9 ((B t.11 1 ) (DBCD 'c' BCAC t.3 ) () s.2 ) 'c' 
+    ,AB t.11 :
+
+     { 
+  () 8 
+    ,: 6 
+    ,'b' (<Mu s.9 > ) : 5 (4 5 ((e.1 'c' ) 'dab'
+) ) CBC ('d' DB t.13 ) 10 
+    ,<Ev-met 6 > : DD 7 4 0 
+    ,s.2 : (AA ) AB e.8 
+
+   ,'c' : ABC  = 
+    (BC ) ('c' ACC ) ;
+     };
+  6 4 'c' 7 (AA ) e.9 'c' 10 s.9 ((B t.11 1 ) (DBCD 'c' BCAC t.3 ) () s.2 ) 'c'
+
+    ,: 
+     { 
+  'b' 
+    ,9 : e.3 e.3 
+    ,'b' s.9 :  = 
+    (A ) ;
+  'b' AA 'c' s.11 3  = 
+    ;
+  1 'bb' (e.10 'b' DAC ) e.3 'a' ACC AAC ((e.12 'bb' ) ) (9 ) s.7 s.11 3 
+
+   ,(t.11 s.11 e.9 (BCD C 5 C ) ('d' C ) ) BC 'a' e.3 s.2 2 8 : ((t.3 )
+) 
+    ,'c' : 8 'c' 
+    ,: (t.10 ) A 
+    ,:  = 
+    s.2 ;
+     };
+}

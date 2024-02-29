@@ -1,0 +1,92 @@
+$EXTERN ExtGo , ExtB , ExtBBBBD , ExtBACD , ExtBC , ExtBDB , ExtBCD , ExtACDB ;
+
+
+
+$ENTRY BBAAC {
+  C CC s.11 CCC e.4 (ACD t.5 e.4 DBCC e.7 9 e.10 5 DBD ) 'c' t.10 
+    ,CD : 
+     { 
+  'b' 5 'b' CCAA BDC B 
+    ,<Lenw t.5 BCCA > : ('a' ) C 'c' 5 (C ) e.2  = 
+    1 ;
+  'b' 5 t.8 e.9 CD e.4 (('b' ) BC 8 DCCA ) C e.12 BDC B 
+    ,() () : ADB 1 e.12  = 
+    t.8 <ExtACDB 'c' e.10 > ;
+  'b' 5 t.8 8 BDC B  = 
+    BDA ;
+     };
+  C CC 8 e.5 ('b' ) 'b' e.2 'b' 1 t.10 
+    ,: 
+     { 
+  (BBBB ) 'c' s.10 
+    ,BAD (D () e.2 CDC ) : 'a' 
+    ,C : 
+    ,:
+
+    ,2 5 'c' <Ev-met e.2 'b' > B :  = 
+    3 ;
+     };
+}
+
+BDA {
+  () ('c' e.13 ) e.7 s.5 BA 'c' 
+    ,'a' : 
+     { 
+  (AC CB ) (6 ) 'c' 1 'c' 
+    ,: 
+    ,: 
+    ,BAB :  = 
+    ;
+  'b' s.12 e.7 (AC CB ) (6 ) 'c' 1 'c' 
+    ,e.13 :  = 
+    9 ;
+  'b' CDBC 'c' s.1 1 e.3 () s.12 e.7 (AC CB ) (6 ) 'c' 1 'c' 
+    ,'b'
+s.1 : 
+    ,'a' : e.11  = 
+    ;
+     };
+  () e.10 3 s.11 BC 7 e.2 e.7 (AC e.2 2 3 ) 'a' s.5 BA 'c' 
+    ,3 : 
+     { 
+  'b' BDC (e.3 ) 5 
+    ,(C ) () ABD :  = 
+    'b' ;
+  'b' BDC () 'ba' 5 
+    ,e.7 <Ord 10 > s.5 : 
+    ,e.2 :  = 
+    ;
+     };
+  () e.10 3 s.11 BCC 8 e.6 e.1 'd' t.8 s.5 BA 'c' 
+    ,: 
+     { 
+  10 7 6 'b' 9 'b' 
+    ,: DBCA 2 
+    ,e.10 : 'c' (ACA (e.11 e.4 'c' )
+) CC 
+    ,CAA : e.3 
+    ,: (s.1 ) 
+    ,D D e.1 BBB : (4 ) 'c' e.3  = 
+    s.11 <Prout 7 DB > s.1 e.10 ;
+     };
+  () e.10 3 s.11 BCC t.3 t.4 (CCB ) e.1 'd' t.8 s.5 BA 'c' 
+    ,BDCD (<ExtB (D e.10 BDC 0 CDCB s.11 <Mu >
+DBB <ExtGo e.10 'b' > ) <ExtBDB (DCA 2 'a' B BBCB BB ) <Ev-met e.10 BC > <ExtACDB 'c' ADAC > 1 > (CD e.1 ('a'
+) () ) 7 ('cd' 6 ) > ) : 
+     { 
+  CCD 7 BBB 'b' 
+    ,: (0 0 'd' t.11 e.2 () )  = 
+    ;
+     };
+  () e.10 3 s.11 BCC t.3 BCA 'c' s.8 BC (2 8 DC CAA BD C ) (BC s.8 9 DCCC e.9 ABC ) 'a' BDCB 3 'b'
+e.2 BB e.12 BDDD (CCB ) e.1 'd' t.8 s.5 BA 'c'  = 
+    'd' <BDA 'c' > ;
+  () e.10 3 s.11 BCC t.3 BCA 'c' s.8 e.5 s.3 t.5 'd' (CCB ) e.1 'd' t.8 s.5 BA 'c'
+
+    ,(<Ev-met > CBA ) B BBBB 6 'b' AC : 
+     { 
+  CB 
+    ,<ExtBC > :  = 
+    t.8 ;
+     };
+}

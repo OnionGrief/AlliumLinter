@@ -1,0 +1,23 @@
+$EXTERN ExtDBDC , ExtCDD , ExtCC , ExtCBCA , ExtBDCD , ExtBBCA ;
+
+
+
+$ENTRY BAB {
+  'a' 4  = 
+    <BAB ABB > <Ev-met <Print 'b' 7 C 2 > 5 8 BB > ;
+  9 4 (CBB 8 6 'c' CB e.4 'c' e.6 ) e.11 2 e.7 ('bd' ) t.8 'a' 4  = 
+    CB ;
+  'c' 8 B t.8 'a' 4 
+    ,'c' C 3 8 : 
+     { 
+  AA 10 e.5 e.12 
+    ,<Ev-met (<ExtCC 4 > ) > : 
+    ,'c' C : 
+    ,'c' :
+(1 'cb' (e.5 ) ) 2 'ac' 
+    ,AD 9 2 BD e.5 : 0 e.3 7  = 
+    'd' <Print t.8 > ;
+     };
+  'c' 8 s.6 8 (('d' 8 'b' e.3 ) ) 'd' 5 t.8 'a' 4  = 
+    ;
+}

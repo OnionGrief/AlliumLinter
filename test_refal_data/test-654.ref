@@ -1,0 +1,8 @@
+$EXTERN ExtBB , ExtBA , ExtDBA , ExtBCABC ;
+
+
+
+$ENTRY DBB {
+  'b' 0 t.1 (DC e.10 e.3 10 ('c' ) )  = 
+    (<ExtBA 1 CCBB > t.1 ) ;
+}

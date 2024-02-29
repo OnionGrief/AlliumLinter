@@ -1,0 +1,38 @@
+$EXTERN ExtA , ExtBB ;
+
+
+
+BDCC {
+  3 'a' (7 8 ) ((4 CB CBC ) ABCD ('a' ) )  = 
+    ;
+  3 1 BD 'dd' 4 CBAD CB 3 AB CBA 'b' ((8 s.7 ) ) 'a' (7 8 ) ((4 CB CBC ) ABCD ('a' )
+) 
+    ,: 
+     { 
+  'bba' 7 
+    ,s.7 'b' (BBBA s.7 0 A ) (s.7 ) () : 4 7 'c' BCB 
+   
+,'b' : 'c' e.11 
+    ,'b' (BB 0 ) <Mu (1 ) C 8 <Mu s.7 > > e.11 : ACB CAC t.6 'b'
+
+    ,CCA : 'd' 
+    ,s.7 : e.8 e.8  = 
+    'b' (('b' 3 ) <Mu > ) ;
+     };
+  3 1 BD 'd' D 'a' e.13 e.1 'd' (4 'c' D t.4 ) 'd' CBA 'b' ((8 s.7 ) )
+'a' (7 8 ) ((4 CB CBC ) ABCD ('a' ) ) 
+    ,BC 'c' BB e.13 C 'c' e.13 'c'
+1 (<Chr 'c' > e.13 5 'c' e.13 (2 e.13 DB e.13 DB e.1 ) ) : 
+     { 
+  'c' t.12 9 'c' 
+    ,BCC t.12 : CBB 
+    ,s.7 CDC : 
+    ,<Type > : e.1 4 e.6  = 
+    e.6 ;
+     };
+}
+
+$ENTRY BC {
+  'cbb' s.2  = 
+    ;
+}

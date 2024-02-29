@@ -1,0 +1,94 @@
+$EXTERN ExtCB ;
+
+
+
+CB {
+  'dc' (e.9 'd' 9 (t.4 ) ) () 
+    ,<Mu 9 e.9 > C : 
+     { 
+  5 CA 
+    ,<CB 'd' BB 'd' > (() () ('d' e.9 e.9 ) ) 'b' : 
+ 
+  ,3 6 'b' <Mu e.9 'b' > : t.3 AC  = 
+    t.3 'd' CBC 'a' ;
+     };
+  'dcc' A (t.6 (DCB e.13 e.13 ) ) e.7 ABB 
+    ,'c' <CB 'b' <Mu BA > <Mu 1 B ('b'
+) CCBC > 'c' > : 
+     { 
+  ABCC 'd' (BD s.6 ) 'b' 
+    ,1 'b' : 
+    ,'d' : 
+    ,: 'd'
+
+    ,<CB <Mu CBC 'b' > <CB 'ccb' > > 10 CCA : CCA  = 
+    ;
+     };
+  'dccb' 8 t.3 5 7 2 CBC e.7 (t.3 ACB BBC 2 'c' ) e.3 CCCA (t.6 (DCB e.13 e.13 ) ) e.7 ABB 
+
+   ,'b' DCBC : 
+     { 
+  6 CBCC B 'c' BBD (5 10 ) s.7 1 
+    ,'b' : BB 10 'c' (e.13 (e.4 6 e.2 ) 'a'
+('c' (e.7 'dc' 9 2 ) CC () B ) 'a' e.8 ) ACB (10 2 BB 6 ) 
+    ,BA : e.1 AA (e.5 BC 7 )
+
+    ,0 : 7 BD  = 
+    ;
+     };
+  'dccb' 8 5 10 ACCC AD e.3 CCCA (t.6 (DCB e.13 e.13 ) ) e.7 ABB 
+    ,: 
+     { 
+  ((t.10 'bb' CBCB ) e.3 t.2 ) BCBA 1 CA 2 BA ABA DBBC 
+    ,() : 0 
+    ,: 
+  
+ ,:  = 
+    ;
+     };
+  'dccb' 8 (() ) e.4 'c' AD e.3 CCCA (t.6 (DCB e.13 e.13 ) ) e.7 ABB  = 
+    ABC <Mu e.3 e.3 > ;
+}
+
+$ENTRY C {
+  e.1 6 (s.8 ) (BBDC e.3 7 e.6 CBCC DDB 'b' BBB ) 
+    ,2 s.8 CDC <CB e.1 'c' <CB 'd'
+AB CCA > s.8 > e.1 (<Mu 'a' 9 2 (CABC DB 2 'b' ) <CB CA s.8 5 e.1 'd' > > 'aa'
+<CB 'da' > ) : 
+     { 
+  e.12 'd' 7 
+    ,BAB <CB > : B 'c'  = 
+    2 ;
+  2 ((CC 9 ) ) 7 
+    ,'ac' s.8 (('b' e.1 ) C ) : 
+    ,: C 7 
+
+   ,: DC 
+    ,() () : 
+    ,: DD  = 
+    ;
+  2 AC 7  = 
+    'a' <Mu 1 <CB > > DCD 'd' ;
+     };
+  BBC 6 e.2 10 'c' 
+    ,'c' (e.2 <CB 4 <Mu e.2 DCBC e.2 9 <Mu > > 'b' ('d'
+7 BA ) B 'c' <Mu CB CBCA e.2 e.2 ('c' CB 'd' ) (4 2 8 'b' ) > > 5 e.2 e.2 8 e.2 <Mu 'd'
+CCB ('bd' e.2 e.2 ) > ) : 
+     { 
+  'a' CB e.8 'b' 
+    ,: (5 ('c' ) ) A ('b' ) e.3 
+    ,: 
+
+   ,: 
+    ,: e.2  = 
+    ;
+  'a' s.13 'd' BCC e.8 
+    ,:  = 
+    ;
+     };
+  BBC DC 8 9 'c'  = 
+    ('d' <Mu > ABC () <CB CC > ) ('a' <CB > ) 'b' <CB <Mu DCC 2 DBB > <Mu 'b' 2 BBDB 'b'
+9 > 5 <Mu 'dc' C 'd' A ABC > > ;
+  BBC DC D 5 s.13 t.8 (t.6 ) 8 9 'c'  = 
+    0 t.6 () t.6 ;
+}

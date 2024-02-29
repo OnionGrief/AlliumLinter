@@ -1,0 +1,113 @@
+$EXTERN ExtBCABA , ExtC , ExtCAD , ExtBBCC , ExtDB , ExtA , ExtAD ;
+
+
+
+DC {
+  8 9 
+    ,9 <ExtDB BBAB 8 > 3 BB : 
+     { 
+  DDBD t.10 D 
+    ,<Mu 4 > : 2 
+    ,:  = 
+    t.10 BCAB (A t.10 t.10 'a' ) t.10 ;
+     };
+  8 8 5 (t.12 ) BCCC 'a' BCC 'b' ((e.9 ) )  = 
+    ;
+  8 8 5 (t.12 ) 'd' BB 3 ((e.9 ) ) 
+    ,ACC C BC <Mu 'b' BD 7 (<ExtBBCC 'd' CA 5 DCD BBDC >
+t.12 DBCC ) (BCB B t.12 <Lenw t.12 'dc' 4 2 > <Mu e.9 'c' e.9 1 'd' > (t.12 4 BB e.9 'b'
+BBB ) ) > : 
+     { 
+  ('c' BB ) 'b' () e.13 
+    ,: CBDA 10  = 
+    ;
+     };
+}
+
+$ENTRY CBCBC {
+  (6 'b' ) s.8 e.4 BBC DCDC  = 
+    (BBC 'bb' (<ExtCAD BDCC (5 4 CCA 2 3 'b' AB ) CB (s.8 'bbc' ) 2 'b' e.4 > <Print 'cd'
+<DC e.4 5 s.8 s.8 e.4 e.4 > > ) 3 s.8 ) (B <Type <Print e.4 'c' DAA 'a' > e.4 ()
+> ) ;
+  (6 'b' ) s.8 (B 6 ) (CC CDCA 'd' 2 ) 'bc' DCDC 
+    ,7 : 
+     { 
+  () CCA (4 ) (t.8 (9 s.7 ) CCCD ('cb' ) e.2 ) 'd' 
+    ,CB CBB t.8 : 
+
+   ,'a' t.8 (CBDA ) t.8 BABA : 6 
+    ,: 
+    ,: 
+     { 
+  1 (s.11 'b' 6 ) (() (1 9 ) (1 s.10 t.2 ) ) 
+    ,t.8 : 4 
+    ,t.8 1 :
+t.3 ABB 
+    ,: 7 
+    ,('d' ) CB : 
+    ,'b' (5 ) B : DBC  = 
+    ;
+  (1 ) 'a' t.5 7 (s.11 'b' 6 ) (() (1 9 ) (1 s.10 t.2 ) ) 
+    ,:
+'c' e.3 (7 6 ) 
+    ,: ADCD 3 'b' e.4 
+    ,DBAC : 'c'  = 
+    ;
+     };
+     };
+  (6 'b' ) s.8 (3 e.11 e.5 s.7 'd' 2 B e.8 BB e.11 ) e.12 'bcdb' ACC 3 BD DCDC 
+
+   ,CB B e.11 'c' 7 e.11 : 
+     { 
+  CB e.7 6 (t.3 ) 5 1 5  = 
+    4 ;
+  CB e.7 s.4 e.11 BBBB 5 1 5 
+    ,() :  = 
+    ;
+     };
+  (6 'b' ) s.8 'b' (A DDD CBD ) AC CB 'c' DCDC 
+    ,s.8 : 
+     { 
+  1 s.10 'd' BBA (CB s.2 e.12 (10 'c' ) ) CBCD DD s.12  = 
+    ((s.8 s.10 ) ) s.2 <Chr () > ;
+     };
+}
+
+DCA {
+  s.12 'c' 
+    ,'b' s.12 <Type B BBDB DC s.12 'c' s.12 > : 
+     { 
+  'c' 4 
+    ,(DDC ) : 'a' e.2 
+    ,: e.13 e.8 
+    ,s.12 : CB 'c'
+e.5  = 
+    CAA ;
+  B BAC DC 4 
+    ,<Prout 'c' > : e.3 ('d' ) e.5 
+    ,e.3 9 : e.1 
+  
+ ,s.12 AA CB : 'a' ((s.6 5 ) ) 'b' 
+    ,'d' <Ev-met CBA 10 'c' (CDDC 3 10 9 )
+> 'a' <Prout > :  = 
+    s.6 (<Lenw AB 'a' > 'cb' ) CAD 0 ;
+     };
+  5 5 s.6 'c' 
+    ,CA BBB 2 'c' (CBB 1 s.6 CCC ) 'c' <ExtCAD 6 2 0 9 > 1 (2 'a' s.6 s.6 9 9 8 8 6 )
+: 
+     { 
+  6 CBBC 'a' 5 
+    ,s.6 <Print <Prout 'd' > > : 
+    ,: e.7 2 5 
+    ,3 :
+s.2 D 2  = 
+    ;
+  6 (() 7 ) 'b' AA DD 9 B t.2 5 
+    ,D CB : e.11 
+    ,'b' CCAB CD s.6 : 3 'd'
+4 
+    ,: e.3 BBB 
+    ,<CBCBC ABB <ExtC 10 t.2 2 > > : DCC s.5 'd' DBAB  = 
+    C ;
+     };
+}

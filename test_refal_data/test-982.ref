@@ -1,0 +1,92 @@
+$EXTERN ExtGo , ExtCDABC ;
+
+
+
+$ENTRY DCBB {
+  6 e.5 8 AA 2  = 
+    'c' CAD <Ev-met > 9 ;
+}
+
+ADCA {
+  (t.12 'a' s.3 ) ('ac' ) 'b'  = 
+    t.12 (<ExtCDABC s.3 1 4 > 'a' 8 ) () 'c' <Mu CCD (s.3 (<Upper s.3 5 > DAAC ) s.3 ) (7 'b'
+) s.3 3 > ;
+  (t.12 'a' s.3 ) ('ac' ) 'b' (3 B ) 10 'bd' (e.4 s.5 (1 5 BB 'c' 2 'b'
+t.3 CBC e.2 ) 'ab' CCC 'c' 5 'c' (e.11 CC e.10 e.1 (e.6 1 s.5 BDD 7 e.6 'b'
+0 e.9 ) 'c' ('c' e.10 9 C ) ) ) 'c' (3 'a' ) 'b' e.10 e.6 ('c'
+('b' (e.6 ) (2 AA ) 'd' e.1 e.8 'da' 1 t.3 ) e.8 B 'a' ) 3 6 
+ 
+  ,(AC ('aca' ) ) 'b' : 
+     { 
+  2 (('c' C ) 8 'c' ) BDCB 5 ((CC ('daa' ) ) s.1 4 ) (CA ) 
+    ,6 :
+6 CDDC 4 e.12  = 
+    'c' ;
+     };
+}
+
+BBCD {
+  (2 ) 2 'ac' 10 
+    ,<Prout 5 <BBCD D CCB > 1 7 <Upper CD B 'a' (<Lenw > 'd' ) DCAB <Chr ('a'
+CB ) 'b' CCB (DD BBA ) (9 2 'b' CDB 0 ) 'c' > > > BBA (<Print ABBB 9 7 CBDA > ) : 
+     { 
+  B t.3 
+    ,: 0 A 
+    ,: 9 e.9  = 
+    ;
+  e.10 'c' e.4 (1 ) t.3 
+    ,: 
+    ,: 9 'a' 
+    ,: e.6 'c'
+ = 
+    ;
+  'a' (1 ) CAAA ADB 'c' (1 ) t.3 
+    ,: 8 3 
+    ,: 'c' 
+    ,: 
+
+   ,: 
+    ,:  = 
+    ;
+     };
+  (2 ) 2 (() ) (() ) 10 
+    ,: 
+     { 
+  (ABC (t.11 s.10 e.7 9 ) 6 e.4 ) ADDC e.8 s.11 
+    ,3 : 1 
+    ,2 : e.12 
+
+   ,(4 ) 7 e.4 : (e.5 ) ACB 
+    ,: 
+    ,s.10 (2 ) : (e.4 e.8 7 4 'c'
+) ACA BBDD BCC AB  = 
+    ;
+     };
+  (2 ) 2 (() ) (() ) 10 e.9 5 9 10 
+    ,: 
+     { 
+  e.8 CC 6 
+    ,: DC e.2 
+    ,e.8 (5 'b' ) e.8 CD : 
+    ,e.2 CCD 'd'
+: CBC (B )  = 
+    7 ;
+  ADD 'b' 
+    ,: 3 
+    ,: A (2 7 ) BBDD 'c'  = 
+    4 e.9 ;
+     };
+  (2 ) 2 (() ) (() ) 10 t.1 10 
+    ,'ca' : 
+     { 
+  'c' BCAD 2 
+    ,BAB : 3 'c'  = 
+    'a' ;
+  'c' BCAD 2 
+    ,8 : 'a' () ((s.3 'a' 3 3 ) CB 'b' )  = 
+    <Upper ('cb' BB s.3 ACA ) <Mu AA > > ;
+     };
+  (2 ) 2 (() ) (() ) 10 (D ) AC AB e.13 e.13 'a' e.13 t.1 10  = 
+    e.13 <Lenw 6 BCD (t.1 ('a' ) (4 7 t.1 DA 9 e.13 'c' ) t.1 t.1 <Print 'c' 3 'a'
+ACBA e.13 'b' > 'a' ) <Lenw t.1 <Mu 'd' e.13 BABC > > > e.13 (CDAC 2 B 1 ) 9 () ;
+}

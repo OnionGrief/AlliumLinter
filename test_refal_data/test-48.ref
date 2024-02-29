@@ -1,0 +1,62 @@
+$EXTERN ExtACBAB , ExtDCC ;
+
+
+
+B {
+  'd' e.1 B  = 
+    C ;
+  'd' (ADDB ) e.7 A 10 3  = 
+    (CB ) e.7 e.7 CDCC 3 3 (e.7 e.7 AA CC ) 6 e.7 ;
+}
+
+$ENTRY CACC {
+  DC s.9 A e.11 'c' ABCC e.7 (5 s.12 )  = 
+    BB ;
+}
+
+AC {
+  3 (e.7 5 ) () 8 BA 
+    ,e.7 2 2 1 : 
+     { 
+  'b' e.11 ('b' (e.2 e.4 BADD e.4 'c' ) CD ) e.7 s.3 
+    ,ACA CBB <Prout 6 7 4 >
+: 
+    ,(BC ) : e.6  = 
+    'ac' ;
+  'b' 3 t.1 (e.3 10 'a' ) CC e.7 s.3 
+    ,BCAB : C (DBC DBAB ADB 6 'b' ) () (1 2 )
+'c' e.5 
+    ,: 8  = 
+    6 5 (CBD (<Type s.3 CAA 'c' 2 BBB > 7 e.3 'b' ) <ExtDCC > C ) 9 e.3 ;
+  'b' t.5 8 'c' 3 t.1 (e.3 10 'a' ) CC e.7 s.3 
+    ,<CACC > : e.7 
+ 
+  ,: BD 
+    ,: 4 ()  = 
+    ;
+     };
+  s.9 (s.10 ) () 8 BA  = 
+    s.9 'd' ;
+  s.9 'c' t.9 t.5 e.8 (s.10 ) () 8 BA  = 
+    4 s.10 <Lower 'a' > ;
+  s.9 'c' t.9 t.5 (s.10 ) () 8 BA 
+    ,'b' s.9 <Type 1 <Prout (5 <Lenw 'c' 0 >
+) 0 <AC 'c' > > > : 
+     { 
+  
+    ,5 CBB 2 : 
+     { 
+  1 e.4 9 7 AC 
+    ,<Type s.10 > (e.4 ) : 
+    ,: DAC e.2 
+    ,e.4 <Mu BBA >
+: 4 CC (1 ) e.2  = 
+    t.5 ;
+     };
+  2 DAAC 'a' 6 t.13 
+    ,CBBB (2 ) <CACC CBC AA 'c' > : 'd' e.5  = 
+    DBD CBC CB ;
+     };
+  s.9 'c' t.9 t.5 CCD 3 'bbccbac' BC (s.10 ) () 8 BA  = 
+    ;
+}

@@ -1,0 +1,108 @@
+$EXTERN ExtDC , ExtBC , ExtDDBB ;
+
+
+
+BCCAB {
+  (5 ) 9 CB 
+    ,BD 'b' : 
+     { 
+  () CCB s.8 'c' 
+    ,'b' : 
+    ,'b' <Mu s.8 'c' > : 
+    ,B ('a'
+) : e.3 2 
+    ,:  = 
+    () ;
+  () DC 'c' s.8 'c' 
+    ,: 'cb' ('a' CAB (t.13 ) ) 7  = 
+    <Mu (s.8 CAA 'd' ) 8 > AA (BD s.8 ) 8 4 s.8 ;
+     };
+  (5 ) 'c' 5 (BCA ) e.5 BB (e.6 ) 'a' BA 
+    ,(<Chr 7 > ) <ExtDDBB > : 
+     { 
+  8 CDBA 'd' 
+    ,'d' <Mu <Type 1 > 2 > : 2 ((C ) ) 
+    ,e.6 : B 
+  
+ ,DB : 
+    ,D (1 AA ) : 'c'  = 
+    <Mu > ;
+  CA 5 BA 8 8 CDBA 'd' 
+    ,e.6 : 'c' e.12 
+    ,: (7 AAC t.8 2 C ) 9 BB 'b'
+
+    ,: 'd' e.7 'd' 
+    ,'bc' AC : AB (e.13 e.7 ) 9 e.9 'c'  = 
+    e.9 <BCCAB 4 'b' 7 > <ExtDC 'b' 7 > ;
+     };
+  (5 ) 'c' 5 'bb'  = 
+    ('d' 6 ) ;
+  (5 ) 'c' 5 'bc' e.13 BCCC (9 2 ) e.2 
+    ,10 : 
+     { 
+  'd' 8 (e.11 2 ) 'b' 4 'a' 
+    ,'b' 4 C 0 : BAB C 'ca' t.2 
+    ,'d'
+: (BCDC )  = 
+    CB <Prout 7 <Mu e.2 e.13 'd' e.13 > > C <Mu <Prout 'b' 2 e.2 > > ;
+  'd' 8 'b' 4 'c' 1 'd' 4 'a' 
+    ,5 : 'b' 
+    ,(<Prout e.2 > )
+(<Ev-met 'c' > ) : t.4 
+    ,(<Type t.4 'a' > ) <DDABC > :  = 
+    ;
+     };
+}
+
+$ENTRY DDABC {
+  BB 'a' s.12 
+    ,s.12 ('a' s.12 9 <Mu ('d' BCC ) s.12 s.12 > ) 3 (3 CDD 8 s.12 'b'
+5 ) s.12 s.12 BA 'c' <Type <Mu (7 9 'b' CCC ) B () 'c' B 'c' <Lenw 'c' 7 CCDC CC 'c'
+DC CBCA > > 'd' > : 
+     { 
+  e.6 e.5 ('c' ) 'c' DCBD 
+    ,: ((AB 'a' ) DAC 4 CBA ) 'c' (DBCC 2 B (0 'c'
+) ) 'bd' 
+    ,: 'bb' 
+    ,: e.10 e.10 
+    ,: 
+     { 
+  s.8 CAA 
+    ,:  = 
+    ;
+  s.8 () B 'a' 
+    ,: 
+    ,: 3  = 
+    ;
+     };
+  e.9 2 () 'c' s.3 
+    ,: e.11 
+    ,: 'a' AB 0 ('c' 6 e.10 ) 7 'c'
+
+    ,: e.1 e.2 4 
+    ,: 
+     { 
+  (('a' 9 ) ) e.3 B 
+    ,: 3  = 
+    ;
+  (('a' 9 ) ) CB (0 ) B  = 
+    ;
+     };
+     };
+  BB AD (AB ) e.7 e.11 DD 'b' 7 () ACDC e.5 'a' s.12  = 
+    'a' (e.11 5 e.11 ) 5 ;
+  BB 'b' s.6 e.5 'a' s.12 
+    ,DCC (2 BC ) 'd' (AB <Print > 6 10 ) 'c' <Type 'd'
+> : 
+     { 
+  s.4 BABC ((s.8 (t.3 ) 'c' ) e.4 t.12 ) 'b' ('b' (AB t.12 'b' ) ) (4 7 'c'
+CBAC B ) 
+    ,2 <ExtBC s.6 > 'd' : (6 ) 
+    ,() : 0 
+    ,6 <ExtDDBB 'b'
+BCB DB <Ord AAB 'd' 7 e.5 > (8 'b' CAD 'ac' 9 ) > : ((10 ) ) (9 'd' ) 
+ 
+  ,: BA (BC e.9 'cb' ) 1 BDC 7  = 
+    (4 <Type BCB <Type 'bc' > > ) ((() ) ) ;
+     };
+}

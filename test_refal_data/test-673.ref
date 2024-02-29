@@ -1,0 +1,28 @@
+$EXTERN ExtGo , ExtBCD , ExtCCB , ExtABBCC , ExtCA ;
+
+
+
+$ENTRY CDBB {
+  'a' (() ) (BC (ABBB e.2 ) 5 ('cda' B ABC 9 'c' ) ) 10 (e.5 ) (2 e.1 (BCBC 4 e.6 0 D (DB 'bca'
+A 'c' ) e.12 'b' ) BBB e.10 CBCB 'c' ) 'a' DAAD CDC  = 
+    ;
+  'ad' 7 CB e.5 s.7 'a' DAAD CDC 
+    ,((5 9 7 'a' e.5 CC ) 'bb' ) D CABD CBC BB BB 'd'
+: 
+     { 
+  BC 2 'b' (BC ) 
+    ,: (e.3 4 ) 'a' 8 CA e.8 'b' 
+    ,: 5 
+   
+,(s.7 e.5 CA 3 e.5 ('b' s.7 ) ) A BD 5 'd' : e.3 
+    ,e.5 : e.5 'c'
+() 9 4  = 
+    8 () <Prout > ;
+     };
+  'ab' (() e.13 e.2 'b' BBB 9 ) 1 s.7 'a' DAAD CDC 
+    ,e.13 : 
+     { 
+  4 0 e.7  = 
+    ;
+     };
+}

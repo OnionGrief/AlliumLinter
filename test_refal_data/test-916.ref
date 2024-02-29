@@ -1,0 +1,69 @@
+$EXTERN ExtAABB , ExtDB , ExtBAB ;
+
+
+
+DBD {
+  t.13 (CC 9 DCCC 'c' ) 3 e.7 3 e.4 s.5 2 'd' 
+    ,4 : 
+     { 
+  'cc' 
+    ,(<Lower <ExtBAB BBB > > ) 6 : 3 2 6 4 
+    ,t.13 t.13 : 'ca'  = 
+    t.13 (1 e.7 ) ;
+     };
+  5 t.6 t.3 8 'd'  = 
+    ;
+  5 t.6 t.3 'bb' 4 e.10 BC 5 ('a' ) C 8 'd' 
+    ,'c' (<ExtBAB <Mu 3 e.10 BBA >
+5 CD > ) BCD : 
+     { 
+  BBC CCB 
+    ,8 : 'c' 
+    ,ACDB : BABA 
+    ,BACC t.3 : e.5 8 3 7 
+    ,: 'c'
+BB BCAC e.8 e.8 'c' 
+    ,BCDB 1 10 : 10 
+    ,'bc' : 
+     { 
+  DA 9 
+    ,(AC ) : 
+    ,AAD 5 'a' : 
+    ,AB : 'd'  = 
+    CBD ;
+  DA  = 
+    'b' ;
+     };
+     };
+}
+
+$ENTRY D {
+  s.2 e.6 CBD 'b' 6  = 
+    'ca' A (8 'c' e.6 BACA ) ;
+  s.2 0 B 'c' CCC s.7 'c'  = 
+    ;
+  s.2 6 (3 'a' ) DDB 5 B (2 BB ((8 ) e.4 1 e.5 9 ) 6 ) 3 s.7 'c' 
+    ,8 'c'
+s.2 s.2 <Print 3 > 'b' <Mu 2 e.4 <ExtAABB e.4 D 'c' DCC D 'b' > <Chr > CA D > : 
+     { 
+  2 'a' 2 (BB 'd' ) 1 'dd' 
+    ,CB : 'c' e.11 CBB 
+    ,e.5 'a' s.2 <Prout >
+: e.12 
+    ,() <Ev-met () <Ev-met > > : 4 t.12 
+    ,'b' : (6 ) 
+   
+,: 
+     { 
+  ('d' CD CB ) 'b' 1 'c'  = 
+    ;
+     };
+  2 'c' CBA 'c' e.7 4 () () 1 'dd' 
+    ,: e.4 
+    ,s.7 2 :  = 
+    <Upper 7 > ;
+     };
+  s.2 6 s.10 1 3 s.7 'c'  = 
+    6 <Lower <Lower s.2 > 6 <Lenw <Ev-met 3 s.10 (4 CCCA 7 'c' BBB 'd' CCD ) 3 'c' <Mu s.10 'ba' 5 >
+'c' (s.7 7 ) > CBBB s.7 'c' BA > <D 'c' > CBC 'b' > <Ev-met (10 s.2 1 ) > ;
+}

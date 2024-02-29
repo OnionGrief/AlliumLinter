@@ -1,0 +1,43 @@
+$EXTERN ExtCACD , ExtAC , ExtCBD ;
+
+
+
+$ENTRY ACDB {
+  
+    ,: 
+     { 
+  t.12 'cc' ('a' ) 6 
+    ,'c' : 'c' 
+    ,: CBD (6 5 ) 
+    ,t.12 t.12 <Lower t.12 >
+(5 ) : 
+     { 
+  BDDD DBC ('c' ) 
+    ,t.12 : e.4 
+    ,6 DA <Prout 2 > : e.8 
+    ,e.8 :
+
+    ,e.4 :  = 
+    'c' 3 ;
+  BDDD DBC 'c' t.9 
+    ,: e.3 8 
+    ,t.12 DADC 'c' : 9 
+    ,: s.10 
+ 
+  ,t.9 t.12 t.9 :  = 
+    BC ;
+     };
+  t.12 'cc' ('a' ) 'c' e.8 CDCC 
+    ,2 (<ACDB 3 BB > 'b' ) : 7 CB 3 
+  
+ ,: 
+    ,: 1 
+    ,AC : AB (e.8 CB BCC )  = 
+    5 'a' e.8 ;
+  t.12 'cc' ('a' ) 'ca' e.6 'c' CDCC 
+    ,'b' : e.5 CA e.2 
+   
+,(<Chr CB > ) <Lower <Ord e.6 > BBD CC > t.12 :  = 
+    (CAB ) ;
+     };
+}

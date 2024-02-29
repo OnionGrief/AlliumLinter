@@ -1,0 +1,53 @@
+$EXTERN ExtCAC , ExtCCBB ;
+
+
+
+DCCAC {
+  (0 ) e.8 8 ((e.9 (9 'c' D ) (BA ) ) e.11 ) 'a' 
+    ,'d' : 
+     { 
+  2 4 10 7 s.2 
+    ,3 BAB <Print BBA e.9 e.9 (DAD 1 ) e.9 > : ACBB AB 
+    ,: 
+    ,4 :
+
+    ,'c' : 6 ('cb' )  = 
+    ;
+     };
+}
+
+$ENTRY CDA {
+  'b' 3 CCD (() ) 
+    ,<Lower <ExtCAC 'ac' > > : 
+     { 
+  3 'c' (s.12 ) 
+    ,'c' : 1 'a' e.3  = 
+    'a' ;
+     };
+  'b' 0 'b' s.8 (() )  = 
+    s.8 s.8 ;
+  'b' (5 s.10 s.9 ) 'a' s.12 2 CC 8 'bb' s.8 (() ) 
+    ,<ExtCAC DC 'd' (D C )
+DA > 3 BA <Lenw 5 > : 
+     { 
+  () e.7 8 B e.3 
+    ,DB CAAB : 
+    ,<ExtCAC > : 
+    ,: BD 
+    ,AC <Lower <Ord 'bd'
+> <Lenw <Upper s.10 6 > 9 6 'd' > > : 3 'a'  = 
+    'b' ;
+     };
+  'b' (5 s.10 s.9 ) 'a' s.12 2 CDB 7 CCB D 'b' e.4 e.11 t.13 'bb' s.8 (() )
+
+    ,BC : 
+     { 
+  e.8 9 BC (BBDA 'a' ) () t.1 t.7 
+    ,6 (<Chr 8 1 > 'c' ) t.7 7 (5 BCA t.1 (s.10 )
+) : ('c' 3 ) 
+    ,<Mu (CC C ) BCC 4 <Mu > > (<Mu ABC 0 > s.12 ) 7 :  = 
+    ;
+     };
+  'b' (5 s.10 s.9 ) 'a' s.12 2 3 1 ABB 'bb' s.8 (() )  = 
+    ;
+}

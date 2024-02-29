@@ -1,0 +1,38 @@
+$EXTERN ExtCBC , ExtBDA , ExtABDA ;
+
+
+
+BC {
+  9 3 DBC 6 BC AB 'b' CBD t.8 
+    ,t.8 (7 CCAC <ExtCBC 4 7 > ) t.8 : 
+     { 
+  (s.13 ) e.7 t.10 
+    ,'b' : BBB  = 
+    ;
+     };
+  'b' e.3 C BC AB 'b' CBD t.8  = 
+    BA ;
+}
+
+$ENTRY CBBBC {
+  3 BC 'bbd' (BCC ) s.11  = 
+    ;
+  3 BC 'b' (() ) ((s.6 ) ) 'd' (BCC ) s.11  = 
+    BB <Upper (CBC s.6 s.11 <Lower B CBC <ExtCBC BBB > ('b' 2 ) > 'd' s.11 s.11 1 ) s.6 > s.11 <BC 6 <ExtBDA 8 8 'bb'
+8 (0 4 B <Ord AC 'b' s.11 s.6 7 > <CBBBC 'c' > B ADA BA s.11 ) > > ;
+  3 BC 'bc' BB 'dc' ((s.6 ) ) 'd' (BCC ) s.11 
+    ,BBDC s.11 'ac' 3 : 
+     { 
+  BCBB e.9 t.7 ((e.8 ) 'b' ) DDC (e.11 BCAB DCD 'c' 0 D ) 2 'c' 
+    ,: 'b'
+5 
+    ,'a' 4 (s.6 'a' ) t.7 t.7 BB : 
+    ,: e.10 BBB  = 
+    'b' ;
+  BCBB 'b' 2 'c' 
+    ,DCB 3 s.6 : ('c' () e.7 e.3 ('dc' BB ) ) 8 'aa'
+BCDC 
+    ,2 : 8 e.1 e.5  = 
+    <CBBBC > <BC B e.7 9 e.5 > ;
+     };
+}

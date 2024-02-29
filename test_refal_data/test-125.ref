@@ -1,0 +1,94 @@
+$EXTERN ExtDBB , ExtBAAA , ExtAC , ExtAB , ExtBB ;
+
+
+
+$ENTRY Go {
+  'b' e.11 BBAC t.5 CBC CC 
+    ,t.5 t.5 ABCC : 
+     { 
+  10 CB t.11 t.12 C 
+    ,: 5 
+    ,9 t.5 : t.2 
+    ,t.11 : CAC DAA 1 e.4 2  = 
+    ;
+     };
+}
+
+C {
+  8 t.6 s.2 'c'  = 
+    9 s.2 t.6 AABC CDB ;
+  8 t.6 s.2 'b' CB 'c'  = 
+    s.2 (6 CC ) 'b' <Ord > ;
+  8 t.6 s.2 'b' CACB 'd' e.10 CB 'c' 
+    ,AD : 
+     { 
+  8 C 1 e.6 'd' 5 'b' 
+    ,<Type > : 1 'b' (10 1 'd' ) (6 'a' ) 
+ 
+  ,: 
+    ,: e.13 
+    ,<Print 'b' > 8 <Mu <ExtDBB > BCCB > : 'b' 2 
+   
+,<ExtAC e.13 > (BA 'd' ) DCB 'cc' :  = 
+    'b' ;
+     };
+  8 t.6 s.2 ('c' 9 e.6 e.10 (AB CD 'ab' ) e.13 ('c' e.3 e.13 7 'c' e.9 'c'
+) B 'c' ) CB 'c' 
+    ,9 <C e.6 > : 
+     { 
+  ('c' ) 
+    ,'c' : 
+    ,'bbb' : ACDC 'c'  = 
+    (CD ) e.3 <Ev-met 'cdac' > ;
+     };
+  8 t.6 s.2 BCA 'b' ADB CB 'c'  = 
+    <Print AC s.2 (t.6 ) > (<Chr 'd' 0 6 AD 'c' t.6 > ) <Chr > <Ev-met <Mu (9 'b' ('d'
+4 ) <Ord BB > CC t.6 ) BA s.2 BBB 2 t.6 s.2 s.2 <Mu CB 'bb' > > BCA (<ExtDBB (BC BCB 2 s.2 )
+4 > t.6 BBB ) > ;
+}
+
+CDDBC {
+  (e.7 e.2 ((BDCB BBBC ) e.8 7 ABB BABC ) () ) A 7 DAC 8 
+    ,<ExtAB > : 
+     { 
+  'd' e.9 
+    ,: e.1 9 'b'  = 
+    ADC ;
+  () s.12 (4 'dd' ) 'bd' e.9 
+    ,'c' : 
+    ,:  = 
+    BC ;
+  () s.12 (4 'dd' ) DCCB 8 (C 1 () e.1 ) 3 BAA 'd' e.9 
+    ,<Mu DDB 8 > : 
+
+   ,DB : BAA 'c' e.8 e.8 
+    ,<Go AAC > : e.12  = 
+    ;
+     };
+  AC ('b' ('b' ) CCB ) s.2 3 A 7 DAC 8 
+    ,() 'c' <ExtAB > CA s.2 : 
+     { 
+  6 5 'b' 4 e.10 t.7 e.1 e.10 
+    ,2 0 : 
+    ,6 (CB ) : (BB 'b' 2 ) (CA 'd'
+) 'a' 5 8 (e.9 7 e.3 CC CDA ) 
+    ,CAB <ExtBAAA > DA <Go 1 8 7 > : (8 6 ) A e.12 'b'
+ = 
+    'c' 9 CB <Print 'd' (s.2 9 t.7 e.10 e.9 e.9 ) e.12 <C e.1 ABB > > ;
+  6 t.6 e.5 t.11 CCA (0 ) 4 e.10 t.7 e.1 e.10  = 
+    ;
+     };
+  AC ('b' ('b' ) CCB ) s.2 3 BBC 4 t.9 9 (() 6 CB 6 BDC ) ADB s.2 BD ADCD e.10 A 7 DAC 8 
+ 
+  ,: 
+     { 
+  7 CBDD  = 
+    ;
+     };
+  AC ('b' ('b' ) CCB ) s.2 3 BBC 8 ABB e.12 e.11 s.13 9 e.12 (9 e.7 BB e.11 e.7 ((BB 3 3 'd'
+e.12 'a' CC 5 2 ) BB (6 CCB 5 e.3 'c' 2 5 ABCB 'c' 6 ) 'b' e.6 ABCC e.8 ) 'c' e.4 6 s.9 )
+10 A 7 DAC 8  = 
+    e.6 ;
+  AC ('b' ('b' ) CCB ) s.2 3 BBC e.11 t.6 t.2 10 A 7 DAC 8  = 
+    e.11 ;
+}

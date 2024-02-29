@@ -1,0 +1,33 @@
+$EXTERN ExtCDBDB , ExtBCAB ;
+
+
+
+$ENTRY DBAD {
+  (7 'c' ) s.8 (5 ) 6 e.2 9 (6 'b' (() t.9 ) (t.8 ) ) 
+    ,: 
+     { 
+  'cc' 
+    ,: 4 2 (8 2 ) 'b'  = 
+    'b' ;
+     };
+  (7 'c' ) s.8 (5 ) 6 6 'd' (6 'b' (() t.9 ) (t.8 ) ) 
+    ,<Mu CAB 'da'
+s.8 <Mu 'b' ('b' t.8 B C ) <Mu 9 BB t.8 s.8 'b' > CDC 'd' > > t.9 (8 t.8 t.8 (t.9 )
+'c' s.8 t.9 BC ) : 
+     { 
+  'c' ('b' 4 ('ca' BCB 10 10 ) ) 'd' e.5 
+    ,: e.12 
+    ,: 
+ 
+  ,BC 'b' BABC : 0 
+    ,: 
+    ,: 
+     { 
+  e.3 B 'c' 5 
+    ,: 7 
+    ,<DBAD D > : 'a' 
+    ,9 BCCA 9 : 2  = 
+    <Mu > e.12 ;
+     };
+     };
+}

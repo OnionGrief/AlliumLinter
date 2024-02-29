@@ -1,0 +1,29 @@
+$EXTERN ExtCBB , ExtB , ExtAB , ExtCA , ExtCBDAB , ExtDBCD , ExtAA , ExtCDBC ;
+
+
+
+$ENTRY BBC {
+  'b' DC 'b' s.11  = 
+    <Lenw DCB 8 > (<Upper 'c' 4 s.11 s.11 'c' CCA s.11 > <Mu 'ad' > B ) 'd' ;
+  'b' DC B 'b' AC 'dd' e.6 CBD e.9 () e.9 ('b' 1 e.6 AD 5 e.12 e.6 'd' )
+CB (t.12 t.3 t.4 'c' ) 6 s.11 
+    ,BB t.3 : 
+     { 
+  ('c' ) 1 
+    ,CC e.12 s.11 : 4  = 
+    1 ;
+  CBAC e.12 'a' ABDC BCB 5 BB 4 9 'b' 
+    ,<Lower > : e.10 6  = 
+    6 ;
+  CBAC e.12 'a' ABDC 'b' 
+    ,e.9 : 
+    ,6 5 CCB ABCB DCC (() <ExtDBCD ABC s.11 > () ()
+'b' ) : 'b' 
+    ,(s.11 ) : (DAD ) 
+    ,(<Lower e.12 > <Mu > 'c'
+) <ExtAB 8 5 (2 6 ) e.6 > e.6 'd' :  = 
+    s.11 ;
+     };
+  'b' DC B 'b' BD (ACC ) BB 'bb' CB (t.12 t.3 t.4 'c' ) 6 s.11  = 
+    ;
+}

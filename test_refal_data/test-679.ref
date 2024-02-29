@@ -1,0 +1,119 @@
+$EXTERN ExtCCB , ExtBCCB , ExtCBCA ;
+
+
+
+$ENTRY ADB {
+  'c'  = 
+    D 'cb' 3 2 BCD 'a' ;
+  () DB (CCC ) CBA 2 'c'  = 
+    'b' 1 'b' AA ;
+  () DB (CCC ) B () 'a' ('cd' ) 'b' ((s.8 'd' ) 3 e.10 ) e.2 e.4 s.2 (7 2 )
+(s.2 ) 'c' 
+    ,<Mu s.2 A BABD <ExtBCCB <Lower B 'b' e.10 3 e.4 e.4 > > > (<Print <Print 7 2 CB e.4 'a'
+6 8 3 > 'b' 4 <Upper BC 9 > 'c' 1 'b' > ) e.10 : 
+     { 
+  'a' (e.3 'b' ) 'd' e.5 'a' 9 'c' () 'a' 1 
+    ,: (e.6 BC 1 )
+s.7 e.10 
+    ,<ADB 9 > : B 
+    ,(<Lenw (2 C ) > ) (CDD ) : 
+    ,BC :
+('c' e.3 ) 8 e.8  = 
+    (ABC 3 'c' ) ;
+     };
+  () DB (CCC ) B () 'a' () 8 CDDB 2 s.2 (7 2 ) (s.2 ) 'c' 
+    ,<Mu > :
+
+     { 
+  e.6 2 e.13 'c' (t.6 'b' ) t.10 9 
+    ,t.6 : 4 4 
+    ,: 'c' 
+
+   ,e.13 : (('b' e.9 ) ) 6 
+    ,: 
+     { 
+  BC 'a' e.11 BCC e.5 7 
+    ,: 'a' 
+    ,'a' : e.2 4 
+    ,10 <Chr 'b'
+ACA > :  = 
+    ;
+  BC 5 DCBD t.1 e.5 t.7 
+    ,CC <Mu t.6 > :  = 
+    ;
+  BC BB (e.3 t.8 t.6 ) t.2 t.7 
+    ,7 A : ADB 
+    ,<Upper e.6 > : 'b' 
+
+   ,t.8 e.6 : 5 
+    ,: ('d' ) 
+    ,: 'a' (CA 'b' ) DBBB (4 e.10 'ac'
+)  = 
+    ;
+     };
+  (t.6 'b' ) t.10 9 
+    ,:  = 
+    t.6 ;
+     };
+  () DB (CCC ) B () 'a' () 'c' (ACC t.12 'b' t.2 ) ((s.4 CABB DC ) e.1 'cd'
+A ) 2 2 s.2 (7 2 ) (s.2 ) 'c' 
+    ,t.12 : 
+     { 
+  'c' BACC 'c' 
+    ,t.2 A : ((9 BCB ) 'd' () ) e.10 e.1 e.1 ('c' ('c'
+e.9 ) (CC e.1 (DA B C 4 ) 'bb' ) ) 
+    ,: e.4 ('c' 6 ) 9 DAC  = 
+    0 B ;
+  'c' CBC (2 ) BBBA BACC 'c' 
+    ,: (3 ) e.1 
+    ,: 8 'c' e.13 
+    ,t.12 :
+'c' e.9 'c' DD 
+    ,t.2 :  = 
+    4 DBCD ;
+     };
+  () DB (CCC ) B () 'a' () BBAB e.6 8 (ACC t.12 'b' t.2 ) ((s.4 CABB DC ) e.1 'cd'
+A ) 2 2 s.2 (7 2 ) (s.2 ) 'c' 
+    ,<Mu 0 s.2 > e.1 5 : 
+     { 
+  'b' ((BBB ) 'b' 0 ) e.5 'cc' t.5 
+    ,<ADB 6 e.6 > : e.12 
+    ,:
+(e.13 e.4 'c' ) 3 e.13 
+    ,<Chr 'b' BB 'b' > : 
+     { 
+  DB ('c' ) 9 t.4 
+    ,: 2 
+    ,BCB D <Ord CCB BC 4 > : 'a' 
+    ,'c'
+BB :  = 
+    e.1 ;
+     };
+  'b' ((BBB ) 'b' 0 ) (s.2 ) 'b' BAAC t.10 s.1 t.5 
+    ,: 'b' D 
+ 
+  ,'b' BBB :  = 
+    'a' ;
+  'b' ((BBB ) 'b' 0 ) (s.2 ) 'b' s.8 'b' BAAC t.10 s.1 t.5 
+    ,BA 'b'
+: BABC 
+    ,: e.9 'a' CB 
+    ,s.4 : (t.11 s.7 ) 6 () (DCCA 'c' 8 )
+e.6 e.13 
+    ,: 1 
+    ,<Lenw e.1 5 > 'c' 7 (4 ) C : C 
+    ,: 
+     { 
+  
+    ,: 'c'  = 
+    t.2 <Ev-met BB > ;
+  CBBD 'c' t.1 
+    ,CDAC : 
+    ,'b' : 
+    ,: CBD ((5 'c' D ) 'a'
+) 
+    ,:  = 
+    ;
+     };
+     };
+}

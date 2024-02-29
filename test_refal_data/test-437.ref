@@ -1,0 +1,43 @@
+$EXTERN ExtGo , ExtA , ExtDC , ExtCD , ExtC , ExtDBAC ;
+
+
+
+$ENTRY DAB {
+  9 BCC e.3 s.12  = 
+    ;
+}
+
+$ENTRY C {
+  t.13 BB 3 3 CCC e.9 CA 'b'  = 
+    'c' e.9 ;
+  t.13 BB s.3 CA 'b' 
+    ,s.3 (t.13 9 C 0 DDC (8 CBBD t.13 BDB ) (0 (5 t.13 ) 'c' <Ev-met 'bb'
+3 > 4 ) 'bc' s.3 ) <Lower (<ACBB 1 'c' s.3 4 > <Mu 3 'b' t.13 > 'c' s.3 )
+10 ACCC 8 BD 'bc' BC > : 
+     { 
+  BB (('b' e.9 ) 'b' (7 'c' ) ) CC 
+    ,: (t.8 'c' ) BCC 
+    ,:
+7 ACC (C ) CB BBC 
+    ,: 'c' 10 
+    ,: 'b' CCB 6 e.10 9  = 
+    ;
+     };
+}
+
+ACBB {
+  'a' C 
+    ,3 C ('d' ) 'b' : 
+     { 
+  t.7 8 BB (CA ) t.1  = 
+    D ;
+  t.7 8 ('b' ) 'c' 3 CC 'dc' CB e.11 () 'b' 
+    ,<Upper 'd' > : BB 5 
+
+   ,t.7 e.11 <ExtA BC e.11 e.11 BBAA > (3 4 ) 'c' : 
+    ,6 AB : AB s.6 10 s.3  = 
+    ;
+     };
+  (10 'bc' ) 'c' 6 e.7 ('d' 1 'd' ) BAD s.13 'a' e.8 2 C  = 
+    <Lenw e.8 'b' CB > ('b' <ACBB > 'b' ) ;
+}

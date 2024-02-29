@@ -1,0 +1,92 @@
+$EXTERN ExtGo , ExtABC , ExtCC , ExtDD , ExtCDAC , ExtBBB , ExtBBCA , ExtDADDC ;
+
+
+
+$ENTRY ACBB {
+  e.5 (3 ) t.6  = 
+    <Chr CA t.6 > 1 ;
+  t.11 (DBC CDAB DADD ('d' e.5 ) CCCB t.11 e.1 'c' ) 'b' (CAB ABD t.11 ) 'c' (BC (10 'c'
+9 ABBB 10 e.9 'b' DBC 6 s.7 ) 10 ) (7 (t.11 'd' e.6 'b' DDC B e.1 BAC e.12 ) BD DBA (e.1 2 s.13 'c'
+CAC 5 'bc' ) BBB ) BB (3 ) t.6  = 
+    5 s.13 BDC ;
+  (s.2 ) 'd' (e.3 ) (3 ) t.6 
+    ,'c' <Ord (DC 'b' D e.3 t.6 <ExtGo 'b'
+6 4 0 BCB s.2 > ) ((e.3 5 BBBC ) () 'cd' 2 'a' BD ) CDD BD CC (CB e.3 ) AB 'c' (('c'
+) ) > : 
+     { 
+  ('b' ) e.9 4 'b' CBA 9 
+    ,: e.6  = 
+    ;
+  ('b' ) e.9 4 t.8 7 CDD 7 
+    ,: (3 ) 
+    ,: 
+    ,: 'c' D e.10 
+
+   ,: C 
+    ,:  = 
+    ;
+     };
+  (s.2 ) 'd' s.7 'a' DDA 3 (3 ) t.6 
+    ,B (ABD 'b' <Type <Ord t.6 'd' >
+> ) : 
+     { 
+  () (5 'a' ) ACD 
+    ,s.2 s.7 : 2 
+    ,<Prout > 'c' 8 <Lower 'bc' B >
+: 
+    ,AB 'c' :  = 
+    7 s.7 ;
+  () 5 (ACCB DCDB ) (BC () e.9 e.6 s.4 'd' ) 1 () 'c' 
+    ,<Mu > : 'c'
+CB (BBA )  = 
+    () s.4 ;
+  () e.6 () 'c' 
+    ,: 'c' 
+    ,() () :  = 
+    (<BDCB > 'b' ) (<ExtCC 'b' > BB () ) CCD ;
+     };
+  (s.2 ) 'd' BBB 3 (3 ) t.6  = 
+    DB ((6 t.6 'b' BB t.6 ) t.6 t.6 ) ;
+}
+
+$ENTRY BDCB {
+  8 'b' e.4 5 CB 3 (e.10 'd' ) 'c' 5 
+    ,: 
+     { 
+  (CB ) 3 CBC 
+    ,() e.4 : 7 
+    ,'c' e.4 ABBC e.4 : 9 'c' e.3 
+  
+ ,'a' : 'd' () 
+    ,: BCB ('c' e.3 BA ) 3 'c' 
+    ,BD e.4 :
+'ab' BB  = 
+    e.3 ;
+     };
+  8 s.2 ('bd' 6 6 4 ) CDA BBA 'c' 5 
+    ,'b' CD : 
+     { 
+  (s.4 1 ) 'b' 0 DCCC AB (CD ) () e.12 B ADCB t.7 AB BCB 'b' 
+    ,: 2 (CA ) 
+  
+ ,<Ev-met () > : 6 
+    ,s.2 <Upper s.2 > : 6 
+    ,<Mu 'c' > : 
+     { 
+  'a' C e.2 
+    ,10 : 
+    ,<Ord 'd' > : 
+    ,: s.3  = 
+    ;
+     };
+  (s.4 1 ) 'b' 0 DCCC (AA ) e.3 'c' DACB e.11 t.7 AB BCB 'b' 
+    ,CD 8 7 : e.4 (2 DCBC 4 )
+e.12 
+    ,<Mu 9 C 6 > ((AC B ) 10 <ExtDADDC > ) : 
+    ,<ExtDD BBCB > 9 ACC BD : BBC CC (4 'b'
+e.1 ) 'c' ADB 5 
+    ,s.4 2 : e.8 CD e.10 3 AB ADC 
+    ,(10 e.3 ) :  = 
+    s.4 <Type t.7 <ExtCC s.2 C CBBB ABA > CDDB > (e.10 e.1 C ) 'b' ;
+     };
+}

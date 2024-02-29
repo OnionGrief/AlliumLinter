@@ -1,0 +1,51 @@
+$EXTERN ExtB , ExtDADB , ExtCDDC , ExtCD , ExtABDA , ExtCA ;
+
+
+
+ABCBB {
+  7 B DB e.9 
+    ,e.9 ACCB 3 : 
+     { 
+  'b' e.4 (5 ) 3 D 
+    ,2 e.9 : 'c' CCAB 
+    ,<Prout > e.4 : 'd' e.12 e.1 
+
+   ,(0 B CCBA CB ) <ExtABDA 2 5 'c' > e.9 <Lower 2 e.4 e.4 > : () () B  = 
+    ;
+  'b' e.4 BB C D 
+    ,BCB : (1 )  = 
+    ;
+  'b' e.4 (s.2 9 5 t.11 ) (9 (e.2 ) ) (e.10 () ) 0 DB e.7 D 
+    ,(BD )
+CB <Ev-met e.2 CB > : e.11 
+    ,<Print > : 
+    ,: 'b' 1 
+    ,e.9 4 : e.11 'd'
+0 'c' e.5  = 
+    ;
+     };
+  7 'c' (DDD ) 'a'  = 
+    (DAB 7 'c' ) <Ord 8 1 3 4 > 'b' ;
+}
+
+$ENTRY BBCC {
+  (9 ) BCBD 2 
+    ,6 : 
+     { 
+  CBCB () CA 5 ('b' ) 
+    ,'d' CD 'b' : (e.4 'b' 2 ) 
+    ,'b' :
+'c' 
+    ,e.4 'b' : 
+    ,5 7 4 : 
+     { 
+  BD 10 s.4 'd' 
+    ,e.4 : s.6 
+    ,: 6 BDC 
+    ,1 : t.13 
+    ,1 <Mu >
+:  = 
+    <Lower 0 > ;
+     };
+     };
+}

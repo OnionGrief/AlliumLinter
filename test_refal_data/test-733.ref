@@ -1,0 +1,108 @@
+$EXTERN ExtCBBC , ExtBDCC ;
+
+
+
+$ENTRY DDAC {
+  'b' 1 (('a' DA () ) CBA ) BD 6 
+    ,D BBCB DACA : 
+     { 
+  A D  = 
+    D ;
+     };
+  s.10 s.10 7 s.9 7 s.10 BCC CD 1 (('a' DA () ) CBA ) BD 6 
+    ,5 s.9 : 
+     { 
+  'a' (DCC 'd' ) C 2 'c' 
+    ,() : 'a'  = 
+    ('c' () ) 0 ;
+  'a' 7 B 'c' 
+    ,(7 (BCA s.10 DDCD ) () ) : 
+     { 
+  ((e.4 ) CBC 'b' 5 ) e.13 s.6 
+    ,(<ExtCBBC 1 > ) : 
+    ,C <Ev-met s.6 ()
+> : CBBD 
+    ,e.13 :  = 
+    ;
+     };
+  'a' 7 (CBDC (e.6 C (s.12 e.7 ) ) ) e.7 e.6 4 s.4 CCB 'c' 
+    ,<ExtBDCC (DB )
+('b' ) > : 
+    ,'c' <Type > : 0 
+    ,(('b' DD s.10 s.12 BBAB 'd'
+AD ) 1 (<ExtCBBC e.7 BCC > CDC BCBC 1 ) <Mu s.12 CA 'cd' 7 <Upper s.10 8 6 2 'b' > > 'c' )
+e.6 'cb' 10 : 
+    ,: 
+     { 
+  AB 6 
+    ,'a' : CB 'd' 
+    ,: (7 ) BBB 
+    ,s.4 s.9 3 : 3 
+  
+ ,2 : 
+    ,: e.10  = 
+    s.4 ;
+     };
+     };
+  s.10 s.10 7 s.9 (t.9 ) BCC CD 1 (('a' DA () ) CBA ) BD 6  = 
+    5 (t.9 0 ) ;
+}
+
+BDD {
+  9 'd' CCBB t.9 s.1 BDA 
+    ,'d' 4 : 
+     { 
+  C 1 t.7 'a' BBB (BDC 3 ) 
+    ,t.9 : e.3 BC (A () e.12 e.2 ) e.6 ('d' CABC )
+2 
+    ,<Type 'a' 9 > 'c' : 
+    ,(DD D ) : 
+    ,'c' (CAB t.7 'd'
+) ('b' ) 9 : BD BBC (BDDA CA )  = 
+    5 AC 5 3 ;
+  C 6 ('c' ) 2 'a' BBB (BDC 3 ) 
+    ,6 CDDB <Ev-met BAA (5 'd' BC ) 3 'a' > : 'b'
+
+    ,<Ev-met s.1 > : DBC (8 ) 10  = 
+    DA <Ev-met t.9 s.1 > 5 <Mu 'c' D 10 'b' > ;
+     };
+  s.2 CC (0 ) 3 CCC t.6 'b' s.1 BDA 
+    ,BB s.2 <Ord 1 > 'b' 0 t.6 'c' s.1 :
+
+     { 
+  'ba' 
+    ,9 : ABD ('a' DCBA ('b' 3 ) ) e.7 'b' s.8 
+    ,: 
+ 
+  ,<DDAC 'a' > 'd' 10 : 8 8 (e.3 (() e.8 t.10 (DA 7 6 ) ) DC ) 
+    ,'b'
+s.2 8 : (e.13 'd' (e.3 AC ) e.8 7 ) (3 e.13 DA ('c' ) ) (6 BBA ) 
+   
+,() : 
+     { 
+  BCB (('d' ) 2 ) (e.2 (t.6 ) ) 
+    ,<Prout > : C BCB e.4 'c' 
+    ,(<Mu 'c'
+> ) : 
+    ,t.10 : 1 
+    ,9 e.2 'a' : e.9 
+    ,'a' : CDC CAC  = 
+    BC (e.2 'b' ) s.2 ;
+  'da' ACC (('d' ) 2 ) (e.2 (t.6 ) ) 
+    ,9 : () 5 
+    ,B : ('bc'
+) 
+    ,() : e.9  = 
+    s.2 ;
+  'd' BD DDDC ACC (('d' ) 2 ) (e.2 (t.6 ) ) 
+    ,: 'b' 
+    ,() :
+s.8 2 'd' 
+    ,5 s.1 : 
+    ,BCCD e.8 : 4 0 B  = 
+    2 'c' ;
+     };
+     };
+  s.2 CC 9 3 () CCC t.6 'b' s.1 BDA  = 
+    ('c' (3 'a' CB BCD ) CA ADDC ) <ExtCBBC 'c' > ;
+}

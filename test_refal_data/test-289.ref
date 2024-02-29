@@ -1,0 +1,108 @@
+$EXTERN ExtACBA , ExtCBC , ExtC , ExtBCB ;
+
+
+
+$ENTRY Go {
+  6 2 t.8 
+    ,t.8 : 
+     { 
+  (e.1 BAD 'b' CAA ) BBBD AD 
+    ,: 
+    ,: 7 e.11 'b' BB 
+    ,5 :  = 
+    CCC ;
+     };
+}
+
+$ENTRY B {
+  t.3 
+    ,(BCDB ) <Mu 'b' <Mu AB 'd' > t.3 'b' > CDB t.3 t.3 : 
+     { 
+  5 4 'd' 
+    ,: 
+    ,'b' : e.1 'c' ('c' ) 
+    ,: (B )
+
+    ,: 'a'  = 
+    <ExtCBC <Ev-met > > ;
+     };
+  t.3 DBBA (e.4 e.12 ) 'b' 
+    ,BB : 
+     { 
+  8 s.12 CDB s.2 (9 ) 
+    ,10 :  = 
+    'd' ;
+  DBA ((0 'c' ) ) 9 (e.2 'a' e.8 ) e.12 7 (B (9 AC ) ) s.12 CDB s.2 (9 )  = 
+    ;
+  DBA ((0 'c' ) ) () DC C 'd' 7 (B (9 AC ) ) s.12 CDB s.2 (9 ) 
+    ,() :
+CDBA 
+    ,<Ev-met BDB s.2 BC > CBA CD : 
+    ,: 'a' 
+    ,8 5 : 
+    ,2 : 3  = 
+    ;
+     };
+}
+
+DDB {
+  8 6 CD CCC AB 'c' BA 'c' BC 
+    ,'b' (6 9 1 () ) 'b' : 
+     { 
+  7 e.1 
+    ,<Ord > e.1 : 'b'  = 
+    ;
+  'ba' CCCD e.1 
+    ,A 'a' : 
+    ,e.1 : 
+    ,: 'b' 
+    ,CC (C )
+: e.3 ABCA  = 
+    ;
+  'b' 2 4 e.8 CCCD e.1 
+    ,<Ord <Print <Mu > > > e.1 <Ord <Prout > (3 e.8 ) > : BCB CBB e.10 9 'd'
+
+    ,e.10 <Chr <Chr 'a' 2 'd' > > :  = 
+    ;
+     };
+  CBCC e.6 9 () BA 'c' BC 
+    ,: 
+     { 
+  'dc' 
+    ,0 : 
+    ,'c' AC <Mu e.6 ACCC > e.6 : 'b' 
+    ,10 : e.5  = 
+    BA ;
+     };
+  'c' e.9 e.11 (e.11 (AB ((7 8 10 10 ) 'b' AB 'd' ) 10 e.12 ('a' 5 C ) ('d'
+7 DBC ) 'd' ) CBC CC 8 (e.11 e.7 'bb' 5 CD e.9 e.13 ) (CDC ('b' e.10 (BAAB 5 B e.2 7 9 )
+'d' DBB (e.10 'c' e.8 ) BACA e.11 ) BDCA ) 7 (e.13 9 DC BCB 'a' ) 'c' ) ((3 6 (ACC CAA e.11 (3 e.8 CCB 8 5 'd'
+e.6 1 ) e.13 ) ) ) BB e.11 'ad' e.13 'd' BCD (9 ACB ) () BA 'c' BC  = 
+    e.10 e.8 ;
+  'a' BCD (9 ACB ) () BA 'c' BC 
+    ,((<Go 5 A > 'c' ) ) 'd' ((BA 4 AC (CCB 'a'
+) 'b' (9 'bd' BBD DB 'c' ) ) 10 1 'bb' ) 8 (DA CD <Mu CBC 5 'b' > ) : 
+     { 
+  s.12 
+    ,: t.1 
+    ,9 : e.13 'c' 
+    ,<Mu 'db' > :  = 
+    BBB (() 6 ) ;
+     };
+  CABC CCDB BCD (9 ACB ) () BA 'c' BC 
+    ,3 <Mu () > : 
+     { 
+  AC s.7 
+    ,'d' 5 'c' CB : 
+    ,5 :  = 
+    DCBC 'c' ;
+  AC e.3 DB B 'd' s.7 
+    ,CCD A (7 ) : s.11 () s.12 'c' 
+    ,s.7 : 
+
+   ,s.7 s.7 <Go C ('c' 6 ) (e.3 e.3 'c' ) 1 s.7 > : 
+    ,BAD <ExtCBC 'ad'
+> :  = 
+    ;
+     };
+}

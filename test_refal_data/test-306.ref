@@ -1,0 +1,105 @@
+$EXTERN ExtBACCC , ExtCD , ExtCCA , ExtABBD , ExtADB , ExtCA ;
+
+
+
+B {
+  'bca' 5 ()  = 
+    DA 2 ;
+  'bb' e.8 e.4 e.12 (4 CB 'b' ) DCCA (0 'd' ) s.10 'a' 5 ()  = 
+    'a' <Chr e.4 'b' <CC > > ;
+  'b' 8 (7 ('a' CCA 1 7 ) (t.3 e.8 e.8 5 ) ) () (t.10 (e.7 BAC CDA 8 CDD ) A 5 CBC )
+e.11 e.5 e.11 ACC 'b' ABB 6 e.4 BB 9 DCCA (0 'd' ) s.10 'a' 5 () 
+    ,t.3 :
+
+     { 
+  'd' CCDC e.1 (BADB ) 'c' 
+    ,1 CB BDB : BAB 'b' 1  = 
+    4 ;
+     };
+  'b' 8 (7 ('a' CCA 1 7 ) (t.3 e.8 e.8 5 ) ) () (t.10 (e.7 BAC CDA 8 CDD ) A 5 CBC )
+e.8 (1 BBD ) 4 7 9 DCCA (0 'd' ) s.10 'a' 5 () 
+    ,BDC t.10 : 
+     { 
+  8 1 2 e.12 CDAB ((CCA ) ) 
+    ,: 
+     { 
+  ('c' ) t.6 
+    ,: () 
+    ,CA : 'a' 
+    ,e.12 : 'd' 
+ 
+  ,'c' () CC : ('c' )  = 
+    CA CD (1 ) <Prout BC > ;
+     };
+     };
+  'b' 8 (7 ('a' CCA 1 7 ) (t.3 e.8 e.8 5 ) ) () (t.10 (e.7 BAC CDA 8 CDD ) A 5 CBC )
+(BABC ) BCD t.3 0 ('a' CA BB ) 7 9 DCCA (0 'd' ) s.10 'a' 5 () 
+    ,(4 s.10 )
+C s.10 : 
+     { 
+  7 AAD (e.10 3 ) (e.4 ) (4 s.6 ) e.8 
+    ,: 'c'  = 
+    e.8 ;
+     };
+}
+
+$ENTRY CC {
+  t.6 s.1 s.7 
+    ,'b' : 
+     { 
+  CC 3 CB e.11 BDC 'a' 
+    ,() : (s.12 ) 
+    ,s.12 s.12 : 'c' e.6 BDBB BD ABB e.13  = 
+    <ExtCA > ;
+  s.3 BD s.13 3 
+    ,'a' : ('c' e.6 e.6 )  = 
+    ;
+     };
+  t.6 1 'd' e.12 D 1 9 s.1 s.7 
+    ,2 CBD : 
+     { 
+  s.9 'b' 0 
+    ,'b' : 10 BDB 
+    ,<Mu ((2 8 1 ) ) BAB > : 'c'  = 
+    s.9 ;
+     };
+  t.6 1 'bd' e.1 ('b' () ) t.6 s.1 s.7  = 
+    DD 5 ;
+  t.6 1 'bdd' ('a' 3 ) DBCB (0 ) 9 BCC ('b' () ) t.6 s.1 s.7 
+    ,1 :
+
+     { 
+  s.5 e.12 DCCC 
+    ,'b' : 9 
+    ,BDB s.5 : 
+    ,s.5 BC 10 t.6 : 
+  
+ ,AAB BCB : 
+     { 
+  e.4 ADC 5 'a' 3 
+    ,: BACB  = 
+    s.7 ;
+  C 'a' 3 
+    ,: 
+    ,: 
+    ,: 2 AB 'c'  = 
+    <Print 9 'c' > ;
+  C () 'a' 3 
+    ,: 'b' 
+    ,: 5 
+    ,: 'd'  = 
+    e.12 4 ;
+     };
+  s.5 7 () 7 1 9 
+    ,: e.10 
+    ,<Lenw s.5 s.7 > : 
+    ,2 <Print DBDD > :
+
+    ,'a' : 8 'b'  = 
+    <Prout e.10 'b' > t.6 ;
+  s.5 e.2 ABA 'b' B 7 1 9 
+    ,BBDD C : 'd' CBDC 'c' 1 
+    ,: 6 'd'  = 
+    10 s.5 BCBD <Lower t.6 7 BD s.7 > ;
+     };
+}

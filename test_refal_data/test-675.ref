@@ -1,0 +1,63 @@
+$EXTERN ExtCADBA ;
+
+
+
+$ENTRY D {
+  'acb' ('cb' e.1 e.10 e.9 'b' 8 'b' ) s.6 7 s.11 (s.8 ) 
+    ,:
+
+     { 
+  BBA 8 ('c' DC ) 2 
+    ,: 4 (t.2 e.13 BAC 1 ) t.11 'c' 
+    ,: () 
+ 
+  ,'ca' e.9 'd' : ACC 5 CA 'd'  = 
+    ;
+     };
+  'b' CC 'b' (t.1 s.5 ) (s.8 ) 
+    ,(CBB (<Prout (1 ) () 'a' > BDBD <D <Chr 1 >
+> 4 'b' ) ) s.5 BBCA s.8 BCC (A 'd' C (<Print t.1 s.8 (BDA 'ddc' s.5 ) > <Print A (CC )
+2 t.1 <ExtCADBA CA t.1 > > <Mu BA ('d' ) > ) ) : 
+     { 
+  2 
+    ,: 
+    ,: (e.4 'c' ) e.9 3 
+    ,: CB t.11 
+    ,: 
+
+   ,: 
+    ,: 
+     { 
+  BBA 
+    ,: 
+    ,: 2 t.9 2 BCB 
+    ,: B  = 
+    ;
+  BBA CCD 7 
+    ,: 'a' AB CBD C  = 
+    ;
+     };
+     };
+  'b' CC 7 ADB e.12 'b' 7 1 1 'b' 0 BBB (t.1 s.5 ) (s.8 ) 
+    ,BB ('b' )
+: 
+     { 
+  CDCB BABC (1 e.11 ) e.3 
+    ,BBC : 7 
+    ,: 
+    ,'a' <Print e.3 'bc' 8 <Mu <Ord 1 CA AC e.12 >
+('ad' BCC 'cc' ) (8 ) > BC > () 4 <Mu 7 CCC > : 'c' 
+    ,<Upper e.12 BDC CA 8 t.1 C >
+: 
+     { 
+  C BDDB (CB ) (('cb' (1 5 ) ) t.9 ) 'ca' 
+    ,: CC BCCB AD 
+    ,DB AAD <Ev-met >
+: 9 e.5 e.6  = 
+    ;
+  C BDDB (CB ) (('cb' (1 5 ) ) t.9 ) 8 s.5 'ca' 
+    ,: B  = 
+    ;
+     };
+     };
+}

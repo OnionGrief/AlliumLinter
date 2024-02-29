@@ -1,0 +1,53 @@
+$EXTERN ExtBCC , ExtAA , ExtBC , ExtCC , ExtCBB , ExtAAC ;
+
+
+
+$ENTRY BAC {
+  s.2 'd' (CB (e.8 t.2 ) 6 (6 4 B 8 ) ) B 'a' 
+    ,: 
+     { 
+  e.5 'c' CC 'ba' CACC BDD 'c' 
+    ,6 CBD (5 ) A : e.8 DDB 'b' 
+    ,ABA : 
+
+   ,: 6 e.12 C 'b' 
+    ,'a' : AD  = 
+    4 BC <ExtBC (e.5 'c' ) e.12 () BBBC > ;
+  e.5 'd' ('b' t.7 t.10 t.5 ) (0 'c' CDB ) 1 BDD 'c' 
+    ,(() ) AC :
+e.11 CCBD 'bd' e.2 
+    ,: t.11 CDD ()  = 
+    ;
+     };
+  s.2 'd' 2 t.10 (BC ) CBA 'a' 
+    ,ABBB 2 t.10 CAD <ExtBC s.2 (t.10 BD 'b' ) 4 BBAA <ExtCC BC >
+> 4 10 s.2 : 
+     { 
+  (10 ) 'cda' 
+    ,: CBDC 7 
+    ,(<Ev-met s.2 <Print 9 > 'd' > <Ev-met <Ev-met > ('a'
+9 'aa' ) <Mu DCCC > > 'c' ) : 
+     { 
+  t.6 'c' 8 5 
+    ,: e.11 
+    ,s.2 : BBBA 
+    ,: AC 
+    ,() ()
+: 
+    ,<ExtBC (t.10 ) > : ()  = 
+    ;
+  t.6 e.2 (e.6 ) BABD 'c' t.9 5 
+    ,: 6 4 e.2  = 
+    <Prout <Print 'cb' > > ;
+     };
+  (10 ) 'b' 2 (DBB DC e.8 e.6 ) BDA 'da' 
+    ,'a' : 1 
+    ,: 
+     { 
+  'b' e.9 s.11 
+    ,BC : e.2 
+    ,'d' 9 ('b' 7 ) : 'c'  = 
+    6 ;
+     };
+     };
+}

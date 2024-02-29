@@ -1,0 +1,104 @@
+$EXTERN ExtCB , ExtBA , ExtCA ;
+
+
+
+$ENTRY Go {
+  () BA 8 CACD 
+    ,: 
+     { 
+  (DCAC 8 6 e.2 ) (DDA 'd' ) 'b' 
+    ,4 : 
+    ,(e.2 ) e.2 3 'a' :
+
+    ,CBC 'b' <Lower 8 (<Type e.2 CA 6 BBB > CC 'c' ) e.2 (<Ord e.2 BBBA > 7 BB ) > :
+
+     { 
+  BBA (6 (('b' () () ) ) ) s.6 (6 B ) 
+    ,e.2 : 'b'  = 
+    8 e.2 <Chr 7 > ;
+  BBA (6 (('b' () () ) ) ) s.6 (6 B ) 1 9 (8 ) e.1 t.3  = 
+    (e.2 A ) <ExtCA s.6 B 7 > ;
+  BBA (6 (('b' () () ) ) ) s.6 (6 B ) 1 9 (8 ) 6 6 t.3  = 
+    ;
+     };
+  t.6 (((5 e.1 ) (s.6 ) ) 'c' ) t.10 'b' 
+    ,: 2 1 
+    ,e.1 AB :
+2 t.5 e.11 'c' 
+    ,: e.3 4 BBCB 'b'  = 
+    3 ;
+  t.6 CD e.12 6 2 5 (((5 e.1 ) (s.6 ) ) 'c' ) t.10 'b' 
+    ,3 t.10 CB 'b'
+<ExtBA t.6 <Mu CD t.10 > ('d' CCC ) > t.10 : 
+    ,C 'b' : 2 e.6 
+    ,:
+'a' 
+    ,: 4 AC  = 
+    ;
+     };
+  () e.12 9 'ab' 4 BD ABCC e.8 CACD 
+    ,'c' 10 'd' 4 'c' e.8 e.12 : 
+     { 
+  'b' (7 ) 'b' 
+    ,e.8 : (CC (s.11 9 'b' ) 10 s.11 e.7 ) 'db' CCA 
+
+   ,CCCC : 
+    ,'acab' : e.5 e.5 AAC 'c' 
+    ,: A  = 
+    ;
+  'bd' (e.9 ) 
+    ,(CCCB ) 10 (ABB ) : e.6 
+    ,'b' <Ev-met BB (7 (A ) )
+> : DBD 
+    ,: ('bab' 6 ) 
+    ,CCB <Type 'cc' 1 <Chr 'b' 4 > 0 (DA 'a'
+) > BBCC 'd' 6 AA : 7 2 9  = 
+    (A e.8 <Ev-met <Upper BCCD e.8 > > ) ;
+     };
+  () e.6 0 'd' CACD 
+    ,BB C (e.6 ) 'd' ('b' e.6 (e.6 e.6 ) (BB DB DBDC )
+) 'b' 10 : 
+     { 
+  'd' BAC 'd' (e.5 C e.3 ) 0 'c' 
+    ,<Type e.3 2 CBC > ('d' ) ('c' e.6 BBD e.3 )
+: e.6 2 (CCBB 1 'b' ) 
+    ,'c' : t.1 BC (B 'c' (e.8 7 ) ) 6  = 
+    e.3 ;
+     };
+  () 3 ADC 'd' CACD 
+    ,'ab' DB 'c' 0 : 
+     { 
+  s.7 e.11 'ab' 4 'd' 5 'b' 7 (9 t.4 'b' ) t.8 
+    ,: 'd' AD 'c'
+ = 
+    DD 'a' e.11 ;
+     };
+}
+
+$ENTRY BC {
+  t.4 4 e.5 'b' 
+    ,<Lenw 'c' <Mu 3 e.5 t.4 e.5 > e.5 (9 BA 9 t.4 ) > BBCD <Ev-met 1 (2 C )
+'c' > : 
+     { 
+  (CC DB ) e.8 'b' s.3 8 CBB 
+    ,<Mu (t.4 ) BD (4 A ADAB 6 t.4 ) > : 
+    ,()
+:  = 
+    CCC ;
+  (CC DB ) e.8 'b' s.3 C 'a' ('c' t.9 C ) () CBB 
+    ,: 
+    ,: e.2  = 
+    9 <Ev-met 'd' t.4 5 'b' DAC > (CC ) <Chr 'b' > ;
+     };
+  t.4 4 (e.8 'd' 1 e.12 ) 1 s.13 CBB (('d' CBCB 'd' ACA e.12 ) (t.11 'b' ) s.3 )
+ = 
+    2 s.3 ;
+  t.4 4 (e.8 'd' 1 e.12 ) 'c' 4 BB ('d' t.2 t.13 ) 7 'c' s.13 CBB (('d'
+CBCB 'd' ACA e.12 ) (t.11 'b' ) s.3 ) 
+    ,'cb' <Chr e.8 > BAA e.8 : 
+     { 
+  t.5 2 'c' 2 'b' 
+    ,CCC : () (ADB e.2 )  = 
+    7 t.11 ;
+     };
+}

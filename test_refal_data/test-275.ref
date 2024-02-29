@@ -1,0 +1,40 @@
+$EXTERN ExtBCDDC , ExtB , ExtCCD ;
+
+
+
+$ENTRY C {
+  'b' 
+    ,: 
+     { 
+  6 2 'd' () 
+    ,<ExtCCD B > 6 DBA : 'd'  = 
+    <ExtCCD 3 6 <Lenw 'c' () 'c' <Chr CC > > 'c' () > ;
+     };
+  'b'  = 
+    <ExtBCDDC <Mu > <Ord 5 8 DBA 10 6 ABBC > () ('b' CB ) CDDA > CA 'a' ;
+  (CD BDD e.3 'b' e.9 2 ) e.1 'b' 
+    ,7 : 
+     { 
+  s.5 t.2 t.13 ()  = 
+    'c' ;
+     };
+  BCDD t.7 s.8 5 CC s.6 t.1 'b' 
+    ,'b' CDD BC : 
+     { 
+  'd' (t.12 ) ('b' 9 ) 
+    ,'b' : 
+    ,ADAD : AB 
+    ,'a' t.7 ('a'
+CC 'c' 4 ) s.6 BC <Print 'd' 1 t.12 > : CA  = 
+    t.7 <ExtB BBD > ;
+  'd' 4 s.13 s.5 (t.12 ) ('b' 9 ) 
+    ,CC 9 : 1 
+    ,<Ev-met 1 > : e.2 'b'
+
+    ,:  = 
+    ;
+  'd' 4 7 7 s.13 s.5 (t.12 ) ('b' 9 ) 
+    ,:  = 
+    <Mu 1 s.5 s.6 (BB 1 ) > <Type (ADB 6 ) t.7 8 <Lower s.13 C s.13 7 > > ;
+     };
+}

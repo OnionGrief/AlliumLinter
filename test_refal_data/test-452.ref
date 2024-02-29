@@ -1,0 +1,83 @@
+$EXTERN ExtACDB , ExtDDBC , ExtDC , ExtDD , ExtC , ExtD ;
+
+
+
+DCBB {
+  'c' (6 e.5 'c' (BCB e.13 10 ) CB CA 5 BCB ) t.3 D e.5 BD (t.13 e.12 s.10 CD 10 ) ACC  = 
+    ;
+  'c' (s.8 'b' () ) 0 s.9 'd' ('a' DBB 'cb' e.3 'bb' 5 'd' 3 D )
+(9 (BCB 'b' (BC 9 DC DCC ('b' 5 5 e.1 ) ('a' AAB CAB 8 9 DA ACC BBCA 2 ) 'd' e.2 (e.9 e.10 e.10 'a'
+DC 'a' t.13 'b' BCCB 4 ) ) s.12 ) (t.7 e.9 9 ) 3 7 2 'b' (((9 t.4 AC CCC s.12 DBC e.6 1 BACB e.5 )
+ACB ) 9 ('d' ('c' e.9 'b' AC t.4 0 e.10 'b' CC ) e.8 'a' e.3 t.7 t.7 'c'
+) e.5 ) e.3 'bb' ) 'b' (t.13 e.12 s.10 CD 10 ) ACC 
+    ,(6 ) : 
+     { 
+  (10 9 ) (10 'd' ) (1 ('d' (7 2 A s.11 ) 7 ) (C C 2 s.12 ) C ) 'bd' 
+ 
+  ,: BCCA 'c' e.10 
+    ,<Lenw s.8 'a' <Mu 'b' <Chr > ('dd' 3 ) s.9 (C s.11 CB )
+<ExtDC 7 > > > :  = 
+    (3 ) ;
+  (10 9 ) (10 'd' ) (1 ('d' (7 2 A s.11 ) 7 ) (C C 2 s.12 ) C ) e.10 'd' 
+
+   ,s.12 : (e.5 ) 
+    ,6 C : 
+    ,BBC 0 : e.4 
+    ,s.10 : 4 e.5 e.9 (e.3 e.2 e.4 8 AD e.8 BB )
+ = 
+    s.12 ;
+     };
+}
+
+$ENTRY CA {
+  2 (e.10 'b' ) 'b' e.1 CAC t.12 'a' BADD 
+    ,e.10 : 
+     { 
+  t.3 'b' 
+    ,: 
+    ,: e.13 BC 9 
+    ,CAB <Lower > <ExtDDBC BC (8 ) > : (('b'
+) 'd' e.10 ) s.11 ()  = 
+    ;
+     };
+  2 'c' e.11 ((6 ) 'c' DBAD 2 e.11 (e.13 ) 8 7 ) DD AABD ('c' ) 'b' 6 t.5 C CAC t.12 'a'
+BADD  = 
+    e.13 ((CBD e.11 'c' ) (AC 1 6 'b' e.11 e.11 BDD ) 'a' A <Type CCCA 4 'c' > A 6 ) e.13 ;
+  2 'c' e.11 DA () BCCB ACA 6 t.5 C CAC t.12 'a' BADD 
+    ,DDC : 
+     { 
+  ((e.1 ) ) 'b' BCA t.9 CABC CBD 
+    ,: 'b' 5  = 
+    (DB 1 ) ;
+  ((e.1 ) ) 'b' BCA t.9 B 8 (('d' ) ) 2 e.4 'b' 1 CABC CBD 
+    ,DB : CDDD 
+
+   ,'d' 1 : (CCCA e.7 e.8 () ) BBD 8 e.6 
+    ,4 'a' CB : 
+    ,DC e.6 <CA >
+0 3 : BBB ('c' ) 
+    ,B 8 ((10 t.9 ) e.6 <Ev-met 6 10 > ) : 'bb' e.4  = 
+    ;
+  ((e.1 ) ) 'b' BCA t.9 B (D ) e.8 t.1 'b' 1 CABC CBD 
+    ,<Mu 6 e.11 CD > :
+'d' BA CB 
+    ,e.1 : (8 'c' ) ABA 
+    ,: e.3 CD DC 'a' 
+    ,: 6  = 
+    'd' (CABC ) ;
+     };
+  2 'c' e.11 DA () s.2 (DC ('c' ) ('b' ) ) ACA 6 t.5 C CAC t.12 'a' BADD 
+  
+ ,e.11 <ExtDDBC 'a' > (DA ) (6 'd' 9 'a' 2 8 ) : 
+     { 
+  8 () 9 'bd' A s.12 
+    ,t.5 <Ord > : ('cb' e.10 ) 'c' CD 5 
+    ,(e.10 CAB A 'a'
+) <Mu > : 
+    ,e.11 : 4  = 
+    AABA 'ccc' ;
+  8 () s.6 4 e.5 'd' A s.12 
+    ,() <Type e.11 > : 'c' e.1  = 
+    () ;
+     };
+}

@@ -1,0 +1,26 @@
+$EXTERN ExtGo , ExtCAA , ExtACDC , ExtBCBCA , ExtBAA , ExtCBB , ExtBCBAD , ExtCBBC , ExtDBBC ;
+
+
+
+$ENTRY CDC {
+  t.6 'd' s.7 (e.7 BCC e.13 (() ) ) 'b' 4 ('b' e.13 CAC 3 ) 0 
+    ,<ExtCBBC >
+: 
+     { 
+  B DDB BCB (7 'd' e.6 ) e.13 'c' B 
+    ,((e.6 BCC ) e.13 ) 'a' BB e.13 <ExtBCBCA (5 'd'
+) B > : 'd' CCCC (DBC 'd' ) 
+    ,ACB <Type BD 2 6 9 > : 
+    ,6 <Ord <ExtBCBCA <ExtGo 4 >
+7 <Type 'c' > > > :  = 
+    'c' BCC 5 () (e.6 t.6 8 ) ;
+  B DDB BCB CBD 3 e.5 'a' DCCB B 
+    ,CCDA <Prout CB > e.13 'b' 5 : 
+    ,e.7 'd' s.7 :
+B 'd' 
+    ,e.13 t.6 DA 1 : 1  = 
+    <Prout 1 > ;
+     };
+  t.6 'd' s.7 BDBA 1 DC t.2 0  = 
+    'a' BA ;
+}

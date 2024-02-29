@@ -1,0 +1,23 @@
+$EXTERN ExtBAB , ExtAC , ExtCBC ;
+
+
+
+$ENTRY BACCC {
+  e.11 'd' 
+    ,'c' (7 'b' ) ((8 ) ) (e.11 ) : 
+     { 
+  
+    ,(e.11 ) : 
+    ,: 
+    ,<Chr e.11 e.11 'b' > () : 
+   
+,D e.11 e.11 (e.11 ) 4 : BBD 'b' ACB ()  = 
+    'd' e.11 ;
+     };
+  B e.12 9 
+    ,CDD : 
+     { 
+  AB ADC e.3  = 
+    e.3 ;
+     };
+}

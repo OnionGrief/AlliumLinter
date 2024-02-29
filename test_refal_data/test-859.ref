@@ -1,0 +1,40 @@
+$EXTERN ExtCABBB , ExtCDC , ExtAD , ExtDC ;
+
+
+
+$ENTRY C {
+  e.7 DD D 8 DBCB 10 4 (DDAB ) 
+    ,: 
+     { 
+  1 CBB e.10 e.10 0 6 'b' 
+    ,<Ord CCB > 1 : (7 ) 9  = 
+    'a' <Lower e.10 > ;
+  1 CBB 6 (ABC e.10 ) s.12 
+    ,: BCBC 
+    ,: ('b' 7 9 ) (e.8 ) 
+    ,B BAAB e.7 e.10 'b'
+: DB CDDB e.13 ABC e.6 
+    ,<Mu > : 
+    ,:  = 
+    'c' ;
+     };
+  e.7 DD D CCCB (DDAB )  = 
+    ;
+  e.7 DD D s.7 ('c' ) 10 'c' 4 (('a' ) (e.3 ) ) (e.7 9 s.6 ) e.5 CCCB (DDAB )
+ = 
+    ;
+  e.7 DD D s.7 ('c' ) AAC 'a' 1 (e.7 9 s.6 ) e.5 CCCB (DDAB )  = 
+    <ExtAD > ;
+  e.7 DD D s.7 ('c' ) AAC CBBD 'bc' CCC BB 'a' 1 (e.7 9 s.6 ) e.5 CCCB (DDAB ) 
+   
+,<Print e.7 7 e.7 s.7 > : 
+     { 
+  'ba' DDAA 'a' 
+    ,: 'b' 4 e.4  = 
+    BBA ;
+  'ba' DDAA 'a' (s.8 ) (BCBB 'a' ) t.3 (BB ) s.7 s.11 (3 'b' () ) 
+  
+ ,: AC 0 9 C  = 
+    ;
+     };
+}

@@ -1,0 +1,41 @@
+$EXTERN ExtDAC , ExtDCAD , ExtDBCC ;
+
+
+
+CBCCA {
+  t.10 
+    ,7 'd' : 
+     { 
+  9 9 
+    ,: e.2 
+    ,: 
+    ,<ExtDAC > : 7  = 
+    t.10 t.10 ;
+     };
+}
+
+$ENTRY DBB {
+  1 (e.1 5 2 AB 'c' ) (() e.8 (9 'bdc' (8 CA e.5 e.3 C ) ) 9 8 ((C e.7 e.7 CA CACA 6 )
+) (3 7 ) B ) BCC 'd' C 'c' 
+    ,e.1 4 : 
+     { 
+  AB CB BDA 'c' 2 
+    ,'c' : B CD 
+    ,BD : e.3 e.5 t.13 
+    ,BBA e.8 :
+'a' 10 (C )  = 
+    'd' e.1 ;
+  AB 'b' 3 t.11 'c' 
+    ,6 : 'c' 6 t.6 
+    ,1 : 'b' t.7  = 
+    2 ;
+     };
+  B 'c' 3 'c' 
+    ,('b' BCB <Ord B > ) <Print 6 (BB 'c' ) <Chr DC 'c' > 7 >
+'bc' : 
+     { 
+  
+    ,'c' : 1  = 
+    <Lower > ;
+     };
+}

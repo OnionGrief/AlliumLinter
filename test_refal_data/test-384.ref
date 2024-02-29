@@ -1,0 +1,36 @@
+$EXTERN ExtBCBC ;
+
+
+
+$ENTRY CCDB {
+  D (('ac' ) ) 'b' BA 8 BA s.7  = 
+    ;
+  D (('ac' ) ) ABB 5 3 (A e.2 'c' DCB CBC e.8 'b' ) () (DB 'b' t.3 ) BA s.7 
+
+   ,<Ord e.8 e.8 e.8 > () 'c' : 
+     { 
+  e.5 'c' () 5 10 ('c' ) (2 ) 
+    ,: 'b' 
+    ,9 <ExtBCBC <Mu ('c' )
+DDCB C <Lower D > DBCD > > e.5 : 8 
+    ,'b' e.5 (AC 'db' BA ) 9 : 'b' (BB )
+
+    ,'c' : 'b' 5 ACC  = 
+    (e.2 5 'd' ) <Prout e.5 'd' > ;
+  e.5 'c' () C ABBD 'c' (2 ) 
+    ,AAC : 
+    ,: e.10 'c' 10 e.11  = 
+    6 e.5 e.11 ;
+     };
+  D (('ac' ) ) ABB 5 e.3 e.3 () (DB 'b' t.3 ) BA s.7 
+    ,s.7 : 
+     { 
+  3 t.8 
+    ,: e.4 'b' ABAA 5 5 
+    ,0 : 'd'  = 
+    e.4 ;
+  t.5 3 t.8 
+    ,: 5  = 
+    t.5 ;
+     };
+}

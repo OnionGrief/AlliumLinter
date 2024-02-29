@@ -1,0 +1,52 @@
+$EXTERN ExtCDB , ExtCBCC , ExtBCC , ExtDD , ExtCBDB , ExtCCC , ExtBAC ;
+
+
+
+$ENTRY Go {
+  (s.8 5 'c' ) 'c' (D ) 'b' (8 'a' ) 0 e.5 'b' e.1 (e.10 ) ('b'
+3 3 9 D C ) s.12 
+    ,(7 'b' 10 AA ) (CAAB s.12 DA s.8 s.8 7 CD ) <ExtBCC 'c' 1 s.12 6 >
+: 
+     { 
+  'bd' CAD e.11 CCDC 
+    ,: 
+    ,2 1 'b' : DAC 
+    ,0 : 
+     { 
+  (5 BD 3 BC ) CDDC (DC ) () ((ACCB e.1 ) ) 
+    ,: BB 
+    ,BDBB : e.9  = 
+    10 ;
+  (5 BD 3 BC ) CDDC BACA BBC 3 'c' ((ACCB e.1 ) ) 
+    ,() : 'b' 
+    ,7 : e.5  = 
+    ;
+     };
+  'bd' CB BBB 8 'c' e.11 CCDC 
+    ,'a' 1 <Mu 2 > : 
+     { 
+  DAD 'a' t.3 'a' 9 
+    ,: 
+    ,BBC 2 : 
+    ,4 : e.5  = 
+    'a' 6 ;
+  DAD 'a' t.3 1 ('c' s.8 ) CCCC 'a' 9  = 
+    ;
+     };
+     };
+  (s.8 5 'c' ) 'c' (D ) 'b' s.5 9 s.12  = 
+    <Ev-met s.5 'c' > ;
+}
+
+BB {
+  'b' 9 'db' 7 (1 9 ) 'c' (B e.6 ACA ) (3 e.8 8 C 'ca' ) e.12 DBB 
+    ,<ExtBCC DD >
+: 
+     { 
+  'c' 
+    ,e.8 e.12 <Mu 10 > : (e.8 ) 0 'b' 
+    ,(e.6 e.8 'a' )
+e.12 (() 9 ) :  = 
+    <Upper 'd' ACC <ExtDD > 'd' > (e.12 e.8 (BC CD ) <ExtCDB B e.8 > ) e.8 ;
+     };
+}

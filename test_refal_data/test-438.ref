@@ -1,0 +1,120 @@
+$EXTERN ExtDC , ExtACA , ExtBBCDA , ExtDDB , ExtCB , ExtBCB , ExtCCBA ;
+
+
+
+$ENTRY A {
+  ABDB 2 CDD e.7 e.10 AA 'c' s.1 t.2 3 ((6 CDB ) C ) 
+    ,: 
+     { 
+  'c' s.1 t.3 DDA  = 
+    ;
+  'c' s.1 t.3 DDA A s.2 'd' e.6 
+    ,e.6 (s.2 'a' 7 'c' ) ABB : 
+ 
+  ,'b' 6 : 
+    ,CB 2 s.1 (<ExtBCB 'c' > s.2 ) 'b' :  = 
+    CB ;
+  'c' s.1 t.3 DDA A s.2 'c' s.11 BCBA CD e.6 3 e.6 
+    ,A : 'b' 
+    ,6 CBC <ExtDDB 'bbb'
+e.7 > : ABB 
+    ,e.10 : e.13 e.13 6 AB  = 
+    3 CBA e.6 t.3 ;
+     };
+  ABDB 2 CDD (s.3 ) () s.1 t.2 3 ((6 CDB ) C )  = 
+    s.3 ;
+  ABDB 2 CDD (s.3 ) BC 'c' 1 BCD () s.1 t.2 3 ((6 CDB ) C ) 
+    ,s.3 9 : 
+     { 
+  s.2  = 
+    (('dc' DB ) C ) 'd' 6 ;
+  s.2 t.3 
+    ,: DCB 
+    ,DBA 6 : D  = 
+    <Chr 'b' > ;
+  s.2 t.3 s.5 
+    ,'b' BCBC 8 : 1 BBDB 'b' 
+    ,: 
+    ,'a' t.3 :
+'a'  = 
+    8 <Mu s.3 > ;
+     };
+  ABDB 2 CDD (s.3 ) s.9 BBC BCB 'a' 8 'cc' e.7 'a' 1 BCD () s.1 t.2 3 ((6 CDB ) C )
+
+    ,ACBC : 
+     { 
+  () 0 
+    ,1 t.2 'b' : 
+    ,6 8 (4 ) : (D (DC e.11 ) ) ACD AB 
+   
+,BB ((CDC 2 AADD 7 ) ) 'c' : 8 'c' 8 'a' 
+    ,: 
+    ,: e.10 e.2 
+
+   ,'b' s.9 ('c' ) (s.9 6 s.9 ) CBC 9 : 
+     { 
+  e.2 'c' 
+    ,'bc' :  = 
+    5 CBC ;
+     };
+     };
+  ABDB 2 CDD (s.3 ) 'b' t.10 (ADCB 9 ) s.5 1 BCD () s.1 t.2 3 ((6 CDB ) C ) 
+    ,:
+
+     { 
+  t.10 (s.4 ) 
+    ,1 : 'd'  = 
+    2 ;
+     };
+}
+
+$ENTRY CAD {
+  'bc' AC 3 'c' 
+    ,DA <ExtDDB (BCC ) > : 
+     { 
+  t.11 BC 'd' 0 
+    ,<Upper 'c' t.11 > () : 
+    ,: 2 6 
+    ,AA 'd'
+7 : e.13 
+    ,: 
+     { 
+  'b' AC 'bb' DBBB (e.12 ) 'bb'  = 
+    4 e.12 'b' ;
+  'b' AC 'b' 1 e.6 () DBBB (e.12 ) 'bb' 
+    ,('b' <Print t.11 > CDCB ) t.11 (()
+CCA DCAA ) CB : D (BB e.12 ) e.9 t.8 
+    ,: 'bd' AC 
+    ,: 2 (7 ) () 
+
+   ,(BD 'd' t.11 'a' ) :  = 
+    (1 2 'a' ) BD 'b' 6 ;
+     };
+  t.11 t.10 B CCBA CAD 'dc' AA 6 CB 'b' ('b' 2 3 ) 0 
+    ,9 : 
+    ,: 'b'
+e.13 'c' 
+    ,5 :  = 
+    ;
+     };
+  BDCD ((1 ) ) BBCB CCA (('a' ) 'b' ) 'b' e.3 'd' e.1 'c' 
+    ,: 
+     { 
+  e.12 (0 'b' CBC ) ACC 'b' 
+    ,<Ord 3 e.1 'b' e.1 > : 
+    ,: 
+  
+ ,e.1 : (ABAC )  = 
+    BBC 5 () ABBD ;
+  t.12 (t.4 ) 'a' (0 'b' CBC ) ACC 'b' 
+    ,: 7 
+    ,(10 e.1 'aa'
+) 10 'b' CAB : 
+    ,: 'db' 
+    ,DAC ('c' ) <ExtBBCDA > : DD e.11  = 
+    'a' 5 ;
+  t.12 (t.4 ) 'cd' (0 'b' CBC ) ACC 'b' 
+    ,BDAA : 3  = 
+    B ;
+     };
+}

@@ -1,0 +1,310 @@
+$EXTERN ExtBA , ExtCCDDA , ExtCA ;
+
+
+
+$ENTRY AABCA {
+  'db' t.12 'c' 5 t.7 t.7 
+    ,ACC 2 t.12 t.12 'd' ('c' (<Ev-met AD t.12 > )
+t.7 BAB (t.7 t.12 BAB t.7 2 <DB t.7 t.12 t.7 t.7 'bd' AC CBC CA 3 > <Ord t.12 'b' >
+) 'a' BBA ) <Ord > : 
+     { 
+  7 e.9 'b' s.10 s.5 
+    ,: e.3 e.2  = 
+    'a' ;
+  (e.4 ) t.13 () (e.9 ) s.10 s.5 
+    ,'c' : 
+    ,<CCBA > 'd' e.9 :
+3 A CBC 
+    ,: (e.1 3 ) CCB  = 
+    ;
+  (e.4 ) t.13 () ACCB 8 CD s.10 s.5 
+    ,'c' : 
+    ,CCC 'c' e.4 : e.11 e.12 AB DDC 'a'
+ = 
+    ;
+     };
+  'db' 0 t.12 ABB 5 t.7 t.7 
+    ,DD : 
+     { 
+  B DBC e.8 
+    ,(e.8 (CC ) t.12 ) e.8 :  = 
+    ;
+     };
+  'db' (t.2 ) 7 e.1 () ABB 5 t.7 t.7 
+    ,'a' : 
+     { 
+  6 () t.2 4 e.5 'c' s.1 
+    ,t.7 'a' : BBB 3 e.5 
+    ,: 
+    ,3 5 <CDAD 1 >
+: 
+    ,4 (CCA ) : 
+    ,:  = 
+    ;
+  6 () t.2 (BC ) e.9 e.4 ('b' ) 1 
+    ,BDD : 
+    ,'d' : ('b' )
+'d' DC (e.12 e.9 e.11 'c' ) 
+    ,:  = 
+    e.12 'b' ;
+     };
+}
+
+DB {
+  t.4 (BB t.1 (10 t.4 6 ACBC () ) 10 ) AAB e.10 t.3 
+    ,t.1 : 
+     { 
+  'b' CCC 
+    ,(ACA 'b' ABC ) : (BBCB B 'a' (6 4 DBBA ) ) 9 3 'ac' 
+    ,(<Type BAD >
+) : 
+    ,'c' BC <Type t.1 9 <CCBA t.4 6 > <Mu t.4 3 > > (<Ev-met > 'c' <BCBCB DB 4 t.1 t.4 >
+) 'd' : 
+    ,: 
+    ,BBC <Lower t.1 > :  = 
+    ;
+     };
+  t.4 (BB t.1 (10 t.4 6 ACBC () ) 10 ) 6 8 B s.2 t.3 
+    ,: 
+     { 
+  (4 ADC e.9 CCCC (8 D 'a' CA ) 8 ) 'b' CD t.10 'a' (e.3 ) 
+    ,t.4 : e.10 
+
+   ,: 3 (BDB e.12 ) 'a' 7 e.13 8 
+    ,: 7 8 'c' e.5 CC  = 
+    (<Mu > ) <Type e.12 > ;
+     };
+}
+
+$ENTRY CCAC {
+  6 e.5 2 
+    ,<Mu 'c' > : 
+     { 
+  CB t.5 
+    ,BC <Mu BD 'bc' t.5 e.5 > e.5 'd' : 'c' 
+    ,DC :  = 
+    (BCB 10 ) CCBD BCB 'b' ;
+     };
+  s.13 (5 t.6 ) 1 2 
+    ,CBB (t.6 3 <A s.13 > <Mu 9 BCA s.13 > ) BBC <Upper (9 8 ) t.6 s.13 >
+'c' s.13 : 
+     { 
+  (BB ) ((CCC BD ) 3 (s.2 7 'cd' ) s.2 ) 4 s.12 
+    ,(<DB > ) : 
+   
+,B : 'b' 
+    ,<CCBA BBCB B <A 'b' 1 BCBB > s.13 > : 'c' 
+    ,() DB C CC :
+
+    ,CA BD 'a' BCDC : 4  = 
+    9 BC s.13 t.6 ;
+     };
+}
+
+CCBA {
+  'd' (C (e.4 ) (t.2 7 'b' ) 'b' (BABB ) ) ((3 CABA 'c' DBB ) 'a' e.3 ('d'
+ACBD 9 BABA BBA ) BBD e.12 ) 'c' 4  = 
+    ;
+  (CBCB e.9 ) s.10 BDD 4 
+    ,s.10 e.9 'd' (9 'c' <ExtBA s.10 'b' e.9 7 0 'c'
+A > 7 CCA 8 DCCB 'a' ) 7 s.10 <ExtCA 'c' B <ExtCA 'ba' s.10 CCCB ABAB > (9 'c' 1 4 C ) DBA <CCAC e.9 s.10 'c'
+DC > > : 
+     { 
+  7 2 2 'c'  = 
+    ;
+  7 (t.4 B ) 'a' e.6 7 1 5 2 2 'c' 
+    ,: () e.6 ('c' e.12 e.6 )  = 
+    ;
+     };
+  'b' (e.11 e.1 ) t.3 'b' (CBCB e.9 ) s.10 BDD 4 
+    ,e.9 : 
+     { 
+  6 4 'a' (10 ) 
+    ,'b' (<Lenw e.9 6 > ) : 'c' (8 e.6 t.13 ) 'b' 
+
+   ,: 
+    ,AA 'b' (<Mu t.13 'a' > e.1 e.1 ) <CDAD 5 'b' s.10 > : 3 e.10  = 
+    e.11 5 e.1 ;
+  6 AA BC e.3 'c' 4 'a' (10 )  = 
+    ;
+     };
+  'b' 5 10 'b' e.10 DCD 2 'b' t.3 'b' (CBCB e.9 ) s.10 BDD 4  = 
+    'd' <Lenw B 'dcd' e.10 DDD (e.10 'a' CA 4 6 ) e.10 e.10 > ;
+}
+
+BCBCB {
+  CBCD 'a' t.5 CAD e.8 'c' (t.2 (e.11 e.9 t.2 (e.9 'b' 6 ) 2 ) (10 'c' ('dd'
+5 CD 8 3 ) 'c' 8 ADD ) 'b' )  = 
+    ;
+  CBCD 'a' s.7 (s.7 ) 6 t.5 
+    ,B : 
+     { 
+  BBBD 4 s.7 3 e.11 (10 ) 
+    ,'bd' <Mu 4 s.7 'c' > s.7 : 
+    ,t.5 s.7 CDA :
+BC 
+    ,8 : 5 (s.1 ) 
+    ,3 : (s.7 B 'dc' ) CC 'a'  = 
+    (AC 6 ) 'a' ;
+     };
+  CBCD 'a' s.7 (s.7 ) 6 ACB 3 e.9 'c' BB 7 e.9 'd' 4 t.5 
+    ,<CCAC C 2 > DC :
+
+     { 
+  BC ((s.8 'b' ) ) 
+    ,<Ev-met BB > : 
+    ,'b' : 
+     { 
+  e.8 9 
+    ,: e.4 ACA 
+    ,() : 
+    ,5 : 
+    ,s.8 :  = 
+    BCC ;
+     };
+  e.2 (4 CBB 'b' ) 'b' BC ((s.8 'b' ) ) 
+    ,<CCBA > : 6 (e.8 6 ) e.6 
+
+   ,: 'c' e.1 
+    ,e.9 : 
+     { 
+  CAB (() ) 'bc' 
+    ,AA : 
+    ,BBAD : 
+    ,s.7 'a' :  = 
+    CB 'c' ;
+  CAB (() ) 9 2 'cc' 
+    ,('c' s.7 s.7 'a' ) :  = 
+    ;
+  CAB (() ) 9 1 'c' 
+    ,<ExtCA BAC > : 
+    ,: 'b' 
+    ,: 'c' e.6 
+
+   ,'ac' (e.9 'c' CDCB ) A : e.1 e.10 'c'  = 
+    5 () ;
+     };
+     };
+  CBCD 'a' s.7 (s.7 ) 6 ACB 3 'dad' 4 t.5  = 
+    ;
+}
+
+$ENTRY A {
+  CDA e.1 e.1 (e.9 7 e.5 'c' CCCB (e.7 BD 'b' 6 (B CAB 'a' (6 'b' 1 e.8 4 BB ) )
+0 3 'b' ) BC CD 7 'c' ) s.11 (() CCBB ) 
+    ,ABAD s.11 e.9 <Mu > : 
+     { 
+  (B ) 'd' 2 t.12 
+    ,'a' A CB : BBCC 
+    ,t.12 : s.2 'a' 
+    ,2 :
+CCA e.11 8 B ('b' ) ('c' BBD CC BCCD BCC s.13 ) 
+    ,:  = 
+    A CC <Ord 2 > ;
+  (B ) t.8 'a' t.12 
+    ,<ExtBA e.9 DC 'c' > e.1 e.1 'b' : 5 CB 
+    ,BBD 0 BC :
+
+    ,'d' e.9 (e.9 ) <DB 'b' CC e.9 e.9 > : 
+     { 
+  6 s.7 
+    ,BAC : DCBB () 
+    ,CCA :  = 
+    'a' ;
+     };
+  (B ) t.8 B BCC 4 t.12  = 
+    ;
+     };
+  9 e.4 e.9 5 'c' e.10 'd' (() CCBB )  = 
+    e.10 (CDA ) <Print BC 'ba' e.10 e.9 CCB e.9 > 'c' ;
+  'dca' e.2 'b' 9 'c' (() CCBB ) 
+    ,4 6 : 
+     { 
+  (2 ) ('a' ) 
+    ,(BB BC (8 ) 4 ) e.2 : e.5 
+    ,C : CA e.5 
+  
+ ,e.2 : 
+    ,6 :  = 
+    'c' DD 'c' ;
+     };
+  'dca' e.12 'a' (('c' BB 'b' ) (7 9 ) e.6 ) ('c' (AAD ) ABD ) 'a'
+DCB 'c' (() CCBB ) 
+    ,10 0 : 
+     { 
+  CAA 'c' ('bc' ) 
+    ,e.6 :  = 
+    ;
+  CCC ('c' ) e.9 CAA 'c' ('bc' ) 
+    ,<DB () > : 
+    ,(6 <ExtCA > )
+6 :  = 
+    (e.6 ) CCA (4 ) 0 ;
+  CCC e.4 2 2 CAA 'c' ('bc' ) 
+    ,e.12 <Upper (3 <Ord > ) <Ev-met > > : 'b' 10 CB e.7 
+
+   ,: CCD CCCB 
+    ,'d' 0 A : BCAB (8 e.1 ) 
+    ,'cc' (BCDB 'b' ) (e.1 'b'
+CA 'c' ) 8 : 
+    ,(DAC ) e.7 : ('b' ) ACCA BCBC CCAB  = 
+    'a' ('a' ) CC e.12 <Lower e.4 CCB D > ;
+     };
+  'dca' e.12 'a' DDAC 2 C DCB 'c' (() CCBB )  = 
+    ;
+}
+
+$ENTRY CDAD {
+  7 10 s.10 (s.11 ) BC 
+    ,'c' : 
+     { 
+  7 'cd' 2 
+    ,<CCAC <CCBA BAB > > : 'b' BB 
+    ,<Prout 10 6 > : 'b' 
+   
+,: BBC e.7 DD 
+    ,DC <AABCA 'b' > : 
+    ,'a' 2 DCA : 
+     { 
+  (10 ) () 'c' 
+    ,: e.12 t.10 
+    ,'a' :  = 
+    4 10 <Lower 'a' s.10 > BDC ;
+     };
+     };
+  7 (DBB ACB ) 'c' () s.10 (s.11 ) BC 
+    ,4 s.10 : 
+     { 
+  CCC s.10 BCD CA  = 
+    ;
+  CCC s.10 BCD CA B 'c' 8 
+    ,: 'd' DABD 
+    ,C BC : 'd' 
+    ,3 ('cb'
+) : 'a' e.13 5 e.8 
+    ,(0 <Lower 10 > ) :  = 
+    ACC ;
+     };
+  7 'c' t.4 6 AA 'c' () s.10 (s.11 ) BC 
+    ,(t.4 ) : 
+     { 
+  s.3 e.7 BCCB C 
+    ,('bc' ) BBB <BCBCB s.11 > : 
+    ,'c' : 'a' 
+  
+ ,CDB : 'b' (BD B ) BC 8 ('b' BDC e.12 ) 'b' 
+    ,: 
+    ,s.3 'b'
+e.7 :  = 
+    <AABCA s.11 > ;
+     };
+  7 'c' t.4 6 'bb' BBDB AA 'c' () s.10 (s.11 ) BC 
+    ,(<BCBCB t.4 7 'c' t.4 >
+) (s.11 t.4 s.10 'c' ) : 
+     { 
+  e.3 CCC ('a' ) BDBA ACB 'a' B 
+    ,: DA 
+    ,'b' CCC : DD CC 1  = 
+    'c' ;
+     };
+}

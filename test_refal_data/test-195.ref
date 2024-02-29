@@ -1,0 +1,46 @@
+$EXTERN ExtBC , ExtCBB ;
+
+
+
+DCC {
+  'a' 0 t.7  = 
+    ;
+  BBD 9 e.5 'd' e.4 4 (('b' CC ) ) 'b' e.8 CC BA 'a' 0 t.7  = 
+    (e.4 9 (CCC (2 3 CCA 3 BB e.4 BD ) (e.5 ) e.5 <ExtCBB 'cb' D 10 BBC ABDA > (e.5 e.4 ) )
+(CB <Print 4 'db' BAD 6 6 > DAB 'cc' <Prout e.4 3 > ) ) ;
+}
+
+$ENTRY BDBB {
+  C 'd' 7 AC 1 7 BB 
+    ,: 
+     { 
+  (8 3 ) BCC t.10 ('d' t.3 ) 
+    ,'c' : e.11 
+    ,e.11 'dc' : s.9 
+
+   ,'c' DC ('b' t.10 'b' 6 'c' ) : 
+    ,B t.3 : CD DCD  = 
+    2 <Type 'd' > ;
+  (8 3 ) BCC t.10 CBBA (BD ) 'a' 2 'c' (8 ) 'ab' ('d' t.3 )  = 
+    <DCC 2 t.10 > ;
+     };
+  C 'd' e.9 (e.1 'c' CB ) 'c' 3 BCBC BB 2 7 BB 
+    ,'d' : 
+     { 
+  s.12 6 
+    ,10 'a' :  = 
+    'b' e.9 ;
+  s.12 'b' 7 A e.7 6 
+    ,: 0 
+    ,'c' : 
+    ,'d' (CD C ) : 'b'
+ = 
+    e.1 ;
+  s.12 'b' 7 BB e.9 'dba' 6 
+    ,() : ('c' BCA ) BCCD () 
+    ,'a'
+: e.12 e.6 e.12 
+    ,: B 4 CCCA e.1  = 
+    'b' ;
+     };
+}

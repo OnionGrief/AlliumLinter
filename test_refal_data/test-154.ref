@@ -1,0 +1,44 @@
+$EXTERN ExtCBCD , ExtCC , ExtBBAB ;
+
+
+
+$ENTRY Go {
+  5 2 
+    ,(2 'b' ) (4 4 ) <ExtCC C > : 
+     { 
+  'b' s.10 
+    ,(DB ) :  = 
+    D <ExtCBCD <Mu s.10 > 7 3 > <ExtCC 9 <Ev-met 2 B > 10 9 > ;
+     };
+}
+
+C {
+  8 CBC (((e.1 s.6 e.7 C ) 'b' 1 (e.13 e.1 e.11 CD ) 7 e.5 ) e.13 ) 7 (B ((CBB e.13 s.6 5 e.2 'c'
+) 'c' ) (e.12 'c' (8 e.7 CC ) ) e.2 e.9 ) 'b' 6 B C  = 
+    s.6 ;
+  4 'b' 9 BA s.1 B C  = 
+    9 <Lower 'c' > <ExtCC 6 (s.1 5 ) 'a' CDC 'b' > 'c' ;
+  4 DBB 'b' ('c' ) e.13 t.6 'b' C 'd' DCCC () 7 e.12 'bb' 9 BA s.1 B C  = 
+    (<Lenw (AB e.13 CA ) 'a' e.13 9 e.13 'a' t.6 > ) () D 'b' (e.13 6 BBD <Ord 2 e.13 >
+B ) 'a' ;
+  4 DBB 'b' ('c' ) e.13 'c' (ABC t.3 ) e.5 t.10 9 (DCDB 'b' t.13 ) ('b' CAC )
+'bb' 9 BA s.1 B C 
+    ,<Lenw 1 A > : 
+     { 
+  e.9 (D ) t.2 
+    ,: 
+    ,: 'd'  = 
+    ;
+  e.9 ('d' 5 ) e.4 e.10 (BCBD 9 ) t.1 9 t.2 
+    ,6 e.9 :  = 
+    ;
+     };
+  4 DBB 'b' ('c' ) e.13 'c' (ABC t.3 ) ((s.3 s.9 ) e.12 ) 'ab' AD () (e.3 DAD e.7 7 CBB 0 C 2 )
+0 s.1 t.10 9 (DCDB 'b' t.13 ) ('b' CAC ) 'bb' 9 BA s.1 B C 
+    ,'ca' CC CBA e.3 'd'
+: 
+     { 
+  (4 B 'c' ) 7 e.5 5 e.5  = 
+    <Mu e.12 e.7 'd' > ADA ;
+     };
+}

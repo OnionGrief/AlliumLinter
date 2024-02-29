@@ -1,0 +1,31 @@
+$EXTERN ExtDAC , ExtAC ;
+
+
+
+$ENTRY CDBB {
+  'b' CD 
+    ,'b' BBB 8 <CDBB <CDBB DCB > 6 > 2 : 
+     { 
+  e.2 e.8 'b' 
+    ,<CDBB BBC 'c' e.8 6 > : 'b' ('b' 1 ) 
+    ,'cb'
+BBA (6 1 5 ) : (CCBB ) s.7 
+    ,: 'b' 
+    ,: 
+     { 
+  s.6 
+    ,:  = 
+    C ;
+  AC ('c' 3 e.11 e.12 ('cbb' ) ) (e.8 ('c' ) e.6 (BA e.13 4 'b' ) )
+(e.5 ) (e.12 e.13 ) (e.6 (10 1 ) ) BBB t.8 s.6 
+    ,: 5  = 
+    ;
+  AC CA BCC (7 'c' ) t.4 CC (e.6 (10 1 ) ) BBB t.8 s.6 
+    ,<Mu > : 
+    ,:
+'c' e.6 
+    ,: 2  = 
+    <CDBB 'c' > ;
+     };
+     };
+}

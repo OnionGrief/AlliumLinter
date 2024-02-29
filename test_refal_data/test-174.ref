@@ -1,0 +1,33 @@
+$EXTERN ExtGo , ExtDCCCA , ExtCDBDC , ExtB , ExtBCDC , ExtBC , ExtDB , ExtDBCCC , ExtBAB ;
+
+
+
+$ENTRY DB {
+  5 () 'b' DBBD BC 
+    ,10 BB BCB (<Lower AAD 'bd' > ) <ExtDBCCC (10 10 2 ) 'd' CB <Mu 'd' 5 >
+4 CB <Mu 'bddc' > > : 
+     { 
+  DA 
+    ,AA CABA ADB <Lenw 'a' > :  = 
+    <ExtB <Lower BBC <ExtBCDC 3 'b' > > > ;
+     };
+  5 ABB 6 'c' BB 'bc' CCA () 'b' DBBD BC 
+    ,BB (<Print 'c' > 5 <Lower CAC 4 > ) 9 1 'd'
+: 
+     { 
+  'a' CAC 3 s.6 'c' 
+    ,: e.10 e.12 e.6 'c' 1 
+    ,('b' B e.10 2 )
+('bc' ) : 'cc' (e.13 7 (1 CDBC ) ) 'ad'  = 
+    ;
+     };
+  5 ABB 6 CCB e.1 'b' CAD CCA () 'b' DBBD BC 
+    ,CC AB BCA e.1 : 
+     { 
+  e.6 D e.1 e.4 'a' 1 
+    ,: 'b' 
+    ,: (2 B s.5 'b' ) s.8 'a'
+(10 CCBA CCA CBAA )  = 
+    () ;
+     };
+}

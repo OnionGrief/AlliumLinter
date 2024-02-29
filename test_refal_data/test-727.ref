@@ -1,0 +1,30 @@
+$EXTERN ExtGo , ExtCB ;
+
+
+
+$ENTRY CB {
+  'cb' BBD  = 
+    CCD ;
+  'c' (CBBA ) DBD CA e.7 5 (e.10 e.10 e.9 CA ) CBA 'b' BBD  = 
+    e.7 ;
+}
+
+BBBBB {
+  s.3 e.5 DAD 'b' 
+    ,() s.3 e.5 : 
+     { 
+  8 'b' ((t.12 e.11 DB ) 'c' 1 CB AD AC 2 ) s.6 1 8 t.4 s.13 'd' DCB  = 
+    t.12 ;
+     };
+  s.3 ('cdc' 7 ) t.8 s.9 'b' 
+    ,: 
+     { 
+  (CA ) 
+    ,'d' s.9 : e.1 
+    ,3 t.8 : 
+    ,: 7 
+    ,s.3 :
+ = 
+    DCA ;
+     };
+}

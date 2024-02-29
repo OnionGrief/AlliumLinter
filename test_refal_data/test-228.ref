@@ -1,0 +1,30 @@
+$EXTERN ExtDBCCC , ExtDD , ExtCB , ExtACCD , ExtB ;
+
+
+
+ACBB {
+  8 s.2 'ac' e.13 AC ()  = 
+    (<ExtDD AAC 9 5 ('cd' ) e.13 > 5 4 4 5 'c' ) () 'b' <ACBB <ACBB 10 (6 ) > <ExtCB <ExtCB >
+6 e.13 9 C 4 <Chr 'c' > (CA 1 'd' 9 e.13 5 ) > 'b' CCC <Mu s.2 (BD DCC ) CB 7 6 > >
+;
+}
+
+$ENTRY DDCCB {
+  e.1 BC 'd' e.3 B C 'a' 8 'b' DC 
+    ,8 : 
+     { 
+  (B 'c' ) 'dab' 
+    ,<Prout BDC > : 1 
+    ,e.3 : e.13 1 BBD e.3  = 
+    5 ;
+  ADBB ('bb' B 8 ) 'cdab' 
+    ,'a' : 'bcc' 
+    ,<Print e.1 ACC > :
+'c' 
+    ,<Chr <Chr > > 7 : 6 (('d' 4 ) AC (BBC 5 C e.5 'b' ) e.6 ) 
+
+   ,(<Ev-met > ) : 
+    ,DBC :  = 
+    BB () ;
+     };
+}

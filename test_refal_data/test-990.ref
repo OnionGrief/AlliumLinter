@@ -1,0 +1,203 @@
+$EXTERN ExtBAB , ExtDB , ExtCAA , ExtDBD , ExtBDBC , ExtCCCA ;
+
+
+
+ABD {
+  t.13 e.4 ('c' 5 A e.9 e.1 'd' ) t.10 e.12 CBB ('a' e.6 9 ) (10 ) 'c' 
+
+   ,7 : 
+     { 
+  8 t.11 s.10 s.8 'a' 
+    ,e.6 DA : CD 
+    ,CC : (e.5 ) 
+    ,(4 )
+: 1  = 
+    <ExtCCCA > ;
+  8 t.11 ('d' ) (10 AB ) AB 'a' 3 'db' s.8 'a' 
+    ,5 9 (<CCA > ) : 'c'
+DCBC e.5 (6 DD 9 4 e.7 ) e.1  = 
+    ;
+     };
+  'b' (e.13 6 e.2 ) 
+    ,<ExtCCCA 9 (e.2 ) ABB > 'c' <Ev-met 'c' () 4 <Prout > >
+: 
+     { 
+  t.10 
+    ,(1 2 <ExtDB BCB 'c' > ) () t.10 CCAA 5 : CAC 
+    ,(t.10 'c' ) :
+e.3 10 
+    ,'b' : s.4  = 
+    'b' BAA 'b' e.3 ;
+  t.2 2 (s.10 (('b' s.5 ) ) s.3 ) BCCB s.10 
+    ,: 
+    ,'b' BBD : BA 
+
+   ,: 9 4 
+    ,'c' : 6 
+    ,e.13 <Type s.10 > : CCC 'c' 3  = 
+    <ExtDBD DAA > ;
+     };
+  e.1  = 
+    ((3 7 ) 1 BBBA ) CD ;
+}
+
+$ENTRY DABB {
+  (s.2 A ) 'c' (5 ('a' B ) e.11 1 CD ) BAA 2 e.3 6 (t.2 s.10 ) B 'c' 
+  
+ ,C 'b' s.10 'd' CBB B t.2 'd' : 
+     { 
+  5 e.7 s.13  = 
+    'a' s.13 1 <Mu CC > ;
+     };
+  (s.2 A ) s.10 'b' DCD ABB ('d' t.6 s.9 'd' ) 'a' s.12 (t.2 s.10 ) B 'c'
+
+    ,: 
+     { 
+  'b' CB 
+    ,: 6 4 9  = 
+    ;
+  s.4 5 1 CB 
+    ,: 3 'cc' 
+    ,: A 'ba' 6 
+    ,7 DCB : CCD  = 
+    CD ;
+  s.4 5 e.8 e.5 'b' () t.3 (s.1 1 B ) CB 
+    ,: 
+    ,: BDC e.11 e.1 'bbb'
+BBC 
+    ,t.2 e.5 'a' <Type <Mu > 5 AA > 2 : CDB  = 
+    ;
+     };
+}
+
+CCA {
+  CC 8 'b' 2 1 'b' 
+    ,<Type (6 DBC ) <Mu 'cb' CB 2 > <Mu BB 9 BCCB > () <ExtBDBC CBBB 'd'
+2 7 1 B > > <ExtBDBC 'a' AAB 'c' > : 
+     { 
+  B s.4 CCB 
+    ,: 9 C  = 
+    ;
+  BBB e.8 CAA t.11 CBB 'd' s.4 CCB 
+    ,<Chr 'c' > CB : 
+    ,DBC 7 10 : e.11 e.8 2 
+
+   ,(9 'b' ) : () 
+    ,<Mu DC 7 > : 6  = 
+    ;
+     };
+  CC D (CCD 'b' ) 'b' 2 1 'b' 
+    ,'b' : 
+     { 
+  s.13 'b' e.2 (10 (0 e.1 'c' e.4 ) e.8 'd' e.3 ) (e.1 (e.13 e.7 10 4 )
+6 CC (AC e.1 ) BC ) ((C BBC e.1 CDD 'b' ) e.10 e.5 ) s.2 'b' 6 (7 ((s.2 ('d'
+) ) 'd' ) (2 (() (2 ) ) 'b' ) 4 ) 
+    ,: BA AA (B 7 ) (4 e.6 BBB 'c'
+) 
+    ,ACC BBB : 
+    ,: 8 5 'a' e.1  = 
+    ;
+     };
+  CC t.3 'c' t.2 'b' 2 1 'b' 
+    ,DABA 'b' <Chr 'd' t.2 > : 
+     { 
+  3 
+    ,CBC <Ev-met > 'a' : e.4 
+    ,C 'b' : (BCB ) e.11 CBA 'd' 4 
+   
+,9 7 CA : 3 
+    ,t.3 : 'c'  = 
+    'a' ;
+  3  = 
+    AC ;
+  3 'b' t.3 
+    ,: BC 
+    ,t.2 : 9 
+    ,<Prout t.2 CC 'b' > :  = 
+    t.2 ;
+     };
+  CC 'b' 2 1 'b' 
+    ,: 
+     { 
+  'c' e.10 
+    ,'d' : (BB ) (1 t.11 e.4 ABC 'c' ) 
+    ,3 : 2 
+  
+ ,e.10 () t.11 : (e.11 'c' 2 ) 'b' C 
+    ,: e.3 DBC 
+    ,6 (<Lower BA CBB 6 'c'
+> ) :  = 
+    (2 (e.10 ) 'a' ) 'c' <Prout (e.3 'b' ) () (e.10 'c' ) 0 > (('b'
+2 2 ) <Upper 7 5 4 > ) ;
+  'c' e.12 e.13 e.5 s.5 
+    ,e.12 e.13 (9 <Print 9 'b' 0 > ) 10 :  = 
+    DCD e.13 ;
+  'cbc' 4 'b' ACC s.5 
+    ,s.5 4 : e.5 
+    ,: 
+    ,'c' : 
+
+   ,<ExtCCCA > : 
+    ,C ('b' 3 s.5 'd' ) (9 'c' ) 3 : AC e.1  = 
+    ;
+     };
+}
+
+BA {
+  'b' 9 1 
+    ,'a' <Mu 'c' <ExtCCCA > > : 
+     { 
+  ((s.2 'b' t.6 4 ) 10 (BCCC 6 ) 'b' ) e.13 e.5 s.1 'b' 
+    ,: CDD 
+ 
+  ,BDC s.2 : 'c' BBCC A e.8 BB 
+    ,<Lower > t.6 (A DACC ) : BC  = 
+    s.1 <Print > 5 t.6 ;
+  ((s.2 'b' t.6 4 ) 10 (BCCC 6 ) 'b' ) 'd' AB CB s.1 'b' 
+    ,s.1 6 :
+e.4 
+    ,'d' s.2 : 'd' 5 e.9 
+    ,'b' <ExtCCCA s.1 CA > : 
+    ,'c'
+e.4 : s.6 (e.2 'b' 8 ) e.1 6  = 
+    t.6 7 3 DDB ;
+  ((s.2 'b' t.6 4 ) 10 (BCCC 6 ) 'b' ) 'dc' DCC () CB s.1 'b' 
+    ,<BA 3 ABD <DABB 'c'
+> > DDB ACB : e.6 
+    ,(<Mu s.2 'd' s.2 > ) : 
+     { 
+  'bb' (('b' t.1 s.13 ) CAC s.2 9 ) () t.3 
+    ,<DABB > : 6  = 
+    ;
+     };
+     };
+  'b' 9 AA e.1 BADB 1  = 
+    ;
+  'b' 9 t.12 ('b' 5 BA ) BD 'd' 0 BADB 1 
+    ,9 () : 
+     { 
+  4 B 
+    ,CBB : 
+     { 
+  t.6 'c' e.10 ADD  = 
+    ;
+  t.6 'c' t.4 () e.7 'c' BBD ADD 
+    ,t.6 8 t.6 :  = 
+    t.6 DCBC ;
+     };
+  CC A 
+    ,t.12 : 
+    ,() <ABD <CCA t.12 > > : e.13 
+    ,: 
+    ,()
+:  = 
+    ('a' CCA 'c' ) t.12 CAB ;
+  'c' CBA e.11 ((2 4 e.13 e.13 ) 'c' BBCB CBDD ) CC A 
+    ,() <ExtDBD 4 0 > 1 (B (('d'
+) ) ) CD : A (ADDD ) 
+    ,<Ev-met > : BA 
+    ,BBC : 2 3 
+    ,() :  = 
+    e.13 'c' ;
+     };
+}
