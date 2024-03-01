@@ -74,9 +74,9 @@ func CodeInComment(tkn lexer.Token) Log {
 	}
 
 }
-func ReusingBlock(len int) Log {
+func ReusingBlock(len int, pos1, pos2 lexer.Position) Log {
 	return Log{
-		str:    fmt.Sprintf("Найден переиспользуемый блок длины %d ", len),
+		str:    fmt.Sprintf("Найден переиспользуемый блок длины %d [%d:%d] [%d:%d]", len, pos1.Column, pos1.Row, pos2.Column, pos2.Row),
 		lgType: extern,
 		level:  Warning,
 	}

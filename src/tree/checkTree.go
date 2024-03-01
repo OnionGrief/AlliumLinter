@@ -76,24 +76,65 @@ func (p *Parser) CheckComment() []logger.Log {
 	return res
 }
 
-func CheckTreeRec(elem *treeElem) []logger.Log {
+type сoords struct {
+	Start lexer.Position
+	End   lexer.Position
+}
+
+func isCoordsNested(coords сoords, otherCoords сoords) bool {
+	return coords.Start.Column >= otherCoords.Start.Column && coords.Start.Row >= otherCoords.Start.Row &&
+		coords.End.Column <= otherCoords.End.Column && coords.End.Row <= otherCoords.End.Row
+}
+
+type forCheckTreeRec struct {
+	first, second сoords
+	deep          int
+}
+
+func findNonNestedCoords(in []forCheckTreeRec) []logger.Log {
 	var logs []logger.Log
+	for i, coords := range in {
+		isNested := false
+		for j, otherCoords := range in {
+			if i != j && isCoordsNested(coords.first, otherCoords.first) {
+				isNested = true
+				break
+			}
+		}
+		if !isNested {
+			logs = append(logs, logger.ReusingBlock(coords.deep, coords.first.Start, coords.second.Start))
+		}
+	}
+	return logs
+}
+
+func CheckTreeRec(elem *treeElem) []logger.Log {
+	var forCheck []forCheckTreeRec
 	collection, _ := CollectTreeRec(elem)
 	if len(collection) == 0 {
 		return nil
 	}
 	combinations := generateUniqueCombinations(len(collection) - 1)
-	// проверяем есть ли тут пересечение
 
 	for _, comb := range combinations {
 		if r := checkTreeRecBool(collection[comb.a].elem, collection[comb.b].elem); r {
 			if collection[comb.b].deep > int(config.BlockLen) {
-				logs = append(logs, logger.ReusingBlock(collection[comb.b].deep))
+				forCheck = append(forCheck, forCheckTreeRec{
+					first: сoords{
+						Start: collection[comb.a].elem.start,
+						End:   collection[comb.a].elem.finish,
+					},
+					second: сoords{
+						Start: collection[comb.b].elem.start,
+						End:   collection[comb.b].elem.finish,
+					},
+					deep: collection[comb.a].deep,
+				})
 			}
 		}
 	}
 
-	return logs
+	return findNonNestedCoords(forCheck)
 }
 
 type checkTree struct {

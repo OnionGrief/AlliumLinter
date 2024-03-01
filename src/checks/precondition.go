@@ -91,16 +91,14 @@ func checkNames(tokens []lexer.Token) []logger.Log {
 }
 func checkExtern(tokens []lexer.Token) []logger.Log {
 	var logs []logger.Log
-	var extrn *lexer.Token
+	var pos []lexer.Position
 	for _, tkn := range tokens {
 		if tkn.TokenType == lexer.EXTERN {
-			if extrn == nil {
-				extrn = &tkn
-			} else {
-				logs = append(logs, logger.ExternLog(fmt.Sprintf("Обнаружено несколько EXTERN, рекомендуется использовать 1 %d:%d (Первое использование %d:%d)", extrn.Start.Column, extrn.Start.Column, tkn.Start.Column, tkn.Start.Column)))
-				return logs
-			}
+			pos = append(pos, tkn.Start)
 		}
+	}
+	if len(pos) > 1 {
+		logs = append(logs, logger.ExternLog(fmt.Sprintf("Обнаружено несколько EXTERN, рекомендуется использовать 1 %s", prepareCoord(pos))))
 	}
 	return logs
 }

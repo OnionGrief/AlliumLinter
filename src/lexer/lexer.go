@@ -100,7 +100,6 @@ func (l lexer) GetToken() (res []Token, err error) {
 	case ' ':
 		return []Token{NewTokenByType(SPACE, symb.pos, symb.pos)}, nil
 	case '$':
-		//cringe
 		symb1 := l.readChar()
 		if symb1.EOF {
 			return []Token{}, ErrInLexer

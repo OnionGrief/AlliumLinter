@@ -21,6 +21,10 @@ type Position struct {
 	Column uint
 	Row    uint
 }
+
+type Coords struct {
+	start, end Position
+}
 type Token struct {
 	TokenType TokenType
 	Value     string

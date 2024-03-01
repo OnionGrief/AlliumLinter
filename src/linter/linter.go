@@ -39,7 +39,6 @@ func LintFile(filePath string, results chan<- Result, wg *sync.WaitGroup) {
 		results <- Result{FilePath: filePath, Error: err}
 		return
 	}
-	fmt.Println("get all tokens ok")
 	logs := checks.CheckPrecondition(tkns)
 	out = append(out, logs...)
 	psr := tree.NewParser(tkns)
@@ -51,7 +50,7 @@ func LintFile(filePath string, results chan<- Result, wg *sync.WaitGroup) {
 	logs2 := psr.Checks()
 	out = append(out, logs2...)
 	node = node
-	//out = append(out, tree.CheckTreeRec(node)...)
+	out = append(out, tree.CheckTreeRec(node)...)
 	// После проверки отправляем результат в канал
 	results <- Result{FilePath: filePath, Success: true, Logs: out}
 }
