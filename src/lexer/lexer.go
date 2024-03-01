@@ -100,7 +100,6 @@ func (l lexer) GetToken() (res []Token, err error) {
 	case ' ':
 		return []Token{NewTokenByType(SPACE, symb.pos, symb.pos)}, nil
 	case '$':
-		//cringe
 		symb1 := l.readChar()
 		if symb1.EOF {
 			return []Token{}, ErrInLexer
@@ -181,7 +180,7 @@ func (l lexer) GetToken() (res []Token, err error) {
 					if symb3.symbol == '/' {
 						return []Token{NewTokenByTypeAndVal(BIGCOMMENT, comment, symb.pos, symb3.pos)}, nil
 					} else {
-						comment += "*" + string(symb3.symbol)
+						l.info.needPrevious = true
 					}
 				} else {
 					comment += string(symb2.symbol)
@@ -191,29 +190,21 @@ func (l lexer) GetToken() (res []Token, err error) {
 			return []Token{}, ErrInLexer
 		}
 	case '*':
-		symb1 := l.readChar()
-		if symb1.EOF {
-			return []Token{}, ErrInLexer
-		}
-		if symb1.symbol == '$' {
-			comment := ""
-			symb2 := symb1
-			for {
-				pos1 := symb2.pos
-				symb2 = l.readChar()
-				if symb2.EOF {
-					return []Token{}, ErrInLexer
-				}
-				if symb2.symbol == '\n' {
-					l.info.needPrevious = true
-					return []Token{NewTokenByTypeAndVal(COMMENT, comment, symb.pos, pos1)}, nil
-				} else {
-					comment += string(symb2.symbol)
-				}
+		comment := ""
+		for {
+			pos1 := symb.pos
+			symb2 := l.readChar()
+			if symb2.EOF {
+				return []Token{}, ErrInLexer
 			}
-		} else {
-			return []Token{}, ErrInLexer
+			if symb2.symbol == '\n' {
+				l.info.needPrevious = true
+				return []Token{NewTokenByTypeAndVal(COMMENT, comment, symb.pos, pos1)}, nil
+			} else {
+				comment += string(symb2.symbol)
+			}
 		}
+
 	case 's', 't', 'e':
 		symb1 := l.readChar()
 		if symb1.EOF {
@@ -329,7 +320,7 @@ func (l lexer) GetToken() (res []Token, err error) {
 				if symb1.EOF {
 					return []Token{}, ErrInLexer
 				}
-				if isAlpha(symb1.symbol) {
+				if isAlnum(symb1.symbol) {
 					str += string(symb1.symbol)
 				} else {
 					l.info.needPrevious = true

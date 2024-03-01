@@ -1,7 +1,7 @@
 package main
 
 import (
-	"refalLint/src/cmd"
+	"github.com/OnionGrief/AlliumLinter/src/cmd"
 )
 
 func main() {

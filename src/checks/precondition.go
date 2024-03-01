@@ -2,9 +2,9 @@ package checks
 
 import (
 	"fmt"
-	"refalLint/src/config"
-	"refalLint/src/lexer"
-	"refalLint/src/logger"
+	"github.com/OnionGrief/AlliumLinter/src/config"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/logger"
 	"unicode"
 )
 
@@ -30,25 +30,39 @@ func checkConstCount(tokens []lexer.Token) []logger.Log {
 	if leng < 3 {
 		leng = 3
 	}
-	chks := make(map[string]uint)
+	chks := make(map[string][]lexer.Position)
 	str := ""
+	var pos lexer.Position
 	for _, tkn := range tokens {
 		switch tkn.TokenType {
 		case lexer.ASCIIV:
+			if str == "" {
+				pos = tkn.Start
+			}
 			str += tkn.Value
 		default:
 			if str != "" {
 				if len(str) > int(leng) {
-					chks[str]++
-					if chks[str] > count {
-						logs = append(logs, logger.ExternLog(fmt.Sprintf("%s must be a const %d:%d", str, tkn.Start, tkn.Finish)))
-					}
+					chks[str] = append(chks[str], pos)
 				}
 				str = ""
 			}
 		}
 	}
+	for key, val := range chks {
+		if len(val) > int(count) {
+			logs = append(logs, logger.ExternLog(fmt.Sprintf("%s must be a const %s", key, prepareCoord(val))))
+		}
+	}
 	return logs
+}
+
+func prepareCoord(in []lexer.Position) string {
+	str := ""
+	for _, val := range in {
+		str = fmt.Sprintf("%s (%d:%d)", str, val.Row, val.Column)
+	}
+	return str
 }
 
 // Проверяем на CamelCase или SnakeCase
@@ -77,16 +91,14 @@ func checkNames(tokens []lexer.Token) []logger.Log {
 }
 func checkExtern(tokens []lexer.Token) []logger.Log {
 	var logs []logger.Log
-	var extrn *lexer.Token
+	var pos []lexer.Position
 	for _, tkn := range tokens {
 		if tkn.TokenType == lexer.EXTERN {
-			if extrn == nil {
-				extrn = &tkn
-			} else {
-				logs = append(logs, logger.ExternLog(fmt.Sprintf("Обнаружено несколько EXTERN, рекомендуется использовать 1 %d:%d (Первое использование %d:%d)", extrn.Start.Column, extrn.Start.Column, tkn.Start.Column, tkn.Start.Column)))
-				return logs
-			}
+			pos = append(pos, tkn.Start)
 		}
+	}
+	if len(pos) > 1 {
+		logs = append(logs, logger.ExternLog(fmt.Sprintf("Обнаружено несколько EXTERN, рекомендуется использовать 1 %s", prepareCoord(pos))))
 	}
 	return logs
 }
