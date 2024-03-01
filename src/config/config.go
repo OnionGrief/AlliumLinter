@@ -6,6 +6,7 @@ var (
 	ConstCount uint
 	ConstLen   uint
 	PrintTree  bool
+	BlockLen   uint
 )
 
 const FuncComment = "OPT:"

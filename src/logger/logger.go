@@ -61,3 +61,10 @@ func CodeInComment(tkn lexer.Token) Log {
 		level:  Warning,
 	}
 }
+func ReusingBlock(len int) Log {
+	return Log{
+		str:    fmt.Sprintf("Найден переиспользуемый блок длины %d ", len),
+		lgType: extern,
+		level:  Warning,
+	}
+}

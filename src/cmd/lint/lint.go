@@ -74,6 +74,7 @@ func init() {
 	LintCmd.Flags().BoolVarP(&config.CamelCase, "camel", "c", false, "Use CamelCase for format")
 	LintCmd.Flags().UintVarP(&config.ConstLen, "constLen", "L", 3, "ConstLen")
 	LintCmd.Flags().UintVarP(&config.ConstCount, "constCount", "C", 3, "ConstCount")
+	LintCmd.Flags().UintVarP(&config.BlockLen, "blockLen", "b", 3, "Длина переиспользуемого блока")
 }
 
 func prepareFiles(files []string) {
