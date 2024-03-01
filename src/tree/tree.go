@@ -126,6 +126,9 @@ func (p *Parser) getCurTkn() lexer.Token {
 func (p *Parser) nexttkn() {
 	p.current++
 }
+func (p *Parser) previoustkn() {
+	p.current--
+}
 func (p *Parser) parseUnit() (*treeElem, error) {
 	tkn := p.getCurTkn()
 	switch tkn.TokenType {
@@ -256,6 +259,9 @@ func (p *Parser) parseSentence() (*treeElem, error) {
 	}
 	ast.child = append(ast.child, node1)
 	tkn1 := p.getCurTkn()
+	if tkn1.TokenType == lexer.CLOSEBLK {
+		return ast, nil
+	}
 	p.nexttkn()
 	if tkn1.TokenType != lexer.SEMICOLON {
 		return nil, lexer.ErrInParseSentence
@@ -269,7 +275,7 @@ func (p *Parser) parseSentenceRest() (*treeElem, error) {
 	for {
 		tkn := p.getCurTkn()
 		switch tkn.TokenType {
-		case lexer.SEMICOLON:
+		case lexer.SEMICOLON, lexer.CLOSEBLK:
 			{
 				return ast, nil
 			}
@@ -389,7 +395,8 @@ func (p *Parser) parseRightSentencePartWithEqual() (*treeElem, error) {
 	for {
 		tkn := p.getCurTkn()
 		switch tkn.TokenType {
-
+		case lexer.CLOSEBLK:
+			return ast, nil
 		case lexer.SEMICOLON:
 			ast.child = append(ast.child, NewWithType(tkn, RightSentencePart))
 			p.nexttkn()
@@ -416,7 +423,7 @@ func (p *Parser) parseResultExpr() (*treeElem, error) {
 		switch tkn.TokenType {
 		case lexer.RCBRAK, lexer.RBRAK:
 			return ast, nil
-		case lexer.SEMICOLON, lexer.COLON:
+		case lexer.SEMICOLON, lexer.COLON, lexer.CLOSEBLK:
 			return ast, nil
 		default:
 			node, err := p.parseResultExprTerm()

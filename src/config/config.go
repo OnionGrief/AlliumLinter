@@ -10,3 +10,5 @@ var (
 )
 
 const FuncComment = "OPT:"
+
+var UsingFunctions []string = []string{"GO"}

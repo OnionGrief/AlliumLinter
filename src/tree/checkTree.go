@@ -16,6 +16,9 @@ func (p *Parser) Checks() []logger.Log {
 
 func (p *Parser) CheckUsingFunctions() []logger.Log {
 	var res []logger.Log
+	for _, key := range config.UsingFunctions {
+		p.usingFunctions[key] = struct{}{}
+	}
 	for key, idx := range p.declaredFunctions {
 		if _, exists := p.usingFunctions[key]; !exists {
 			if !p.searchComments(idx) {
