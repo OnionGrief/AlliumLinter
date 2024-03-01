@@ -2,13 +2,13 @@ package lint
 
 import (
 	"fmt"
+	"github.com/OnionGrief/AlliumLinter/src/config"
+	"github.com/OnionGrief/AlliumLinter/src/linter"
+	"github.com/OnionGrief/AlliumLinter/src/out"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
-	"refalLint/src/config"
-	"refalLint/src/linter"
-	"refalLint/src/out"
 	"strings"
 	"sync"
 
@@ -74,6 +74,7 @@ func init() {
 	LintCmd.Flags().BoolVarP(&config.CamelCase, "camel", "c", false, "Use CamelCase for format")
 	LintCmd.Flags().UintVarP(&config.ConstLen, "constLen", "L", 3, "ConstLen")
 	LintCmd.Flags().UintVarP(&config.ConstCount, "constCount", "C", 3, "ConstCount")
+	LintCmd.Flags().UintVarP(&config.BlockLen, "blockLen", "b", 3, "Длина переиспользуемого блока")
 }
 
 func prepareFiles(files []string) {

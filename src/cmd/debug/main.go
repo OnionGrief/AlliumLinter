@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/tree"
 	"os"
-	"refalLint/src/lexer"
-	"refalLint/src/tree"
 )
 
 // Пакет используется строго для дебага дерева, не собирайте его

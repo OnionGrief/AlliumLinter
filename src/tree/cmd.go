@@ -3,9 +3,9 @@ package tree
 import (
 	"bufio"
 	"fmt"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
 	"github.com/spf13/cobra"
 	"os"
-	"refalLint/src/lexer"
 )
 
 var TreeOut = &cobra.Command{
