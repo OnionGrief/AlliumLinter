@@ -2,7 +2,7 @@ package tree
 
 import (
 	"errors"
-	"refalLint/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
 )
 
 /*

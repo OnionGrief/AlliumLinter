@@ -2,9 +2,9 @@ package checks
 
 import (
 	"fmt"
-	"refalLint/src/config"
-	"refalLint/src/lexer"
-	"refalLint/src/logger"
+	"github.com/OnionGrief/AlliumLinter/src/config"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/logger"
 	"unicode"
 )
 

@@ -2,13 +2,13 @@ package lint
 
 import (
 	"fmt"
+	"github.com/OnionGrief/AlliumLinter/src/config"
+	"github.com/OnionGrief/AlliumLinter/src/linter"
+	"github.com/OnionGrief/AlliumLinter/src/out"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
-	"refalLint/src/config"
-	"refalLint/src/linter"
-	"refalLint/src/out"
 	"strings"
 	"sync"
 

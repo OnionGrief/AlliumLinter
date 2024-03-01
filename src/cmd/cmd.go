@@ -1,9 +1,9 @@
 package cmd
 
 import (
+	"github.com/OnionGrief/AlliumLinter/src/cmd/lint"
+	"github.com/OnionGrief/AlliumLinter/src/tree"
 	"github.com/spf13/cobra"
-	"refalLint/src/cmd/lint"
-	"refalLint/src/tree"
 )
 
 var RootCmd = &cobra.Command{

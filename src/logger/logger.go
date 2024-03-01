@@ -2,7 +2,7 @@ package logger
 
 import (
 	"fmt"
-	"refalLint/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
 	"strings"
 )
 

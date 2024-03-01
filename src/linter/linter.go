@@ -3,11 +3,11 @@ package linter
 import (
 	"bufio"
 	"fmt"
+	"github.com/OnionGrief/AlliumLinter/src/checks"
+	"github.com/OnionGrief/AlliumLinter/src/lexer"
+	"github.com/OnionGrief/AlliumLinter/src/logger"
+	"github.com/OnionGrief/AlliumLinter/src/tree"
 	"os"
-	"refalLint/src/checks"
-	"refalLint/src/lexer"
-	"refalLint/src/logger"
-	"refalLint/src/tree"
 	"sync"
 	"time"
 )
