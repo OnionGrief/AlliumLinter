@@ -3,6 +3,7 @@ package logger
 import (
 	"fmt"
 	"refalLint/src/lexer"
+	"strings"
 )
 
 type logType uint
@@ -55,11 +56,23 @@ func UnreachableLog(tkn lexer.Token) Log {
 	}
 }
 func CodeInComment(tkn lexer.Token) Log {
+	if strings.Contains(tkn.Value, "\n") {
+		strs := strings.Split(tkn.Value, "\n")
+		if strs[0] == "" {
+			strs = strs[1:]
+		}
+		return Log{
+			str:    fmt.Sprintf("Код в комментарии %s (%d:%d-%d:%d)", strs[0], tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
+			lgType: extern,
+			level:  Warning,
+		}
+	}
 	return Log{
 		str:    fmt.Sprintf("Код в комментарии %s (%d:%d-%d:%d)", tkn.Value, tkn.Start.Column, tkn.Start.Row, tkn.Finish.Column, tkn.Finish.Row),
 		lgType: extern,
 		level:  Warning,
 	}
+
 }
 func ReusingBlock(len int) Log {
 	return Log{

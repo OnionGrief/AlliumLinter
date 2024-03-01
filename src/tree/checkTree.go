@@ -61,10 +61,15 @@ func (p *Parser) CheckComment() []logger.Log {
 	var res []logger.Log
 	for _, val := range p.allTokens {
 		if val.TokenType == lexer.BIGCOMMENT {
-			for _, coords := range p.funcCoords {
-				if isNumberInRange(val.Pos, coords) {
-					res = append(res, logger.CodeInComment(val))
-				}
+			substrings := []string{"s.", "e.", "t."}
+			totalCount := 0
+			for _, substr := range substrings {
+				count := strings.Count(val.Value, substr)
+				totalCount += count
+			}
+			if totalCount > 3 {
+
+				res = append(res, logger.CodeInComment(val))
 			}
 		}
 	}

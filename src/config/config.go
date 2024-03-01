@@ -11,4 +11,6 @@ var (
 
 const FuncComment = "OPT:"
 
-var UsingFunctions []string = []string{"GO"}
+var UsingFunctions []string = []string{"Go"}
+
+var CountVar = 3
