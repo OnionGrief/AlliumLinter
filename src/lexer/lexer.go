@@ -43,6 +43,8 @@ func (l lexer) NewSymbol(symb rune, EOF bool) symbol {
 		if symb == '\n' {
 			l.info.Pos.Row = 0
 			l.info.Pos.Column++
+		} else if symb == '\t' {
+			l.info.Pos.Row += 2
 		} else {
 			l.info.Pos.Row++
 		}

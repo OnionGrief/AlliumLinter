@@ -107,8 +107,38 @@ func findNonNestedCoords(in []forCheckTreeRec) []logger.Log {
 	}
 	return logs
 }
+func CheckTreeRecFromSentence(elem *treeElem) []logger.Log {
+	var forCheck []forCheckTreeRec
+	sentences, _ := CollectTreeSentenceRec(elem)
+	for _, snts := range sentences {
+		forCheck = append(forCheck, CheckTreeRec(snts.elem)...)
+	}
+	return findNonNestedCoords(forCheck)
+}
+func CollectTreeSentenceRec(elem *treeElem) ([]checkTree, int) {
+	var out []checkTree
+	i := 0
+	for _, child := range elem.child {
+		if child != nil {
+			nodes, deep := CollectTreeSentenceRec(child)
+			out = append(out, nodes...)
+			if deep > i {
+				i = deep
+			}
 
-func CheckTreeRec(elem *treeElem) []logger.Log {
+		}
+	}
+	if len(out) == 0 && elem.typeEl == "SentFunc" {
+		out = append(out, checkTree{
+			elem: elem,
+			deep: i + 1,
+		})
+	}
+	return out, i + 1
+}
+
+// надо идти от каждого Sentence
+func CheckTreeRec(elem *treeElem) []forCheckTreeRec {
 	var forCheck []forCheckTreeRec
 	collection, _ := CollectTreeRec(elem)
 	if len(collection) == 0 {
@@ -117,24 +147,27 @@ func CheckTreeRec(elem *treeElem) []logger.Log {
 	combinations := generateUniqueCombinations(len(collection) - 1)
 
 	for _, comb := range combinations {
-		if r := checkTreeRecBool(collection[comb.a].elem, collection[comb.b].elem); r {
-			if collection[comb.b].deep > int(config.BlockLen) {
-				forCheck = append(forCheck, forCheckTreeRec{
-					first: сoords{
-						Start: collection[comb.a].elem.start,
-						End:   collection[comb.a].elem.finish,
-					},
-					second: сoords{
-						Start: collection[comb.b].elem.start,
-						End:   collection[comb.b].elem.finish,
-					},
-					deep: collection[comb.a].deep,
-				})
+		if (collection[comb.a].elem.typeEl == PatternExprTerm || collection[comb.a].elem.typeEl == PatternExpr) &&
+			(collection[comb.b].elem.typeEl == ResultExpr || collection[comb.b].elem.typeEl == ResultExprTerm) {
+			if r := checkTreeRecBool(collection[comb.a].elem, collection[comb.b].elem); r {
+				if collection[comb.b].deep > int(config.BlockLen) {
+					forCheck = append(forCheck, forCheckTreeRec{
+						first: сoords{
+							Start: collection[comb.a].elem.start,
+							End:   collection[comb.a].elem.finish,
+						},
+						second: сoords{
+							Start: collection[comb.b].elem.start,
+							End:   collection[comb.b].elem.finish,
+						},
+						deep: collection[comb.a].deep,
+					})
+				}
 			}
 		}
 	}
 
-	return findNonNestedCoords(forCheck)
+	return forCheck
 }
 
 type checkTree struct {

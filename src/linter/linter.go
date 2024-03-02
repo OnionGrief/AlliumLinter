@@ -50,7 +50,7 @@ func LintFile(filePath string, results chan<- Result, wg *sync.WaitGroup) {
 	logs2 := psr.Checks()
 	out = append(out, logs2...)
 	node = node
-	out = append(out, tree.CheckTreeRec(node)...)
+	out = append(out, tree.CheckTreeRecFromSentence(node)...)
 	// После проверки отправляем результат в канал
 	results <- Result{FilePath: filePath, Success: true, Logs: out}
 }

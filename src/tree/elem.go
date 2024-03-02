@@ -19,6 +19,7 @@ var (
 	Conditions        ElemType = "Conditions"
 	RightSentencePart ElemType = "RightSentencePart"
 	ResultExpr        ElemType = "ResultExpr"
+	ResultExprTerm    ElemType = "ResultExprTerm"
 	PatternExprTerm   ElemType = "PatternExprTerm"
 	STRING            ElemType = "STRING"
 	INTEGER           ElemType = "INTEGER"

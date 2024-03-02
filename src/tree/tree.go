@@ -248,12 +248,24 @@ func (p *Parser) parseFunc() (*treeElem, error) {
 	return ast, nil
 }
 
-func (p *Parser) parseFuncCore() (*treeElem, error) {
+func (p *Parser) parseFuncCore1() (*treeElem, error) {
 	node, err := p.parseSentence()
 	if err != nil {
 		return nil, err
 	}
 	return node, nil
+}
+func (p *Parser) parseFuncCore() (*treeElem, error) {
+	tkn0 := p.getCurTkn()
+	ast := &treeElem{typeEl: "SentFunc", start: tkn0.Start}
+	node, err := p.parseSentence()
+	ast.child = append(ast.child, node)
+	if err != nil {
+		return nil, err
+	}
+	tkn1 := p.getCurTkn()
+	ast.finish = tkn1.Start
+	return ast, nil
 }
 func (p *Parser) parseSentence() (*treeElem, error) {
 	tkn0 := p.getCurTkn()
