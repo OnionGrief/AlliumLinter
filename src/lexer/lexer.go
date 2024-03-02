@@ -69,6 +69,9 @@ func (l lexer) readChar() symbol {
 
 func (l lexer) GetToken() (res []Token, err error) {
 	symb := l.readChar()
+	if symb.symbol == 13 {
+		return nil, nil
+	}
 	if symb.EOF {
 		return []Token{NewTokenByType(EOF, symb.pos, symb.pos)}, nil
 	}
@@ -347,7 +350,7 @@ func (l lexer) GetAllTokens() (res []Token, err error) {
 			return nil, err
 		}
 		tkns = append(tkns, l...)
-		if tkns[len(tkns)-1].TokenType == EOF {
+		if len(tkns) > 0 && tkns[len(tkns)-1].TokenType == EOF {
 			return tkns, nil
 		}
 	}
