@@ -16,6 +16,7 @@ import (
 )
 
 var fromDirectory string
+var configPath string
 
 var LintCmd = &cobra.Command{
 	Use:   "lint",
@@ -29,6 +30,10 @@ var LintCmd = &cobra.Command{
 				log.Fatal("all files must be .ref")
 			}
 			files = args
+		}
+		cfg := config.ReadConfigFromFile(configPath)
+		if cfg != nil {
+			config.Cfg = *cfg
 		}
 		prepareFiles(files)
 	},
@@ -70,11 +75,12 @@ func findRefFilesInDirectory(dir string) []string {
 }
 func init() {
 	LintCmd.Flags().StringVarP(&fromDirectory, "from-dir", "d", "", "Specify the directory to search for .ref files")
-	LintCmd.Flags().BoolVarP(&config.SnakeCase, "snake", "s", false, "Use SnakeCase for format")
-	LintCmd.Flags().BoolVarP(&config.CamelCase, "camel", "c", false, "Use CamelCase for format")
-	LintCmd.Flags().UintVarP(&config.ConstLen, "constLen", "L", 3, "ConstLen")
-	LintCmd.Flags().UintVarP(&config.ConstCount, "constCount", "C", 3, "ConstCount")
-	LintCmd.Flags().UintVarP(&config.BlockLen, "blockLen", "b", 3, "Длина переиспользуемого блока")
+	LintCmd.Flags().StringVarP(&configPath, "cfg-path", "p", "./config.yaml", "Config file from thos directory")
+	LintCmd.Flags().BoolVarP(&config.Cfg.SnakeCase, "snake", "s", false, "Use SnakeCase for format")
+	LintCmd.Flags().BoolVarP(&config.Cfg.CamelCase, "camel", "c", false, "Use CamelCase for format")
+	LintCmd.Flags().UintVarP(&config.Cfg.ConstLen, "constLen", "L", 3, "ConstLen")
+	LintCmd.Flags().UintVarP(&config.Cfg.ConstCount, "constCount", "C", 3, "ConstCount")
+	LintCmd.Flags().UintVarP(&config.Cfg.BlockLen, "blockLen", "b", 3, "Длина переиспользуемого блока")
 }
 
 func prepareFiles(files []string) {

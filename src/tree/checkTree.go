@@ -150,7 +150,7 @@ func CheckTreeRec(elem *treeElem) []forCheckTreeRec {
 		if (collection[comb.a].elem.typeEl == PatternExprTerm || collection[comb.a].elem.typeEl == PatternExpr) &&
 			(collection[comb.b].elem.typeEl == ResultExpr || collection[comb.b].elem.typeEl == ResultExprTerm) {
 			if r := checkTreeRecBool(collection[comb.a].elem, collection[comb.b].elem); r {
-				if collection[comb.b].deep > int(config.BlockLen) {
+				if collection[comb.b].deep > int(config.Cfg.BlockLen) {
 					forCheck = append(forCheck, forCheckTreeRec{
 						first: сoords{
 							Start: collection[comb.a].elem.start,

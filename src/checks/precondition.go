@@ -12,7 +12,7 @@ import (
 func CheckPrecondition(tokens []lexer.Token) []logger.Log {
 	var logs []logger.Log
 	logs = append(logs, checkExtern(tokens)...)
-	if config.SnakeCase || config.CamelCase {
+	if config.Cfg.SnakeCase || config.Cfg.CamelCase {
 		logs = append(logs, checkNames(tokens)...)
 	}
 	logs = append(logs, checkConstCount(tokens)...)
@@ -22,11 +22,11 @@ func CheckPrecondition(tokens []lexer.Token) []logger.Log {
 // Проверка на вынесение констант
 func checkConstCount(tokens []lexer.Token) []logger.Log {
 	var logs []logger.Log
-	count := config.ConstCount
+	count := config.Cfg.ConstCount
 	if count < 3 {
 		count = 3
 	}
-	leng := config.ConstLen
+	leng := config.Cfg.ConstLen
 	if leng < 3 {
 		leng = 3
 	}
@@ -76,12 +76,12 @@ func checkNames(tokens []lexer.Token) []logger.Log {
 		if tkn.TokenType == lexer.VAR {
 			value = value[2:]
 		}
-		if config.CamelCase {
+		if config.Cfg.CamelCase {
 			if !isCamelCase(value) {
 				logs = append(logs, logger.FormatNameLogCamel(tkn))
 			}
 		}
-		if config.SnakeCase {
+		if config.Cfg.SnakeCase {
 			if !isSnakeCase(value) {
 				logs = append(logs, logger.FormatNameLogShake(tkn))
 			}
